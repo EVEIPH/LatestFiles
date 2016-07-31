@@ -1,5 +1,5 @@
 # Auto detect text files and perform LF normalization
-* text=auto
+#* text=auto
 
 # keep windows endings for text and xml files
 *.txt 	 eol=crlf
