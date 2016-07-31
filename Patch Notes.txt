@@ -1,0 +1,1399 @@
+EVE ISk per Hour Program/Patch Notes
+
+Hi and thanks for checking out EVE IPH! I will update this file with patch notes and the version number or any other pertinent information you might want to know about the program files and versions.
+
+Since this program is made for EVE Online, please contact me (Cwittofur Cesaille) in game, join the 'EVE-IPH' in game channel, or post on the EVE forums in the release thread for this program here: https://forums.eveonline.com/default.aspx'g=posts&m=727314
+
+ISK donations accepted to Zifrian or cash through paypal at ZifrianEVE@gmail.com
+
+Version 3.3
+
+============================================
+Known Issues:
+
+* The window size is by design and does not allow Maximization at this time. This is by design.
+* On the Blueprint Tab, when suggesting Buy items, sometimes there aren't enough items on the market to buy for the item being made even though the price is less than the build price. EVE Central does not allow for volume data per price, so this is only an estimate. Please use your discretion when comparing build/buy prices to the in game market.
+* If the Update fails; run Eve Isk per Hour as administrator.
+
+============================================
+
+Build 3.3.6043.38735
+* Updated IPH and Updater to use .Net 4.6.1 - please update your .Net installation to ensure IPH runs correctly here: https://www.microsoft.com/en-us/download/details.aspx?id=49981
+* Updated database and images to YC_118.6_1.1 - this has fixed issues with incorrect materials for Cenobite II's and Citadels.
+* The mining tab now applies an isk charge to refining instead of minerals returned as changed with the Citadel patch. 6.67 standing is still required to get refining with no tax applied.
+* Adding only invention/copy materials to the shopping list from the BP Tab will add the materials even if adding invention/copy materials to shopping list is turned off.
+* Updating the ME on the BP tab no longer crashes the program.
+* Double-clicking on an item to add to shopping list from the manufacturing tab no longer crashes the program.
+* R.A.M.s will now show the correct build quantity for build/buy and correct buy quantity when buying is cheaper on the BP tab. When adding an item to the shopping list, the correct amounts will be inserted as well.
+* The correct BP Build Time and Total Build Time will now show when the invention time or copy time checks are selected. This had an effect of decreasing the IPH when more runs were added.
+* The Manufacturing list will now properly refresh when no items found.
+
+Build 3.3.6009.16436
+
+* Update for the new CREST Calls.
+
+Build 3.3.6001.35157
+
+* Fixed an issue where the compressed ore check box would crash the program when selected.
+* The Capital Remote Capacitor Transmitter II Blueprint has been added to the program.
+* Fixed some other stuff I won't bore you about.
+
+Build 3.3.5996.39804
+
+* Fixed an issue with importing prices for structures using Price Profiles that would crash the program.
+
+New build - 3.3.5990.40572
+
+* Citadels should now show up in Update Prices
+* Structure Modules have been added as Blueprint or Item option to the Manufacturing and Item Prices tabs respectively.
+* Fixed a bug that wouldn't allow corrupted facility xml settings to load default facilities. Users will still need to resave their facilities if they did not load on startup and received an error message.
+
+Build 3.3.5989.40086
+
+* Fixed an issue where typing in the blueprint combo box with owned or favorites selected would crash the program.
+* FAX ships should now be able to be built in lowsec stations and outposts.
+* Errors of "file path not found" during the update process should now be fixed.
+* Disabling the "can build" invention or build boxes on the manufacturing tab should no longer apply to the main calculations if checked.
+
+Build 3.3.5979.21977
+
+New stuff
+* Added blueprint combo and options back to the BP tab. Combo now has full text search and the  new BP List can be shown by hitting the BP Viewer Button to the right of the BP combo.
+* Users can now save BP Viewer options on the BP Viewer screen.
+* The options on the BP Tab, BP Viewer, and BP Management have been made the same. Users should see the same blueprints for options selected.
+* Added text search to the BP Viewer screen.
+* Added the 'Rebuild Items when Loading List' to the shopping list window. When selected (Default setting), items saved in your shopping list will be rebuilt and all items will be loaded as if you just added the item but did no adjustments (e.g. removed items or adjusted quantity). When unchecked, the shopping list will load with only the items you originally saved and only update the prices of those items. For example, if you only saved invention materials for a set of items, it will only load those invention materials for the items.
+
+Bug Fixes
+* Sorting in the BP combo and text search should now work correctly for all items
+* Structure modules now show up on the BP List when selected
+* User runs should no longer be set to a lower number when making T2 items on the BP tab and materials should now be correct.
+* Fighters will now come up in BP lists as 'XL' size when selected
+* Capital Capacitor Battery will now be invented properly
+* Capital Cap Booster II Blueprint will now correctly produce the Capital Cap Booster II instead of the Heavy Capacitor II
+* Capital Emergency Energizer will now use Fernite Carbide Composite Armor Plate instead of the Capital Fernite Carbide Composite Armor Plate
+* Capital Shield Booster II will now show up in BP Lists
+* Light fighters should now show up in the manufacturing list properly
+* R.A.M.s should now show the correct number to build in the components list and the correct materials needed to get the number of items to build in the component list. For example, if you need 75 R.A.M.s, the materials list will only have the materials for 1 run of R.A.M. because it creates 100 per run.
+* Capital Component facilities should now load and be used in calculations correctly.
+* Proxy data should now be used by the Updater if set in the settings of the main program.
+* Adjusting the build number of components in the Built Items list on the Shopping list will now correctly update the list
+* Force Auxiliary ships will now appear with and use options for Super Capital facitities, to include capital components. 
+
+Build 3.3.5976.38667
+
+* Named Components; items which are used to build meta capital modules are now included in the Component Group for the price updater.
+* Fixed an issue where Ammo, Fuel Blocks and anything that produced more than 1 item would not properly update runs.
+
+Build 3.3.5973.39898
+
+* Fixed crash when updating market prices via Profile Option
+* Fixed crash when Double Clicking on the ME of a Tech 3 item in the shopping list.
+* Fixed Reprocessing Efficiency combo from requiring Reprocessing V to enable (Now requires IV)
+
+Build 3.3.5971.5173
+
+* App sometimes crashes on load, potential fix here
+
+Build 3.3.5971.1011
+
+* Changed Blueprint List to have more accuracy with results.
+* Updated Database to latest Citadel Release (1.4).
+* Updated Database to provide proper quantities when dealing with Tech 2 Items.
+* Industry Jobs view shows all jobs for a corporation when selected; no longer shows Corp jobs on a per character basis.
+
+Build 3.3.5966.35706
+
+* While searching for a blueprint if there is only one result the ENTER key may be pressed to 'select' it.
+* When the 'Drone' Checkbox is selected in the Manufacturing List tab, Fighter Drones will also be displayed.
+* Double-Clicking on the ME column of the Component Build list on the Shopping Window will no longer result in a crash.
+
+Build 3.3.5963.35462
+
+* Improved BP List Speed
+* Fighter Drones now show up when Drones is selected in the BP List
+* Fixed a couple instances where crashes occurred when double clicking empty items in a list.
+
+Build 3.3.5963.35462
+
+* Fixed issue where Blueprint Search text box would become unresponsive.
+* Fixed issue where Corp Assets weren't being included in material list.
+* Double-Click will now select all text in the Blueprint Box.
+
+Build 3.3.5962.37867
+
+Database updated to the Citadel Release
+
+New Features:
+
+1) Blueprint Selection re-vamped. The text box now has fully integrated search. You can type in any part of a blueprint name and it will display a list of items matching the criteria. You can use the up/down arrow on your keyboard or double-click on an item to load it.
+
+2) Blueprint List - This opens a new window which will display a hierarchical view of Blueprints. (It does take a couple seconds to load; that's a known issue). From here, the original functionality of searching based on Ship, Drone, Modules, etc. As well as by size is implemented. The window will remain open until closed. While the window is open you can double-click on any blueprint to load it. This provides a faster lookup than searching each time.
+
+3) Compressed Ore Calculations - Enabled by checking the "Compressed Ore" checkbox at the bottom of the window. This will calculate Compressed Ore quantities and types based on Null Sec Ore (for now) which will provide you the minerals you need to build your desired item. That being said there are some caveats to this:
+
+3a) If using a station, the station's refine rate will be calculated. If using a POS it will calculate based off a 52% refine rate. If using an Outpost it will calculate based off a 50% refine rate. This will be enhanced in a future version.
+
+3b) This does take into account the users' skills as well as Beancounter implants.
+
+3c) The location chosen for the manufacturing will be used to calculate the ore needed. Perhaps in a future release I will implement the option to refine at a different location other than where the item is being built.
+
+3d) In order for the data to be calculated you need to click the "Refresh" button. You only need to do this once, as long as the application is running. When the application is restarted the checkbox will be unchecked.
+
+
+Version 3.2
+
+Build 3.2.5937.20769
+* Updated to the YC-118-3_1.0 DB and Images
+
+Build 3.2.5902.34671
+* R.A.M. materials should now take into account the porition size of each run for items using more than one blueprint.
+* BPs should no longer double up with corp bps of the same type and ME. Users will have to reset the blueprints or manually update the duplicates to get this update.
+* The Thukker should no longer show up for systems that are not low-sec when selected in facilities.
+* Updated the shopping list to take into account building components with just one blueprint. This should result in more exact quantities if using 1 bp to build components instead of a few extra materials left over at the end of component runs.
+* Selecting an item from the manufacturing tab and pressing Ctrl + C will copy the blueprint name to the clipboard
+* Not loading the settings for optimal iph/profit
+* Hauler m3 values should now save and reload on the mining tab properly
+* Shopping lists will now load correctly for those saved with outpost facilities
+* Changing the quantity of items in the shopping list that have copy materials (i.e. covert cloaking devices) will no longer crash the program
+* Gas mining ships should no longer show 5 possible miners available and will default to the turret hardpoints for the ship selected.
+* Command Destroyers, Strategic Cruisers, and Logistic Frigates will now have the correct size assigned for searching
+
+Build 3.2.5895.32258
+* Updated database and images to YC-118-2_1.0
+* Skills should properly load when overriding without having to reload the program
+* The Profit Threshold check on the Manufacturing tab now toggles profit percentage threshold (tri-check)
+* If you save application settings, the program will re-load the current blueprint instead of resetting the form.
+* Double-clicking an item with capital components on the manufacturing tab should now correctly load the cap component facility
+* Stork and Magus Command Destroyers are now properly marked as a Medium Size item for searching purposes.
+* The optimal profit/iph decryptor check box will now save with settings.
+* Updating the price for a single item from CCP Data should now work correctly.
+* Current buy/sell orders on the manufacturing tab will no longer limit by date but live data.
+* Added a timeout check if updating from CCP prices locks up / hangs. Data is saved up to that point so just try your price updates again if you see this error.
+
+Build 3.2.5873.19500 – CREST Market Prices Integration - January 30, 2016
+
+Bug Fixes
+* Blueprints should now be selectable from the drop down and mouse after using the arrow keys to select in the blueprint combo.
+* The green highlight of agents on the datacores tab should now correctly highlight the highest unique agents for IPH.
+* Corp blueprints not showing green with owned bps in all blueprints in Manage Blueprints
+* Users will no longer be able to save a base manufacturing station or outpost after selecting a POS facility without selecting the new facility.
+* Calculations for items using R.A.M.s will no longer multiply the materials need to make the R.A.M. by 100 per R.A.M. needed.
+* Pirate POS structures will now show as Pirate and not T1.
+* If you have "oxygen" and "oxygen isotopes" in material list and you try to delete "oxygen" from list, it deletes "oxygen isotopes" instead.
+* BP's marked as Favorites will now be uploaded correctly from file.
+* Invention and copy times will now be properly included in the build time for invention items over 10 runs and the relevant check boxes selected.
+* Selecting unowned T2 BPs and favorites on the Manufacturing tab will longer crash the program.
+* Overridden skills should now load correctly in all cases for use on the Mining Tab.
+* Loading shopping lists from file will now correctly load and use the facility for the item when built and saved. Note: older version of the shopping list are not compatable with this change.
+
+New Features
+
+Database Update
+* Updated EVE IPH database and images to YC-118-1_1.0_116645
+
+SVR Updates
+* Sales to Volume Ratio (SVR) data for the Manufacturing tab will now be updated and caculated with from CCP (CREST) data.
+* All SVR Settings (Threshold, Days, Region) are now saved in the Application Settings for use on multiple forms.
+* Removed all EMD references for market history to use CCP data, which is more accurate and complete.
+
+BP Tab
+* Users can now toggle profit or profit percent by double clicking on the Raw or Component Profit labels. The type of profit show will persist and be saved when BP settings are saved.
+* SVR data has been added to the BP tab - Users can set the BP tab to automatically update SVR data in settings or with automatic update off, manually by double-clicking the SVR labels. The default is to automatically update on the BP tab. Note: the load time for calculations for BPs that require updating the market history will take a little longer on first load each day but then will use cached data for future calculations.
+* Users can now move forward and back from previously viewed BPs. Use the forward and back buttons (top right corner of Raw Material List) or forward/back mouse buttons to go back and forth through the BP History. This functionality saves information on facilities, BP data (ME/TE), for each BP in the history and updates them when changed. To clear the BP history, select 'Clear BP History' from the Edit menu.
+
+Manufacturing Tab
+* Users can now right-click a single item on the Manufacturing list and display the market history for the item. The settings on the Market History Viewer are similar to in-game with the addition of a Linear trend line option.
+* Renamed 'SVR Settings' Frame to 'Market History Settings'
+ - Note: Average days is no longer just used for SVR but is used for all market history calculations.
+* The following columns have been added to the Manufacturing List:
+ - Price Trend – Linear trend of prices for the days entered in Average Days under Market History Settings. Value is displayed as a positive or negative percent but a red or green arrow has been added to help determine trend direction as well.
+ - Total Items Sold – Total items sold over for the days entered in Average Days under Market History Settings.
+ - Total Orders Filled – Total orders completed for the days entered in Average Days under Market History Settings.
+ - Average Items Per Order – Orders divided by Items Sold for the days entered in Average Days under Market History settings.
+ - Current Sell Orders – The current number of Sell Orders on the market for the Region selected in Market History Settings. Note, these orders are filled from CCP data from the Update Prices tab and will show nothing if not updated.
+ - Current Buy Orders – The current number of Buy Orders on the market for the Region selected in Market History Settings. Note, these orders are filled from CCP data from the Update Prices tab and will show nothing if not updated.
+ - Items in Production – The current number of the items that you are currently producing on all characters.
+ - Items in Stock – The current number of items in stock at the asset locations set by the assets window launched by clicking on the 'Safe' Icon on the manufacturing tab.
+* Users can now select 'Optimal' for a decryptor calc function. It is a tri-check that allows no optimal comparison (unchecked), optimal IPH (checked), optimal profit (tri-check).
+* The Tech Level has had the Tech image added to the row for T2, T3, Storyline, and Faction items. 
+* Added Market filtering options to the Manufacturing tab to include the following:
+ - Price Trend – Up/Down/All based on CCP Market History data.
+ - Total Volume Threshold – if volume is greater than entry, include record. Note: you must download price data from CCP for this functionality. Also, this is the total volume of items sold and will filter the 'Total Items Sold' column in the manufacturing list, not the total volume produced from the bps.
+ - Total IPH Threshold – if IPH is greater than entry, include record. 
+ - Total Profit Threshold – if profit is greater than entry, include record. 
+ - Min/Max Build times – if the total production time is greater than or less than the min/max time, the record is included.
+ - Add time check to manufacturing tab – ie. I only want stuff between 22 and 24 hours
+* SVR Settings has been removed and options have been moved to the Market Filters
+* Removed the option to ignore 'Items I can Reverse Engineer'. T3 items will check the 'Items I can Invent Flag' now to determine including in the list. Note, text colors highlighting T3 invention or T2 invention will remain unchanged.
+* Users can now right-click on the manufacturing tab and add multiple blueprints to the shopping list if selected.
+
+Update Prices Tab
+* Redesigned the update prices tab to allow for downloading prices from CCP (Direct game data) or EVE Central. Additionally, added the option to set up a Price Profile, which splits up the locations you want to download different prices (E.g. you buy minerals in Hek, sell ships in Jita, sell modules in Amarr).
+* CCP Data - Users can now download live price data from the EVE Servers by selecting the radio button 'CCP Data' or continue using 'EVE Central'. Note CCP data will likely be slower than using EVE Central but more accurate as it is live prices from the game. Note, only one region at a time can be used to update prices when 'CCP Data' is selected.
+* Price Profiles – Users can select to use a price profile, which allows downloads from any system/region for the shown categories. Users can select a price type, region, and system (Select 'All Systems' to use the regional price) for each category and assign a price modifier for each category as well. Note: you can only select one region for this functionality.
+* The Manual Price update button 'Update Prices' has been replaced with a 'Cancel Update' button that will cancel price updates when pressed. Users can still manually update prices from the Edit menu.
+* Users can now add a percentage of the price to the imported price by entering a percentage in the 'Price Modifier' text box for Raw Materials or Manufactured items. For instance, if you sell items at 10% more than Jita price at your null sec outpost, you can add 10% to all the prices you import to show the prices at which to sell items. Price modifiers are also available in the Price Profile.
+* Added tool tips to the price type drop downs for short explainations of the different options.
+* Users may now save and load prices from files in the default file format (CSV, SSV, TXT). The prices saved will only be those loaded into the grid (e.g. If you just have minerals loaded, only the mineral prices are saved). Additionally, when loading prices, only the prices in the saved file are loaded and the prices in the file will overwrite the program prices until the user initiates the next download within IPH.
+
+General
+* Changed the 'Character Loaded' label on the bottom strip to a menu of all loaded characters to allow easy and quick switching to a new default character. Note the menu has a maxium of 20 Characters.
+* Users can now ignore multiple blueprints in the Manufacturing tab by selecting multiple rows, right clicking, and selecting 'Ignore Blueprint'
+* Removed the Assets menu item from the view menu as it wasn't used for anything. 
+* Region drop downs will no longer show wormhole regions for market data, with the exeption of G-R00031 (Thera).
+* Text searches on the Manufacturing, Blueprint Management, and Update Prices have added functionality. Now users limit searches by separate multiple items with commas, or adding 'NOT' at the beginning or in the middle of the text. Searches are not case sensitive and searches the item name and group for filtering. For example:
+ - 'mining crystal not rig, jaspet' - shows mining crystals but not the mercoxit mining crystal rig or jaspet mining crystals
+ - 'Hulk, Mackinaw, Skiff' – will only show these three ships
+ - 'NOT Hulk, Mackinaw, Skiff' - don't want these three but all other items
+* Added the ability to set a Proxy in settings to include the HTTP/HTTPS proxy address and port (set port to 0 for no port number). Please let me know if you use a proxy and cannot get this setting to work or require additional information to input.
+* The teams window has been removed from the manufacturing tab until teams are reintroduced. 
+
+
+Build 3.1.5832.22991
+
+Bug fixes:
+* The radio button on the BP tab now will correctly select the type of copy based on the settings from the manufacturing tab when double clicking an item there.
+* Rigs will show as Rig and not Module in Manufacturing tab.
+* Columns should no longer show NaN for some price fields in the Manufacturing tab.
+* Users should now be able to update the shopping list with assets from more than 1000 locations without crashing the program.
+* Tax rates for Outposts should now save and be used in calculations correctly.
+* When an industry job hits 0 seconds on the Industry Jobs window, the row should now update to say 'Complete' and not being a negative count down.
+* When selecting a system for capital component building, the drop down will no longer have four copies of the system name.
+* Copy times should now be correct for using more than one lab line.
+* SVR * IPH will now sort correctly in the Manufacturing tab. Note: the value shown is to two decimals and this value may be smaller than that but still non-zero.
+* Saving 'All Items' on the Asset window will now save properly and reload when used.
+* T3 Ship invention will no longer count the cost of the relic bp twice.
+
+New Stuff
+* Users can now update the price of an item on the BP tab by clicking on the box below 'Market Price' label. When this is updated, it is saved for the entire program until updated again.
+* FW system bonuses can now be set on the BP tab in Options and selected for items in the Manufacturing tab. On the BP tab, the values are saved for the system and will apply when using that system for calculations. On the manufacturing tab, the values are added to the appropriate facility (Manufacturing, Copying, etc.) in calculations.
+* All sorting options have been removed from the following tabs and are now saved with settings based on the column clicked by the user: Blueprints, Update Prices, Manufacturing, Datacores, and Mining. Others will be updated as necessary. Note: all lists in the program are now sortable by clicking on the column to sort.
+* The Endurance and various Ice Miners for the Prospect and Endurance have been added to the mining tab. Both the Prospect and Endurance are available for selection for Ice Mining. 
+* Added Capital Component facility fields to the Manufacturing tab.
+* Added FW level fields used for each facility to the Manufacturing tab.
+* Industry jobs will update all selected API's on first load automatically now.
+
+General
+* Made improvements to updating the industry facilities that should result in faster update times.
+
+Build 3.1.5789.33154
+* Updated to Parallax_1.0_115480 database and images
+* Fixed bug where updating the shopping list from assets would use all assets instead of those just selected
+
+Build 3.1.5783.13554
+
+New Stuff
+* Users can click the column headers to sort on the Manufacturing and Update Prices tabs now.
+* Portion Size has been added to the manufacturing list and an option titled 'Calculate price per Unit' has been added in the Price Comparison frame.
+
+Bug fixes
+* Deleting items in the shopping list should no longer delete all materials in the buy list even if other items need those same materials.
+* Updating the shopping list with corporation assets should correctly use assets from a selected corporation hanger.
+* Reactions for Thulium Hafnite and Promethium Mercurite should now show the correct output quantity.
+* Updated tool tip processing for color codes on the Manufacturing and Datacore tabs to hopefully be more reactive to hovering the mouse over objects with a tool tip assigned
+* Saving 'none' for invention/copy facilities will no longer crash the program.
+* Double Clicking on items in the manufacturing tab that change the facility type will no longer crash the program
+* Blueprints with apostrophes in the name will no longer have extra apostrophes
+* Facilities should no longer on the manufacturing tab re-load the default in certain cases when changing a facility setting and pressing calculate 
+* Facilities set as 'None' for T2/T3 Invention and Copying will now load correctly on start up.
+* Copy & Paste assets on the shopping list should now work for users with non-US number formats (e.g. 5.212,33)
+
+Build 3.1.5754.17095
+
+New Stuff
+* Updated Db and Images to Vanguard_1.0_114986
+* Added a new setting that outputs ingame links for items listed in your copy/paste text from the shopping list or BP tab. The default setting is no links.
+* Added Refinery tax, efficency, and corp standings to the Reactions tab, which will save independently with this tab.
+* Removed refinery settings in the program settings. All forms that use refinery settings will be saved with the settings on that form.
+* Users can now manually update the system index on the BP tab for the selected index and activity. Note, updating the indexes with CREST will overwrite manual entries if there is a value from the CREST Update. 
+
+Bug fixes
+* Corrected an issue where the option to Ignore Market Price for Base Materials in the Reactions tab wasn't being taken into account for calculations.
+* Corrected an issue where refining Unrefined Reactions was not taking into account the refinery tax and efficiency.
+* Corrected an issue where Wormhole systems would not show in the facility drop downs. Note, the cost index for the system is still not available for Wormhole Systems.
+* Fixed an issue where the type of shopping list export would not save with settings correctly.
+* Build volumes when copying and pasting a shopping list to clip board should now be correct compared to what is shown on screen.
+* Copy and Invention times should now correctly take into account skills and the number of laboratory lines.
+
+
+Build 3.1.5728.21730
+
+* Updated DB and Images to Galatea_1.0_114618
+* All Outposts, Outpost Upgrades, and Upgrade Platforms have been added back to the program. These are inserted as special "Blueprints" to help determine materials needed to build an Outpost or apply upgrades. Users can apply prices for items not on the market in Item Prices. Note: Please see other 3rd party documentation on how outpost and outpost upgrade construction is different than building typical items.
+* System Indexes will now show next to the system name in the Facility System Drop-down.
+* All Ore Anomalies listed in the Industry Upgrade Belts tool will now correctly show the number of asteroids, types, and take into account the effect of truesec. Special thanks to Sean Jester for sending me a complete list of all belts. 
+* The number of turrets available in the Mining tab for the Prospect has been corrected to the number in game. 
+* Fixed an issue where the program would not correctly load a facility with POS settings on startup.
+* You can no longer save a POS facility on manufacturing screen without selecting system.
+* The radio button for Copy/Paste types on the BP tab will now save correctly when 'Save Settings' is pressed.
+* Added error processing to facility xml loads that caused the program to crash on startup.
+* Added the number and max of Research Jobs to the number and max of Production Jobs on the Industry Jobs tracker screen.
+* BPCs have been added as items in the Item Prices tab for updating prices of BPCs used in invention. New selectors for BPCs have been added to the Item Prices tab and Assets window.
+* Corrected several issues with in-line updating of items and components on the Shopping List. 
+* Changed the behavior of the default flag on facilities - now if it's not the default, it will dim grey and if the default, it will highlight blue. At any time, users can double-click the default flag to load the currently saved default facility.
+* Saving a facility on the manufacturing tab should now correctly set the default flag.
+* The SSV format should now correctly save with commas in the place of decimals when using the Copy to Clipboard button on the BP Tab.
+
+
+Build 3.1.5678.27159
+
+Shopping List
+* Added column to display the total fees per item in the buy list when using Buy Orders.
+* The total cost of the items will now include fees in the buy list when using Buy Orders.
+* Added the facility name to the Item list where the item will be built. For POS structures, the system name has been added to the array used.
+* Added label showing how many total items are in the shopping list. Useful for large shopping lists.
+* Fixed issue where changing the number of T2 items in the shopping list added as 'Components' only would crash the program.
+
+Misc.
+* Double-clicking on the 'Default Facility' label when greyed out will now load the default facility on the BP and Manufacturing Tabs.
+* The 'Default Facility' label will now show when a default facility is loaded again on the BP and Manufacturing tabs.
+* Fuel blocks will correctly load a POS facility on the BP tab when a fuel block row is double clicked on the Manufacturing tab.
+* Updated the Blueprints Management tab to not set owned bps to 'BPC' if they are already owned and updated to 'Owned' again. 
+* The 'Enable ME/TE' check box and ME, TE value boxes will now be disabled on load of the BP Management window.
+* Progress bars throughout the program should now correctly show the progress without ending halfway through.
+
+Build 3.1.5677.22091
+* Fixed an issue where adding the same item to the shopping list multiple times would duplicate the item in the item list
+* Fuel blocks can now be built at POS facilities.
+* Changing the number of T1 items in the shopping list should no longer crash the program.
+
+Build 3.1.5671.35252
+* Updated to Aegis_1.0_114220 Database and Images
+* Industry jobs will now update for all checked alt accounts in the list without needing to load the character
+* The total cost on the shopping list now reflects the total cost of the shopping list and not the original cost entered. If users update the items, the cost will reflect those changes.
+* Removed taxes and fees check boxes for items on the shopping list. The shopping list is intended for shopping, not selling. Future updates may incorporate taxes for selling items but for now they are removed.
+* Added invention and copy costs (does not include usage) to the shopping list.
+* Blue highlights on records users can invent (they have the T1 BP) and T3 Invented items should now show for both All Blueprints and Owned Blueprints and show the correct settings selected.
+* Fixed an issue where invention and copy materials were not updated correctly when changing values of items in the shopping list.
+* Items that have components built with components (e.g. Jump freighters) now display the correct amount of materials to build all levels of components on the BP list. The lists will now contain the correct amount of buy materials, and the raw and component costs for all levels and will be the same when using build/buy.
+* Made a small adjustment to build/buy calculations to take into account the total build cost of the component (usage, etc) instead of just the material cost for making a build or buy determination.
+* User settings (Default ME/TE and Suggest Build BP if Not Owned) were sometimes not set correctly in blueprint calculations; this has been corrected.
+* Changed all forms to use DPI scaling so that users with 125% and 150% scaling set to their version of windows won't see overlapping controls and poor quality. Note: Users of Chinese Windows may still experience issues with overlapping controls. Anyone that has an issue with this, please send me a screenshot and details of your settings. 
+* Updated error on Industry Upgrade Belts tool that gave incorrect ore volume values resulting in overly high IPH rates per belt.
+* Updated ores in the Industry Upgrade Belts tool to be correct with the asteroids and total quantity in the belts.
+* The Compress Ore check will now use compressed ore prices for determining IPH in the Industry Upgrade Belts tool 
+
+Build 3.1.5663.27046
+* Fixed an issue where copy and invention usage was being multiplied by the number of runs incorrectly, resulting in large differences in IPH and profit calculations with large number of runs.
+* Prices for amarr and gallente starship engineering datacores will now show correctly on the datacores tab
+* Auto num bps updates when entering runs should no longer give large numbers for T1 items
+* The BPC needed for invention has been added to a tool tip for Invention chance for T2 items
+* Fixed an issue where the amounts for components and raw materials (not build/buy) were the same in all cases. Now the correct differences will be displayed.
+* Fixed the approximate calculations in the shopping list. Shopping List stats should be the same as the BP tab (for a single item) but the only difference is that it will show how the broker fees for setting up a buy order will change the IPH and profit. 
+
+Build 3.1.5655.35622
+* Fixed an issue where opening assets with items in space (ships, towers, etc) would not load and crash the program
+* Fixed an issue where the number of runs on an invented blueprint were not taken into account in calculations and would lead to incorrect  numbers for any runs over 1
+* Changed the forms to all ignore windows scaling. If you have scaling to 125% or 150% (or a version of windows with an off scaling amount - e.g. Chinese) then you shouldn't notice boxes and text overlapping other controls. Please let me know if you notice issues with this change.
+* Removed Data interfaces check box from update prices tab and moved 'Items with no price' up
+* Locations on datacores now shows station name, security, and region again
+* On the BP tab, BPCs will now correctly load the decryptor that was used to make it, if available. If not, then it will show 'Unknown' and uncheck the costs and time boxes in invention
+* Fixed the approximate calculations in the shopping list. Shopping List stats should be the same as the BP tab (for a single item) but the only difference is that it will show how the broker fees for setting up a buy order will change the IPH and profit.
+
+Build 3.1.5649.26563
+
+Bug fixes
+* Setting a POS facility on the manufacturing tab will save locally
+* The manufacturing tab will no longer show component usage for component built items
+* Invention and copy usage will now be more accurate for total bp costs
+* Fixed a minor issue on the manufacturing tab to show correct values when compared to the bp tab
+* Build/Buy values should be the same on the components or raw material lists on the bp tab now.
+* Ignore invention check works more consistently now
+* Processing of Settings files were updated and should no longer crash the program but may require users to re-save their settings files to load correctly
+* Set the same font for all objects, so loading IPH on different systems should be more consistent.
+* Users should now be able to import prices for the Antikythera Element from EVE Central
+* Saving settings on the BP tab with the 'Save Relics and Decryptors on BP Tab' setting selected in the application settings will now correctly save relics and Decryptors again for future loading
+* Fixed an error that caused saved Outpost tax rates to be multiplied by 100. Recheck the tax rate and update as normal
+* S/M/L/XL check boxes should work for all items now
+* T2 BPO processing should work more consistently now on the BP tab
+* Copy and invention usage should now be correctly included in the total production costs
+* Component usage will no longer apply to the total production cost for component lists
+* Fixed crash when you uncheck ignore invention and ignore invention costs with multiple blueprints
+
+Blueprint Management
+* Blueprints are now stored as one of 4 types - BPO, BPC, Unowned, or Invented BPC
+* Import and export of blueprint data updated to new types - importing under the old type will not set the owned bps to invented bpcs on import, so double check your bps
+* The importing of bps will attempt to set the data to Invented BPC if the ME/TE/Runs correspond to a Decryptor and relic combination
+* If the values sent to do not support a combination, it will be saved as a BPC (pre-cirus for instance)
+* Users can now set ignored or favorites on the blueprint management tab without saving it as owned.
+* Added additional costs and runs information to the blueprint management tab
+* The search box for BP Management will now work with NOT (like the manufacturing tab)
+* Removed option to set a copy on the update all settings
+* Saving a blueprint from the BP tab when 'Ignore Invention' is selected in options will save the bp as a BPO, all others will be saved as BPC or Invented BPC
+
+Ignore blueprints now added
+* On the manufacturing tab, users can right click the blueprint to ignore it from calculations
+* In Blueprint Management, users can set several bps as ignore at the same time
+* Ignored bps are for all characters and can be reset in blueprint management
+* Removed the 'Ignore Rare BPs' setting in application settings
+
+Manufacturing Tab
+* Ignored blueprints will not show on the manufacturing tab
+* Owned blueprints in the manufacturing tab will take into account the Decryptor and relic used to create Invented BPCs. If you do not have the correct options selected for what you used to build the BPC, it will not show on the list.
+* Owned BPCs and BPOs for T2 and T3 will be shown next to other BPs with the Decryptor and Relic options for comparision
+* The BP Type column in the manufacturing tab shows the type of blueprint with new blueprint types
+
+
+Build 3.1.5624.32344
+
+Bug Fixes
+* When using multiple BPs in BP and Manufacturing tabs, the total production times were higher than expected when using multiple blueprints and resulting in lower IPH. This has been corrected.
+* When using multiple BPs, IPH was assuming for each BP the user would run a separate batch of components for each BP. This resulted in incorrect rounding (up) of materials and was inconsistent with shopping list updates (it's also not the most efficient). Now IPH will assume the user will build all components first in one large batch prior to running each bp. This will result in fewer component materials for larger num bps and shopping list updates will be consistent as well.
+* Searching for a BP Material by text search in the Assets window will no longer crash the program.
+* Refining moon materials on the Reaction tab should no longer crash the program.
+* T3 items should now correctly show the ME and TE values when decryptors are used on the Manufacturing Tab
+* Users should now be able to select different options on the Manufacturing tab facilities and run them without saving as default. Previously, IPH would load the saved (default) facilities back before calculating.
+* Stations without industry or refining facilities should no longer show as 'Unknown' in Assets or in other areas where station names are used.
+* Num BPs should not auto update to 1 when entering a number of bps and change the total runs
+* Users should no longer get an error when opening some shopping lists from the shopping list window. If you still get errors, try rebuilding the list, saving and reloading. 
+* Datacores should now correctly show skills for Gallente and Amarr Starship engineering
+* Current Research Agents should now correctly show data for Gallentean and Amarrian datacores
+
+Efficiency Updates
+* The processing for updating station data from CREST has been optimized. Users should notice a long start up when first installing the program (and updating might take a bit more time) but future daily updates should take less time to process. 
+
+Shopping List
+* Enabled the ability to update the item quantity in the shopping list
+* Shopping list updates should now work more consistently with the BP tab values
+* Importing and exporting shopping lists has been improved. Imports will now use the MEs used to build the items and correctly select the BP facility used to build them. Note: Component and Cap Component facilities will always use the saved BP Component and Cap Component facilities to build.
+* Updating shopping lists from the assets window should work correctly.
+
+Blueprint Tab
+* Usage has been removed from the popup box when double clicking Invention costs and Copy costs. These values are still used in calculations but not shown as an invention/copy cost. To view Usage values, double click the Usage check box on the Facility tab.
+* Users can now select Ignore options for Invention, Minerals, and T1 base items for calculations by selecting the checks in the 'Options' tab.
+* The Numbps box will now be disabled for T2 and T3 invented items. The number of blueprints needed to make the total number of items entered will be set from the decryptor and invention data.
+
+Manufacturing Tab
+* The column Total Manufacturing Cost was duplicated with Manufacturing Facility Usage and has been removed.
+* Added column for SVR * IPH to the columns list.
+* Users can now select Ignore options for Invention, Minerals, and T1 base items for calculations.
+
+Mining Tab
+* Users can now run calculations for Gas Mining if they did not have an ore type selected (e.g. Refined, Unrefined, Compressed). All gas is unrefined.
+* Added a box for entering the number of miners you want to calculate - useful for answering that age old question, 'What is better, 2 miners plus orca or 3 miners?'
+* User can now update the prices of Compressed and Unrefined ores in the mining grid. The Unit price for refined ore is based on the user skills and facility settings and cannot be updated. It's for comparison purposes only.
+
+Misc.
+* The industry upgrade belt tool has been updated with Mosaic values. Note: the number of asteroids may be off from in game amounts (total ore is correct).
+
+
+Build 3.1.5596.30243
+
+* Updated to Mosaic_1.0_112241 DB and Images (note images for new items currently missing from CCP).
+* New sov upgrades and other sov item blueprints will now show up under Celestial options where used.
+* Updated Outpost manual ME/TE settings - they should no longer error when incorrect data entered and updates will now affect the Materials and Build times correctly when set.
+* Users can now save ME/TE and Tax values for Outposts. This data will persist across updates to industry facilities even if you change facility settings.
+* Copy and invention usage should no longer be added to the buy list n the shopping list as an item to buy.
+* Fixed several errors with importing and exporting shopping lists such as those suggesting 'Quantity' is an invalid type. 
+
+Build 3.1.5561.38424
+
+* Updated to Scylla DB and images
+* Fixed issue that caused the program to crash when double-clicking on T3 destroyers in the manufacturing tab
+* Clearing all data from the shopping list will now reset the usage and fees on the screen
+* Made changes to CREST downloads that should improve performance some. 
+
+Build 3.1.5558.14973
+
+File Management
+* If you have been using the testing files that you installed from the binaries zip file, to make sure you are on the new update path, just delete or rename the Test.txt file in your IPH directory.
+* I will be deleting the files in the 'Testing' directory in a few weeks, so please update your files.
+* New installs and binary zip files will not contain the Test.txt file so you will update from the normal location.
+* If you are using 2.3, just open and run and the updates should work fine
+
+Potential Issues
+
+* The program may crash on startup due to issues with the settings files. I've tried to minimize these but if you have issues, try renaming the Settings folder first and then re-launching the program.
+* Shopping List - The shopping list may still have issues with this change but most bugs have been corrected. Please send me any issues you find.
+
+General
+
+* The database and image files are updated to Tiamat_1.0_110751. This includes all previous database updates.
+* All major industry and mining processing has been updated to work with the updates from Crius and Pheobe. 
+* CREST data for Teams (not enabled), Facilities, and Market prices used in industry are available from the data menu. These updates are set to automatically download on startup but can be turned off in settings.
+* Industry facilities have been added to the BP and Manufacturing tabs. Each facility is defined by its activity (Manufacturing, Invention, etc) and the type (Station, outpost, POS) to allow for the most flexibility in industry use. Once you have your facility set, hit save to set it as your default for the options chosen. A few details on facilities:
+* All facilities are set to filter only facilities that users can build the items they have selected. For instance, if you are building drones a POS, the facility will only show a Drone Assembly Array as an option.
+* If you select items with sov or security restrictions, IPH will take that into account for selecting facility types (you won't be able to use a cap ship assembly array in Jita for example).
+* Selecting an Outpost will allow you to save additional information on ME and TE bonuses that are not available from CCP data.
+* Teams were added, and then removed. The interface for teams is still visible but disabled until CCP determines updates to teams (or I need the space).
+* The screen size has been adjusted to 4:3 ratio to allow for future resizing updates
+* A 'SSV' option has been added to export types on the shopping list and other areas. SSV is semicolon separated and also outputs EU style decimals (e.g 1.000,00). 
+* T3 production has been converted to invention and can now use Decryptors.
+* Number of BPs used (NumBps) has been updated to work for the new industry changes. Currently a high number of BPs will slow the program down. A fix to make this processing more efficient will come next patch.
+
+BP Tab
+
+* The tab has been reorganized to allow for Facilities and Teams (not enabled). 
+* BP facilities types and activities will automatically load for the BP selected. For instance, T1 items without components will only show manufacturing. However, a T2 item will show Copy, Invention, Manufacturing, and Component Manufacturing options. 
+* All facilities will have a usage check for that facility type. This information is used in calculations including invention and copying. 
+* The Calc tab for T2 and T3 will show invention and copy (T2 only) costs. These costs are in addition to usage and will include any materials (datacores, etc) to do the activity. For copying, most items will be 0 but in some cases (such as Cloaking devices), the materials' cost will be set here.
+* Double-clicking interfaces have been added to labels for Invention and Copy Costs to see the materials and usage of the activity.
+* Additional Costs are now saved with the Blueprint on the BP Tab
+* Users can save relics and Decryptor types when saving a BP if selected in settings.
+
+Update Prices
+
+* New items from previous DBs are now available
+* Percentile pricing should now use the correct prices
+
+Manufacturing Tab
+
+* Several types of Facilities have been added to the manufacturing tab. Each type will allow users to set specific facilities to build various groups of items such as capitals, supers, and items that cannot be built in a pos (sov items).
+* Several new columns have been added to the list of fields users can choose on the tab. Default columns are similar to v2.3. Users can also move the order and resize the width of the columns in the table. 
+* Num BPs has been added to the options with runs and lines.
+
+Datacores - Gallente and Amarr datacore skills should now correctly show in the comparison table.
+
+Reactions Tab - Reactions were updated with the reaction types
+
+Mining Tab
+
+* All reprocessing formulas and changes with Crius mining changes are live.
+* The data grid now will show what type of ore processing type to allow comparison of Refined, Compressed, and Unrefined ores together based on the options selected. 
+* Includes name changes to mining lasers.
+
+BP Management
+
+* Blueprint data is now downloaded via the API automatically on startup (unless disabled in settings). Please delete your old BP list if needed to get a fresh set of downloads. Multiple BP support is still not available.
+* Only BPOs with the highest ME value are automatically set as owned.
+* Additional options to assist in updating BPs has been added.
+
+Industry Jobs
+
+* Industry jobs have been updated for the updates to the industry API. Current and history are available as per the length of viewable time per CCP.
+* Users can now view the industry jobs of any character they have loaded in the Account Management area with the correct rights. 
+* Users can select the characters in the right hand corner to update the industry jobs.
+* New columns have been added to the industry jobs viewer.
+* The number of current and total jobs will be shown next to the character name in the list of characters (2/10 = 2 jobs of 10 possible)
+
+Disabled Features due to updates
+
+* The Industry Success tool has been disabled until a work around with the new API is identified
+* The POS settings have been temporarily disabled.
+* The ignore options on the BP tab have been temporarily removed.
+* Data for stations and station upgrades have been temporarily removed.
+
+Version 2.3 
+
+Build 2.3.5267.30964
+* Updated to Kronos_1.0_98431 Database and Images
+* Updated Mining tab to use Kronos updates to Mining barges and Exhumers
+* Added Prospect mining vessel to Gas and Ore mining
+* When selecting a new default character, assets will be refreshed if the 'Automatically Refresh Assets on Load' check is set in Settings.
+* Selecting the Deployables, Celestials, or Station Parts check boxes on the Manufacturing Tab will now reset the 'Refresh' Button to allow new Calculations.
+* Changed the label for 'Size' on the Blueprint and Manufacturing Tabs to 'Size Limit' for clarity that this will limit the selection by those sizes.
+* Updated size limits to include AB/MWD 1MN in Small, 10MN in Medium and 100MN in Large.
+
+
+Build 2.3.5259.10898
+* Fixed an error that would crash the program when attempting to update shopping list assets with data interfaces used for invention jobs.
+* Copy and Pasting of assets to update the shopping list should now work correctly when the copied assets include containers.
+* Loading a shopping list from file when the file is already open should now correctly display an error message and not crash the program.
+* Updating assets with 'Update Assets when Used' checkbox selected will now correctly update assets located in different saved locations.
+* Added a 'Blueprint Copies' selection to the Asset Viewer for viewing BPCs used in invention. 
+* Updating assets in the shopping list will now update BPCs.
+* Selected items in the shopping list can now be deleted by hitting the delete key in addition to right clicking and using the delete menu.
+* Added Min Sell and Buy Max columns to shopping list for comparison of prices for the Buy Type column. Cost per Unit will always be the cost you set in update prices or elsewhere.
+* Added a column on the View Current Research Agents window showing the number of datacores available from current research agents.
+* Fixed an error in tax rate calculation values that would give a lower tax rate than intended.
+
+Build 2.3.5200.34930
+* Skills as overridden when using the search text box should no longer clear all skills on save.
+* Scanning Corp and Personal blueprints should no longer cause a program crash when the user has no Corp or Personal BPs.
+* Fixed an issue with the Shopping list that would not update the correct build volume when adding or updating the quantity in the shopping list.
+
+Build 2.3.5193.34942
+
+* Items marked as Build/Buy should now load correct values in the Manufacturing Tab.
+* Built item volumes in the Shopping List should now show correct values for more than one item.
+* Fixed an issue that would sometimes cause the program to crash after opening the asset window on the shopping list.
+* Fixed an error that would crash the program when Calculating Owned BPs on the Manufacturing tab when there are no Owned BPs set.
+* Searching text with apostrophes in the BP management search box should no longer crash the program.
+* Changed the labels 'Can/Cannot Build this Item' and 'Can/Cannot Build the Components for this Item' on the BP tab to Double Click instead of Click.
+* Added confirmation box to clearing items from the shopping list.
+* S/M/L/XL selections will now work properly on the Manufacturing List when choosing Owned Blueprints.
+* Paste into search boxes should no longer double paste on the Manufacturing and Update Prices tabs.
+* Trying to update the shopping list with assets after all assets have been removed should no longer crash the program.
+
+Build 2.3.5190.28374
+
+* Trying to copy the shopping list without built items or materials should no longer crash the program.
+* Refining settings on the Mining tab will now be enabled if you save settings to not Refine Ore.
+* Copy and paste materials from in game should now work correctly to update the shopping list. 
+
+Build 2.3.5189.17453
+
+* The errors that some people were receiving on Update Prices (startIndex cannot be larger than length of string.) should now be corrected. (Note: I cannot reproduce this error so please send me your EVEIPH.log file or evemail me it's contents to help debugging if you still get this error)
+* T2 items on the Manufacturing tab should now match prices, profit, etc with the Blueprint tab when using the same options.
+* The Runs box on the Manufacturing tab will now default to 1 or load your last saved setting
+* Updating values in the runs box will now change the 'Refresh' Button to 'Calculate'
+* Double clicking on a T2 item in the Manufacturing Tab should now allow you to change decryptors on the BP tab.
+* Usage costs should be more normal now
+* Added an option to include Broker's Fees to the Manufacturing Tab
+* The background color for T2 items where you own the T1 blueprint should save after clicking Refresh 
+
+Build 2.3.5188.30573
+
+New Stuff
+
+Asset Viewer
+* Added a new Asset Viewer for Personal and Corp assets, which will show locations for all assets based on your API.
+* Users can select the new Asset Viewer for viewing from the View menu or from the button on the Shopping list.
+* Users can update Assets and timers for each type of Asset API will be displayed when the next API query is allowed. 
+* Saving settings on the Asset Viewer will save the locations of boxes checked in the Asset tree as well as any search settings. 
+* Search settings are similar to the Update Prices but can be separated by build items (anything you could use in a BP).
+* Selected items will NOT auto-select containers that are children of the tree node. This is by design. If a builder were to want to update a shopping list with all items they have in Jita 4-4, including containers, they need to select all containers as well. 
+* Saving settings from the View * > Assets selection has limited functionality currently. 
+* For items in Space (POS towers), the Asset Viewer currently only shows limited information and does not link particular POS modules to a specific tower. This is a limitation of the Asset API and will be corrected (hopefully) in a future update.
+
+Industry Upgrade Belts Tool 
+* Added a new tool under the Tools menu that displays IPH per Industry upgrade belts assuming a full flip.
+* Users can enter the number of miners in their fleet, average cycle time, m3 per cycle, and Refining Station data to see IPH, Ore Volume, approximate total ISK, and approximate hours to flip.
+* Added options for ore types by truesec of the system
+* Added options to include broker fees and taxes, as well as compression for determining total Ore Volume of the belt.
+* Under each belt, users can select ores they want to ignore if they are looking to 'Cherry Pick' for instance.
+
+Completely Rebuilt Shopping List
+* Rebuilt the shopping list to give more room, functionality, options, and update with Assets.
+
+Asset update 
+* Click on the Safe icon to open the Asset Viewer for selecting the update location for the Shopping List. Any settings saved for this Asset Viewer will apply only to the Shopping List. 
+* Clicking on the 'Update with Selected Assets' will update the shopping list and remove quantities of materials you have on hand. 
+* Clicking on the 'Copy and Paste Assets' will allow users to copy and paste materials from the in game hanger view (list of assets, not icons) and paste them into the shopping list for update. The Rule for any list pasted into the list is Name of Item, Quantity. 
+* If the 'Update Assets When Used' option is selected, IPH will update your currently stored assets by subtracting 'Used' materials in the shopping list after Updating with Selected Assets.
+
+Save and Load shopping lists
+* Saving a shopping list will output the list to csv format. 
+* Loading a shopping list must be in the same format as the saved list but will update the shopping list based on the current BP Tab options selected (i.e. Build/Buy). If users save different quantities of materials, or do not include materials in the list, then loading a list will take that into account. For example, Item A takes 1000 Trit to build but was updated to 500 Trit then the list was saved. When loading the list, an option on the BP tab adds 100 Trit to the build requirements giving 1100 needed. Based on saved list data, the shopping list will update to 600 Trit to buy.
+
+Updating / Deleting
+* Users can remove any item, component, or material from the lists buy right clicking and choosing 'Delete'
+* To delete multiple items from the list, hold control and click each row you want to delete and right click, choose Delete.
+* Users can update Quantity and Price in the Items to Buy list. Price updates will apply to the entire program. 
+* Users can update the Quantity in the Items and Components to Build lists.
+* If a user updates the total amount of materials in the Buy list, then updates quantity in the Components or Items lists, IPH will take into account the amount of that material you have 'on hand' as indicated through your update (i.e. if you need 1000 and you change the quantity to 400, that means you have 600 on-hand).
+
+Broker Fees
+* Brokers fees for items you buy on market will be applied in the shopping list. Fees will apply for all items marked with 'Buy Order' or as described in rules for 'Calculate Buy / Buy Order' option.
+* Added a new column to the shopping list that IPH will display to help determine whether you should buy the item directly from the market or set up a buy order - sometimes it's cheaper to buy direct!
+* When the 'Calculate Buy / Buy Order' option is selected, IPH will attempt to determine if it's better to set up a buy order or buy from posted sell orders (no tax/no fees).
+* Rules for Broker Fee calculations:
+-If the Fees is checked and Calculate Buy/Buy Order, then IPH will calculate difference.
+-If the Fees is unchecked, IPH assumes then the user is buying all materials from active sell orders, and no Broker fee will be assigned.
+-If Fees is checked and Calculate Buy/Buy Order is not, then IPH assumes the user is using all buy orders to obtain materials.
+-If Fees is unchecked, then Calculate Buy/Buy Order will be disabled
+-To calculate whether it the item is Buy/Buy Order based on stored prices, IPH uses the following rules:
+* If the user enters a manual price, or imports any 'Sell' price - IPH uses that price as minimum sell and imports max buy
+* If the user imports any 'Buy' or 'All' price then IPH uses that price as max buy and import minimum sell
+* IPH will only use items marked with 'Buy Order' to calculate total Brokers Fees.
+
+Other stuff
+* Users can select the Item names from the lists for copy purposes only.
+* Double-clicking on an Item or Component will load that Item or Component in the BP Tab.
+* Added an 'Always on Top' option that will force the shopping list window on top of all other windows you have active on your computer - Useful for windowed mode shopping.
+* Added Total Item Tax and Total Item Broker Fees which is the total tax and fees for the 'Items to Build' in the list. The Broker Fees here do not apply to the 'Fees' under options.
+
+General Updates
+* Augmented and Integrated drones are now set as 'Pirate' and not 'Navy' Types
+* Refinery and Station Efficiency is now set as percentages instead of decimals (e.g. 5% vs. 0.05)
+* Usage costs have been correctly updated. 
+- Usage will now take into account Discount or Surcharge depending on values and standings set in program settings.
+- Note 1) Usage is applied per run regardless of runs or bps. 
+- Note 2) Usage values won't be exact because in game CCP rounds up corporation standings for display but uses unrounded values in calculations, so I can't get the exact value to do calculations.
+* Renamed 'Tools' for selections to 'Misc.' on the BP, Update Prices, and Manufacturing Tabs. Misc. will include, Fuel Blocks, Implants, Data Interfaces, and Tools. For Update Prices, it includes random other items as well.
+
+Blueprint Tab
+* Added a 'Fees' check box and label for Brokers Fees in addition to Taxes and Usage. 
+* Updated Taxes and Fees calculations. When 'Fees' is checked, brokers fees are applied to the item price only, as if the user is setting up a sell order for this item. Taxes will also apply to only the item only, as if a sell order is placed.
+* Added Invention/RE Mats as a copy and add to shopping list option. When selected, any copy to clipboard or add to shopping list will put just copy the invention materials for the selected blueprint to the appropriate location.
+* Double-clicking on the Invention Cost or RE Cost label for T2/T3 items will now show a popup with the respective Invention or RE materials for the selected blueprint.
+* Added new BP selection buttons for Favorites, Deployables (Warp Bubbles, Mobile items), Celestials (Customs Offices, Containers, and Stations), and Station Parts.
+* Added Small, Medium, Large, and Extra Large/Capital options for BP selection. Drones and Ships are put into general categories; all other items will have the size in the name or indicated (i.e. Antimatter Charge S, Medium Shield Booster)
+* IPH will no longer suggest buying materials without a price, or zero price, when build/buy is selected.
+* Double-clicking on a component in the Component Material List will now load that BP in the BP tab with displayed ME and Runs.
+* Added several tool tips to help clarify different areas.
+* Outposts, Outpost upgrades, and Custom Offices have been added as 'Blueprints' and updated to act like other blueprints that take multiple components. For example, an Amarr Outpost will take an 'Egg' plus items to put in the Egg to deploy. Selecting the Amarr Outpost 'Blueprint' will now show the total items to deploy a full outpost. Upgrades and Customs offices work similarly.
+
+Update Prices Tab
+* Added Percentile prices for selection from EVE Central, which they define as: [If you sold to the top 5% (in volume, not just orders), and took the total price, that would be percentile. For sell, it's as if you've bought 5% of the market (in volume), lowest price first.] 
+* The Shattered Villard Wheel can now have its price downloaded or set.
+* Added Celestials, Deployables, and Implants to Price updates.
+* Moved Station parts to Manufactured Items
+* Outpost foundations can now have their price downloaded or set.
+
+Datacores Tab
+* Current Research agents are highlighted with blue text in the agent list. 
+* Max IPH Research agents re highlighted with light green background in the agent list. 
+* Low/Nullsec agents are highlighted in orange and red respectively. Highsec agents are marked with black text.
+* The Current Research Agents window under the View menu will now show the total current value of datacores available for delivery.
+* Added a color code box with tool tips to describe color coding of items in the agent list.
+
+Manufacturing Tab
+* Added Runs box to the options. IPH will assume users own the same number of BPs as the number of lines selected, and runs will calculate accordingly. 
+* Added new BP Type selection buttons for Favorites, Deployables, Celestials, and Station Parts.
+* Added Small, Medium, Large, and Extra Large/Capital options for BP selection. 
+* Added/Updated Decryptor Tool Tips for new Decryptors 
+* T2 items that you have an owned T1 Blueprint of will now display as a light blue background in the manufacturing list.
+* Added a color code box with tool tips to describe color coding of items in the manufacturing list.
+
+Mining Tab
+* Users can now select 'Gas' from the Ore Type drop down to compare gas harvesting. 
+* Gas type locations are based on the following: http://wiki.eveonline.com/en/wiki/Ladar_Site_List
+* WH ore and gas types are based on the following: http://wiki.eveonline.com/en/wiki/Gravimetric_Site_List
+* Mining settings should be more helpful when selecting different ships.
+* Added Wormhole space selection to 'Factions' with classes. Availability of different Gas types and Mercoxit are main differences between wormhole classes with respect to mining.
+
+Blueprint Management
+* BPCs will be removed from owned blueprints if the item is no longer part of a user's assets.
+* Added new BP Type selection buttons for Favorites, Deployables, Celestials, and Station Parts.
+* Added Small, Medium, Large, and Extra Large/Capital options for BP selection. 
+
+Settings
+* Added setting to disable sounds. Note: this only applies to sounds IPH triggers and not message box sounds, etc. from Windows.
+* Added setting allowing assets to be automatically downloaded on startup. Note: Default is set to true. 
+
+Other Updates
+* Added search function to Skills window
+* Users can now open more than one instance of IPH. Please report any issues with database locks, etc. 
+* Updated the error reporting popup to be clearer. As always, a screenshot is the most helpful for bug tracking.
+* The link for a pre-defined API key has been added to the Load API window.
+* Ctrl+C, Ctrl+V, Ctrl+X, and Ctrl+A has been enabled for all text boxes.
+
+Bug Fixes
+* Augmented drones should now display correct build materials
+* Surcharge/Discount rates, Default Copy/Build/Invention time modifiers should now save.
+* Fixed bug on Manufacturing Tab that allowed users to enter 0's in the Lines boxes, which would crash the program.
+* Fixed bug on Manufacturing Tab that would crash the program when an item was double clicked and the Ignore Invention/RE box was selected on the BP Tab.
+* Packaged BPOs should no longer be marked as a copy in Blueprint Management
+* Fixed issue with the Invention Success Monitor that only showed 2012 in the date selection combos.
+* Using the Default 'Dummy' character will no longer crash the mining tab when selected.
+
+Build 2.2.4856.30561
+* Updated the broker fee to a more recent formula. The change will show a minimal change to broker fees.
+* Added CSV option on Shopping list for exporting to CSV. Default checked value based on your program setting.
+* Copy to Clipboard with Build/Buy checked on the BP tab will no longer include the ME and blueprint information for items you are buying instead of building.
+* Copy List from the Shopping List will no longer show a Meta value for items that do not have a meta item that is not a valid Meta number.
+* Reverse Engineering components will now be added to the Shopping List when adding items to the shopping list and the option to add Invention/RE materials to the shopping list is selected.
+* Copy to Clipboard will now correctly display meta values for the item if a meta level is selected.
+* T3 Materials for RE will now take the RE chance into account when calculating the number of estimated materials needed to RE the item.
+* Cloaking devices will now be considered Modules instead of Ships for calculating min/max copy times.
+* The default setting for Min/Max copies for Ships with decryptors is now Min instead of Max.
+* Users are now required to enter a personal key before adding a corp key. If no personal keys are loaded and a user tries to load a corp key, IPH will require you load the dummy character instead.
+* Fixed an error in setting character skills that would reset the skill to 0 after overriding the skill previously. 
+* The copy time on the Blueprint Tab will now update when selected and the slider for total copies is moved.
+
+Build 2.2.4824.30913
+* Updated calculations for not using a hauler on the mining tab that should more accurately reflect IPH based on the round trip time to station entered.
+* Expired API keys should no longer cause the program to not open.
+* Perpetual motion blueprints will no longer be displayed in the Invention Monitor.
+* Invention success rates for Commandships will now show correct values. 
+* Fixed an error on the Blueprint Management screen that caused the program to crash when using the BP Type drop down.
+* Fixed an error on the Mining Tab where mindlink bonuses were being applied to cycle time and mining range when disabled.
+* Fixed an error that would crash the program when the Build Blocks option was selected on the POS Management screen when no tower selected.
+* Users can now save 0.75 Time Multiplier on the BP and Manufacturing List and have it load as the default for settings.
+* Entering less than three characters in the Item Text Filter on the Manufacturing Tab will no longer crash the program when calculating.
+
+Build 2.2.4809.20407
+* Updated to Retribution Retribution_1.1_84566 Database and Images
+* Corporation keys will now show industry jobs correctly when the character of the corporation is not the same as the selected character
+* Replaced the name of the character who created the corporation key with the corporation name in the Manage accounts screen
+* Added Reset options for Research Agents, Assets, and Industry Jobs to the Reset Menu
+* Required skills to build Blueprints and Components will now correctly display whether you can build or not build the item
+* Unrefined Moon materials will now correctly refine to full values
+* Compressed Ore blueprints in the BP tab will no longer show requiring minerals to build
+* On the Mining Tab, the Orca will now show in the drop down list for Fleet Booster regardless of the skills selected
+* API keys should no longer duplicate when updating a key with a different access code
+* Ganglinks on the Mining Tab will no longer apply to "Other" ships when selected and disabled.
+* Users can now load Character and Account APIs without issue.
+
+Build 2.2.4768.13891
+* Added the Large Micro Jump Drive blueprint to the program.
+* Corrected error that would use Level 5 Exhumers instead of the selected value for calculating mining yield for the Mackinaw and Skiff.
+* All ships should now display their packaged ship volume instead of assembled volume.
+* The SVR Threshold value will now default to 0 instead of 1.
+* Changed the way R.A.M. calculations are performed on the Blueprint Tab. The 'Ignore R.A.M.' check has been replaced with an 'Ignore/Repair R.A.M.' three check box. When Repair is checked, IPH will assume you are repairing the R.A.M. after each run and only show the number you need per BP (max runs). If it is unchecked, then IPH will calculate the total R.A.M.s you will need for the entire job. Ignore Checked will function as before.
+* Corrected an error with component calculations that caused incorrect build times for some items.
+* Added an option to the Manufacturing and Blueprint Tabs to use max runs for ship invention jobs with a decryptor that does not modify runs.
+* Updated the way BPC runs are set in the Settings form to match the Manufacturing Tab. These two areas will share the same values when saved.
+* Updated the double-clicking from an item on the Manufacturing Tab to the Blueprint Tab option. Now values such as Temp ME/PE, Include Copy/Invention/RE Times, Number of Production and Lab lines, and BPC settings will transfer over better. 
+
+Build 2.2.4757.23645
+* Fixed an error that would not correctly load overridden character skills.
+* Refining yield will now correctly take into account changes to the Refining and refining Efficiency Skills when changed on the Mining Tab.
+* Invention material costs will be correctly displayed when copying to clipboard on the BP Tab.
+
+Build 2.2.4754.18841
+* Unchecking Refine Ore will no longer disable ore processing skills for the use of T2 crystal yield calculations.
+* Entering negative ME or PE values on the blueprint tab will no longer show an error message.
+* Ignore Invention costs will be automatically selected for T2 BPOs on the Blueprint screen.
+* Changed the "Not Owned" radio button to a check box to allow for seeing not owned blueprints that are scanned as well as to the full list.
+* Export Table on the Manufacturing Tab will now output the Build cost for each item.
+* Invention and RE materials will now show up in "Copy to Clipboard" output on the BP Tab.
+* Updating ME/PE values in the table for BPCs in Blueprint Management will now update correctly. 
+* The Stack overflow error on the Reactions Tab when selecting Complex Biochemical reactions and Build Basic Compounds has been corrected.
+* The Reactions Tab will no longer show oxygen and water as output options.
+
+Build 2.2.4751.31950
+* T2 Cruisers and Frigates will now correctly display and use the correct minerals to build. 
+* Fixed an error that occurs when checking "Ignore Invention/RE" and adding an item to the shopping list that would crash the program.
+* Fixed an error with Augmented and Integrated Drones that would crash the program in the manufaucturing tab.
+* Augmented and Integrated Drones are no longer inventable and will be treated like other faction items.
+* Entering items with apostrophes to the Text Item Filter on the Manufacturing tab will no longer crash the program (i.e. 'Augmented' Hobgoblin).
+
+Build 2.2.4739.27192
+* Updated the database to Retribution_1.0.7_463858 data export
+* Fixed an error with removing items from the shopping list that would crash the program.
+
+Build 2.2.4724.29013
+* Updated the database to the Retribution_1.0.2_82708 data export
+* The Venture mining frigate will now display the correct mining amount per cycle
+* The Mining tab has had some UI updates to make it a bit less confusing
+* Invention and Reverse engineering materials are now added to the shopping list when the option is selected in application settings. Data interfaces will not be included in the list nor in the price. Estimated BPCs required will also be listed but will not have a price assigned. Please use the additional costs section to include BPC costs if you intend on buying them. 
+* Meta items will now show in the shopping list materials and also be reflected as the type of item in the build items list.
+
+Build 2.2.4721.19404
+* Updated to Retribution Retribution_1.1_84566 Database and Images
+* Removed frigates and cruisers with mining bonuses from the mining tab.
+* Added the Venture mining frigate to the mining tab.
+* EVE IPH now uses https for API calls for EVE character and account data.
+
+Build 2.2.4707.18027
+* Added an option in settings to determine when calculations will suggest building or buying a BP when the user doesn't own the item BP when build/buy is checked. 
+* BP and Total Item Production Times will now be calculated correctly when Invention, Copy and RE times are included.
+* Added a "Labs" box on the Manufacturing screen to allow users to select the number of labs they are using for Invention, Copy, and RE. This value will only affect results if the Invention, Copy, or RE times are included in the calculations. Double clicking the box will populate with the selected character's max lines per skills.
+* Settings will now save the Laboratory lines value in the manufacturing screen.
+* Settings will now save Production, Invention, and RE lines on the BP tab. The default is set to 1 so if you want to use max runs, double click the appropriate box and save settings to update.
+* Include Copy, Invention, and RE times will no correctly grey out when T2/T3 options are selected.
+* When the Manufacturing tab is loaded, all T2/T3 options will be correctly enabled/disabled depending on chosen settings.
+
+Build 2.2.4706.33710
+
+Shopping List
+* Estimated Invention and RE Mats will now be included in the shopping list materials when copied to text output. The data interface used and T1 BPCs are also included. Users can turn on or off the output in the program settings. Note: These mats will not be included in the shopping list yet and have no effect on total prices in the shopping list but will be added to the main shopping list in a future patch.
+* ME Data won't show on shopping list output for buy items that can be built.
+* Adding items to the shopping list with different ME values (-2 and -4 Cap rechargers) will now add to the shopping list correctly. 
+* The item name list will now include information such as the ME and Build Type (Raw, Components, Build/Buy) to the name to better distinguish between the types of materials added to the shopping list. Note: Adding items with that use a Meta item in invention are not included in the name update yet. While the meta item may show up in the copy output list (invention mats) it may not show in all cases. This will be corrected in a future patch.
+* Adding a second BPO of the same item (by clicking add to shopping list twice) will now update the material list correctly.
+* IPH and Profit updates on shopping list when you update prices however, these are only estimated.
+
+Blueprint Tab
+* A Price Per Unit (PPU) check box has been added to see prices and costs for one unit of the blueprint. This is helpful for finding the price of one unit of Ammo, Bombs, or other items with batch numbers greater than the BP runs.
+* T3 Subsystem Profitability wasn't including all variables to calculate the most accurate costs. This has been corrected.
+* A "Lines" box has been added to Invention/RE window. Users can enter a line number or double click for maximum laboratory lines to use for Invention, Copying, or RE. This number will be used in calculating the Invention, Copy, and RE times more accurately.
+* Production lines will now update correctly when a new character is selected.
+* Invention, Copy and RE Times were being calculated incorrectly adding slightly more time than needed for items requiring several runs. This has been fixed. 
+* If a user doesn't own an item BP, then the calculations will not suggest they build it when build/buy is checked.
+* Whenever the item selected doesn't have components to build, clicking on skills will now correctly display required build skills.
+* BP Production will now include Invention/Copy/RE  time if checked or copy time if checked. Previously this time was only the production time of the blueprint.
+* When Modules is selected, the blueprint combo will no longer show rigs as well.
+* Calculations will now use Lines/Runs entered for doing calculations on how many components are made. Previously, the lines used was based on the selected character's skills.
+
+Update Prices
+* Updating prices now refreshes the prices on the BP tab if a Blueprint is selected.
+* Checkboxes for Faction and Navy will now be enabled correctly depending on selections.
+* Selecting all raw mats or manufactured mats in update prices will not uncheck or check all items if there are single checks selected.
+* Outpost platform price updates was throwing an error. This has been fixed.
+* Users can now update prices for Customs office gantry. This item now shows up under structures on the BP tab and Manufacturing tab.
+* Update prices will now correctly show all structures when selected, i.e. the Customs office gantry and outpost improvement platforms.
+* Prices will no longer be queried for items that do not have a Market ID (meaning not on the market and not part of the updates). This may reported fix errors that happened sporadically during price updates.
+
+Manufacturing Tab
+* Added check boxes to include Invention, Copy, and RE times to the calculations.
+* Toggling between different combinations of Tech 2 and Tech 3 will now enable and disable the 'Ignore in Calculations: Invention/RE' checkbox.
+* Users can now enter the word 'Not' in the Item Text Filter box to filter out items they do not want to see. For example, Selecting T2 Ammo/Charges and entering "not mining crystal" will show all ammo/charges except for mining crystals. Currently only one item can be entered but support for multiple items will be added in a future patch. 
+* SVR updates will no longer query items that do not have a Market ID. This may reported fix errors that happened sporadically during price updates.
+
+General
+* Selecting the same character or canceling out of the 'Set Default Character' window will no longer refresh the tabs.
+* Clicking 'Time to Complete' will now sort correctly in the Industry Jobs window.
+* If the shopping list is visible, clicking the main form "Items in Shopping List" label will re-focus the shopping list.
+
+Known Issues/Hard to Reproduce Bugs
+* Error with import prices: SQLite error cannot start a transaction within a transaction.
+* Checking if the update to only query items with market id will fix this issue. Other code changes made as well.
+* Proxy Error: There was an error in the Key data. Error text=The remote server returned an error: (407) Proxy Authentication Required
+* Added to use default server but this might be a local issue, not code
+* Random error on startup: Invoke or BeginInvoke cannot be called on a control until the window handle has been created. Tried to fix the splash screen where this comes up.
+* Code changes made to update window that may have caused this error. 
+
+Build 2.2.4631.30960
+* Fixed errors and updated processing for settings files. This should correct 'Conversion from string "" to type 'Double' is not valid.' errors due to the Build Time Modifier settings on the BP and Manufacturing tabs. If you still get this error, try to reset your settings from the menu before loading a blueprint.
+* Took price updates out for several items that EVE Central was returning as errors. These items include all Faction Towers and Structures, All faction Drones, and the following items: Megathron Federate Issue, Elite Drone AI, 'Daemon' Codebreaker I, 'Codex' Codebreaker I, 'Alpha' Codebreaker I, 'Libram' Codebreaker I, Talocan Data Analyzer I, Sleeper Data Analyzer I, Terran Data Analyzer I, Tetrimon Data Analyzer I. If you still receive notice that the EVE Central Server is Unavailable. Let me know in the forums.
+
+Build 2.2.4629.35118
+* Fixed error that would crash the program when some users from opening the Blueprint Management window.
+* Updated the way hauler settings are saved to be more user friendly on the Mining Tab.
+* The Mining Laser range should now update correctly on the Mining Tab.
+* When selecting 'Other' as a ship type in the Mining Tab, you will now see all ships available based on the skills selected.
+* Pending should now display correctly in the Industry Jobs window.
+* Sorting settings should now be saved correctly for Industry Jobs.
+* Mining Ship images and Mining Foreman Link images were not being installed with the msi installer. This has been fixed.
+* The msi installer will now correctly install the program in the folder selected by the user during setup.
+* Fixed an error with saving settings and the Build Time Multiplier that would crash the program. If you still get this error, try clearing your BP settings and saving them again. 
+
+Build 2.2.4606.27503
+* Fixed error that caused Blueprint Management to Crash when new options selected.
+* Fixed issue that did not apply the correct ore yield to Retrievers.
+* Updated the mining ships to use correct skills and prerequisites.
+* Users can now select the Modulated Deep Core Strip Miner II for all mining barges.
+* Updated the installer to allow program installation in the folder selected when installing.
+
+Build 2.2.4604.32102
+
+General
+* Updated images to Inferno 1.2
+* Updated database to Inferno 1.2_76477
+* Users can now read the patch notes file by selecting 'Read Patch Notes' in the About Menu.
+* Canceling out of the Select Default Character screen will no longer ask users if you want to load no character if you did not uncheck the currently selected default character.
+* Users can now view current Industry Jobs under the View menu.
+* The Shopping list will now use the packaged volume for calculating Total Built Volume instead of unpackaged.
+
+Invention Success Monitor
+* Users can now see a history of their invention jobs and success rates by selecting the 'Invention Success Monitor' in the Tools Menu.
+* The Invention Success Monitor will list jobs attempted between the date range selected. When a blueprint is clicked, it will list the total attempts, successes, the resulting success rate, and expected success rate based on your skills. If a decryptor was used, that will be displayed as well. Currently the API does not list if a Meta item was used so those will not be listed.
+* A Corp key is required to see all corporation invention jobs.
+* The API only lists a certain number of industry jobs so your total jobs may only go back a few months. As time goes on, IPH will update your industry jobs and save new entries and maintain a history of old jobs.
+
+Blueprint Management
+* Users can now directly update the ME and PE values for a listed Blueprint by clicking on the ME or PE Cell. Tabbing to the next row, hitting Enter, or clicking off the row (losing focus) will mark the Blueprint as 'Owned' and save the entered values. 
+* Users can directly update the Favorite value ('Yes' or 'No') in the listed Blueprints by selecting the column and combo entry for the listing. The same rules for saving and updating ME and PE apply to favorites.
+* Implemented Blueprint 'Favorites' which will allow users to mark favorite blueprints for use in the Manufacturing Tab.
+* Added "Not Owned" selection to list blueprints that are not marked as owned.
+* The default checked setting for all options in the grid will be now unchecked.
+* Blueprints saved for different accounts should now display correctly.
+
+Blueprints
+* Added Outpost Improvement Platform, Outpost Upgrade Platforms and 'Egg Deployment' data as 'Blueprints'. These items do not have blueprints for deployment but require several materials for building when deployed.
+* Outpost Improvement Platform, Outpost Upgrade Platforms and 'Egg Deployment' for outposts is included under the Structures group. 
+* Required skills to 'Manufacture' Outpost Improvement Platform, Outpost Upgrade Platforms and 'Egg Deployment' items will use deployment skill requirements.
+* Added support for Outpost Improvement Platform, Outpost Upgrade Platforms and 'Egg Deployment' for outposts in the shopping list.
+* Users can now save ME and PE data entered on the Blueprints Tab by selecting the 'Save BP' button next to the Time Multiplier Combo.
+* Users can now directly update the ME, PE, and price values in the Components and Raw materials grids by selecting the appropriate cell. Tabbing to the next row, hitting Enter, or clicking off the row (losing focus) will mark the Blueprint as 'Owned' if it is a manufacturable item or the price if not and save the entered values.
+
+Update Prices Tab
+* Added missing price data for items such as Carbon, Janitors, etc in Update Prices for Outpost 'Blueprints'
+* Added a Misc. Group to list the following items: Garbage, Spirits, Hydrogen Batteries, Electronic Parts, Plutonium, Carbon, Janitor, Slaves, Quafe
+* Users can now select prices by different types for charges and ships by using their respective combo selections.
+* Users can now directly update prices in the item list by clicking on the ME or PE Cell. Tabbing to the next row, hitting Enter, or clicking off the row (losing focus) will mark manually save the entered prices.
+
+Manufacturing Tab
+* Changed SVR updates to use EVE Market Data (EMD) instead of EVE Marketeer. To ensure the most updated price history for EMD, I suggest upgrading/using EVE Mon 1.7 for unified uploader to contribute data to EMD.
+* Users can now save the SVR Threshold value as an empty value thus allowing for all records to show regardless of what the value is.
+* Added Blueprint Favorite option to only calculate selected Blueprints.
+* Fixed bug that would stop the Item Type Combo from being updated correctly when text was entered into or cleared from the Type Item Filter box.
+
+Mining Tab
+* Updated mining ship values for Inferno 1.2 changes. This includes adding options for selecting rigs.
+* The hauling m3 will update with the ore or cargo hold of the selected ship when no value is set.
+* Added images of selected ships and Mining Foreman Links because it's pretty.
+* Removed the Tormentor from Mining ships as it no longer has a mining bonus with Inferno 1.2
+* Added the Mining Foreman Link - Mining Laser Field Enhancement and a Miner Stats section to show Mining range of selected options.
+* Ore Strip Miners will no longer crash the program when selected.
+* Updated selections between ore and ice to be more helpful.
+* Ore Isk per hour will now include Heavy water costs to boosting with a Rorqual. If you do not want to include these costs, set the Industrial Configuration skill to zero.
+
+Build 2.1.4566.39363
+* Updated images to Inferno 1.1
+* Updated database to Inferno 1.1_73052
+* Updated base Market Tax rate to 1.5% from 1.0% based on Inferno 1.0
+* Saving settings on the Reactions tab will no longer cause a program error when reopening the program.
+* Users can now override a skill to Level 0
+* Overriding a skill you already have to a lower level (e.g. Production Efficiency to 4 from 5) will no longer be updated to its original value on start up.
+* Production Efficiency levels other than 5 will now display the correct amounts of materials for all items with Extra Materials. Please report errors (rounding or otherwise) that you may encounter if you have less than PE 5.
+
+Build 2.1.4551.10729
+* Implants on the Mining tab will now work correctly. The names in the implant selection boxes have changed so if you have an old name in settings, you will need to select the correct implant and save new settings. Old names will no longer work.
+* Corrected an error in the refining tax ("We take") calculations that was showing an incorrect amount. Note: When using outposts, enter a standing of 0.0 to see correct "We Take" column amounts.
+
+Build 2.1.4529.39252
+
+Blueprints Tab
+* Entering zero for runs will no longer crash the program.
+* Added ME values to clipboard exports for all items that have an ME value set in the program.
+* Added .8, .7, .6, .5, .4 to time modifier to allow for Outpost manufacturing times 
+* Renamed 'Calculate Optimal' to 'Calculate Build/Buy' to avoid confusion on what this option does when checked.
+* Options to export components or raw materials when 'Calculate Build/Buy' is selected or when an item without components has been set to correctly grey out when appropriate.
+* Added tooltips to 'Can/Cannot Build' labels to indicate you can see required skills to make the item(s) by clicking on them.
+* Sovereignty Structure Blueprints will now appear under 'Structures' in the Blueprint Selection Combo.
+
+Update Prices Tab
+* Added ability to split price downloads for items and raw materials by any price provided by the EVE Central API. I.e. you can set max buy for raw materials and min sell for items to maximize efficiency, or min sell for raw materials and max buy for items to maximize turnaround time.
+* Added Asteroids to Update Price list for use in the Mining Tab and Compressed Blueprint Calculations.
+* Returned item prices from EVE Central that are zero will no longer overwrite existing prices. In cases where EVE Central does not report a price, but you have one set, IPH will maintain the old price. This will help with manual price updates where EVE Central continually has no record to return.
+
+Manufacturing Tab
+* Added Production Time Modifier combo and all possible time modifiers.
+* Added production runs to the Manufacturing Tab. This will be the total number of production lines that is used for manufacturing calculations to better reflect what you are building (i.e. 10 lines of Shield Booster II instead of 1 line per production run). This change will be apparent in SVR calculations rather than regular calculations. Enter the data manually or double click to enter max production runs for your character.
+* Users will now export data in the manufacturing tab list to CSV through file export instead of using the clipboard.
+
+Reactions Tab
+* Refining with alchemy now uses refining equipment efficiency and tax rates set in the program settings.
+
+Mining Tab
+* Mercoxit variants will no longer show up in the Mining List when there is no Deep Core mining laser selected.
+* Dark Ochre Variants will now correctly use mining crystals.
+* The Modulated Deep Core Strip Miner II will automatically be selected if the user selects a Skiff and the proper skills are selected to use the Deep Core Strip Miner.
+* Users can now select whether a Rorqual is in Deployed mode (bonus to gang links) or not (no gang link bonus)
+* Users can now enter m3/hour for mining drones to add to yield per hour. Note the value here is your own estimate given your own mining setup and not based on your skills.
+* Added Tooltip to Mining Foreman GangLink to highlight cycling through No Link, T1 or T2
+* Added the ability to compare refining or not refining mined ice and ore, useful if you don't have good refining capabilities or want to just sell quickly and want to find the best ore or ice to mine. 
+* If .75 refining yield is selected, calculations will assume a Refining Array is being used and will use calculations for Refining Arrays instead of Stations and cap the refining rate at .75.
+* Shown yield rates were not accurately reflecting the true yield or affect by taxes. This has been fixed.
+
+Shopping List
+* Added ME values to shopping list exports for all items that have an ME value set in the program.
+* Added the total built volume to the shopping list screen and copy exports. This will be the total volume of the items list after they are built.
+
+Blueprint Management
+* Sovereignty Structure Blueprints will now appear under 'Structures' in the Blueprint Selection Combo
+* Selecting any option other than 'All Blueprints' will now automatically check all the blueprints in the main list.
+* Added Backup and Load functionality for BP lists. The Backup button will save ALL blueprints into a csv file. Load will load that same file back into the program. If you change any data in the file, it will be reflected in the upload (i.e. ME/PE Data). If you remove any of the fields, your data will not load.
+* Added tool tips explaining what is backed up and loaded for the Backup and Load BP buttons.
+
+Program Settings
+* Added Default Build/Buy and Default Build Equipment Modifier settings for use in the Blueprints and Manufacturing Tabs.
+* Added Default Refinery Efficiency and Tax Settings for use in Mining and Reactions.
+* Updated the names of 'Beancounter' Implants to recent name changes. The values should properly work now when set.
+
+General
+* Added correct material list for Drone Damage Amplifier II (due to CCP hotfix following Inferno).
+* Updated Invention Runs Formula based on Inferno Expansion Patch. Basic change to the invention runs formula is that max run BPCs are no longer required to get the 1 run from the BPC in addition to the Decryptor bonus. For example: A 1 run BPC before using a User Manual (+2 Runs) would result in 2 runs. After Inferno you get 3 (1 from BPC and +2 from Decryptor). Note: this change seems to work for my testing but let me know if you notice a discrepancy with the data on screen and what you expect.
+
+
+Build 2.0.4525.30375
+
+* Updated the program database to Inferno_1.0_70633 data export.
+* Updated the BP images to Inferno_1.0_70633 data export.
+* Items without buildable components will display raw materials in only the raw mats window on the Blueprint Tab.
+* Items without buildable components will only display a Raw row when Compare All option is selected on the Manufacturing Tab.
+* Updated Datacore Tab to reflect Inferno changes, 1 - Datacores cost 10,000 Isk per core and 2 - all cores cost 100 Research Points to redeem.
+* Updating the Runs for T3 items after checking 'Ignore Invention/RE' costs will no longer crash the program.
+* After Sorting the list of Reactions, the Reactions Tab will now show correct materials for the Reaction when selected.
+* Fixed error that would disable the checkbox to 'Ignore Invention/RE' when selecting T3 items in the Blueprints Tab
+* Fixed error with calculating mining IPH while using a hauler that gave incorrect results.
+* Added new menu item to Edit menu bar on main screen. Added 'Reset Prices,' which will clear all price cache data, set prices to 0.00, and clear all SVR average price data. Moved 'Reset Blueprints' and 'Reset All' to this menu as well.
+
+Build 2.0.4510.29646
+* Fixed bug that caused Reverse Engineering costs to be less than they are.
+* Fixed error that crashed the program when double clicking on T3 items in the Manufacturing Tab to take you back to the Blueprint Tab.
+* Added setting to disable SVR updates.
+
+Build 2.0.4489.34887
+
+General
+* Updated the program database to Crucible_1.6_65449 datadump. All newly named items should now be reflected in the program.
+* Updated the BP images to Crucible_1.6_65449 datadump.
+* Corrected minor bugs in BPC copy times, invention times and RE time calculations when applied to T2 and T3 items.
+* Added error checking for Clipboard errors so they don't crash the program. If you receive a "Requested Clipboard operation did not succeed." error, close other programs that you may have open to possibly remove locks to the windows clipboard.
+* Made improvements to the updater to be more helpful in finding errors with updates.
+* Exporting data to clipboard (ie. from the shopping list or blueprint tab) should format correctly when pasted in game.
+* Removed Average Price System and Region selection from the Program Settings. This is now set in the Manufacturing Tab.
+
+Shopping List
+* Copying items from shopping list will now show the total volume and cost of mats in the buy list when pasted in game.
+* The shopping list will no longer add raw materials to the build and buy list and only list them in the buy list. The data in the buy list has always been correct regardless. 
+
+Datacores Tab
+* The Datacore Tab will no longer crash the program when only one agent is available for options selected.
+* The Datacore Tab will now indicate when no Agents are available for options selected.
+* The Datacore Tab now saves checked skills, corps, and values in Save Settings. Users can still reset to default values from the menu option.
+
+Blueprints Tab
+* Blueprint Tab lines will now correctly calculate times for different line and BP variations. 
+* Removed autoselection of lines and bps in several instances to make it easier to use.
+* T3 Items will now correctly update the number of bps and lines required when runs are updated.
+
+Mining Tab
+* Improved mining tab skill and ship selection combos to be more helpful.
+* Mercoxit mining calculations were slightly lower than they should have been when using a skiff and slightly higher when using a Hulk. This has been fixed. 
+* Deep Core Mining Lasers that are saved with settings will now load correctly as set.
+* The Mining Foreman Bonus will now be applied correctly when a Mining Forman MindLink is not selected and Fleet Booster is selected. (ie. you fleet with a hauler and have Mining foreman 3 - you get 6% yeild bonus)
+
+Manufacturing Tab
+* Added SVR Threshold value box for entering in your own SVR threshold. Previously this was 1.0.
+* Added check box to ignore SVR Data that does not get a value from the server. This will now show as blank in the Manufacturing Tab List instead of 0.00.
+* Users can now select the region for SVR data averages on the Manufacturing Tab. The SVR region will automatically update to the region selected when updating prices on the Update Prices Tab except if more than one region is selected in Update Prices. The regions selected on the both tabs will only be saved in settings when you explicitly save settings on each tab.
+* SVR Data not returned from the server will no longer set existing values to 0.00 if they exist. This will not apply to users that had their data to 0.00 prior to this change.
+* Fixed Error where items with an SVR value of 0 were ignored by the calculations.
+* No records will show if options selected on the Manfuacturing tab select no blueprints.
+* Changing text in the Item Filter for the Manufacturing Tab will now change the Refresh Button to Calculate to take into account new changes if you calculated items recently.
+
+Database Updates
+* Elite Drone AI is now included in the Update Prices tab for manual update.
+* Sleeper, Takmahl, Talocan, and Yan Jung decryptors are now included in the Update Prices Tab for use with Storyline items. 
+
+Build 2.0.4459.38991
+* Updated the program database to Crucible_1.5_349247 datadump. All newly named items should now be reflected in the program.
+* Updated the BP images to Crucible_1.5_349247 datadump.
+* Exporting selected Datacore Agents in the Datacores tab will no longer output a long line of data.
+* The BP Production Time display is now greyed out if 'Calculate Optimal' is checked since it does not apply to this option.
+* Added check boxes to Reverse Engineering, Copy, and Invention times in the Invention/RE tab within the BP tab. When selected the times will update with the total invention and copy times included. These times are based on your laboratory skills to run these jobs and tied to the success rate of invention/RE. I.E. if you require 15 invention runs for a success and you have 10 maximum laboratory lines, you need 2x the copy time for 15 copies, and 2x the invention time for 15 invention runs.
+* Saving settings on the BP Tab will now save selections for Including RE, Copy, and Invention Times for all program settings.
+* Electronic Parts, Garbage, Hydrogen Batteries, Oxygen, Spirits, and Water are now available for updated prices in the Update Prices tab under the 'Planetary' category.
+
+Build 2.0.4437.34348
+* Users can now update prices for special components used in Storyline Blueprints
+* Special components for storyline blueprints will be listed under "Materials & Compounds" section in the Update Prices tab
+
+Build 2.0.4433.16134
+* Users can now set a Refining implant value in settings and have it save correctly
+* The refining implant value will now correctly apply to refining calculations
+* Users can now ignore items on the manufacturing screen with an SVR < 1.0
+* The shopping list will now display the total m3 and the ISK/m3 for each item
+
+Build 2.0.4429.24086
+* The shopping list will now correctly display build items when entered
+* Pressing enter on the ME/PE value boxes with no values assigned will no longer crash the program
+
+Build 2.0.4424.13591
+* Reactions that built Basic Compounds for Advanced Moon Materials and Complex Biochemical Reactions were incorrectly calculating IPH resulting in a much higher than normal value. This has been fixed.
+* Users can now enter in the number of POSs they are using for reactions. This value multipled by the fuel cost will now be the total cost of running the reactions.
+* Clicking on a Reaction will now show a list of the materials used to make the final item with options selected and the quantity used. 
+
+Build 2.0.4421.31268
+* Entering no value in the Additional Costs box on the Blueprint screen will no longer crash the program
+* Users can now update prices for Hydrogen Batteries and Electronic Parts
+* Selecting Storyline BP's in the Blueprints Tab will no longer crash the program
+* Blueprints in the Blueprint Tab combo box will now update correctly when different Tech types are selected
+* BPC Cost estimations for invention were not being applied correctly resulting in a lower invention cost. This has been fixed.
+* Checking T2 or T3 items on the Manufacturing Tab will now enable or disable options for those two tech types 
+
+Build 2.0.4418.30303
+* Updating the runs from selecting a new decryptor will now update the number of bp's and lines correctly
+* Added "Include T2 BPCs" and "T3 BPCs" to the Manufacturing grid when "Owned BPs" checked to allow further filtering of BP's
+* Default ME/PE values will no longer apply to Storyline, Pirate, Navy, or T3 Blueprints
+* The Calculate button on the Manufacturing screen will now reset to 'Calculate' from 'Refresh' if you update prices, data, etc in another screen 
+* The Blueprint Combo on the Blueprints Tab will now suggest blueprints by typing in the blueprint name and allow arrow selection from that suggested list
+* Switching from Buy Blocks and Build Blocks will now update the POS prices
+* You can now enter a price for starbase charters to POS settings
+
+Build 2.0.4414.30357
+* All tabs will be reset after resetting all settings
+* Research agents with 0 standing will now show 0
+* View Research Agents will now only show research agents by loaded character
+* Updating Prices while there are items in the Shopping List will no longer crash the program
+
+Build 2.0.4413.32196
+* Users can now reset all data again
+* Users can now import characters with no standings without crashing
+* The Updater will show the main form again when updating
+
+Build 2.0.4412.34316
+* Users can now see what ores are available in Minmatar space on the Mining tab
+* Calculating Ore without checking a region will now show an error message and not crash the program
+* All towers will now correctly calculate ME/PE/Copy/Invention Cost values in POS Settings
+* Showing items in the shopping list will no longer error with just components added
+
+Build 2.0.4411.33303
+* The message that pops up when updating Version 1 of IPH will now take you to the download page.
+* Selecting All Blueprints with default settings was selecting data that did not exist. This has been fixed. If this happens again, try changing the Item Type Filter to "All Types" or nothing and try again.
+* Users can no longer maximize the main window. This will be possible in a later update (and much more useful).
+* Users can now reset all blueprints on the Blueprint Management page.
+* T3 items will no longer show up in Owned Blueprints on the Blueprint Management page unless they are marked as owned in Blueprint Management. 
+
+Build 2.0.4411.24713
+
+New Features:
+
+NO MORE ACCESS REQUIRED
+* EVE IPH now uses SQLite instead of Access so you no longer need to update with data access objects
+* As a bonus, you should see faster queries
+* As a non-bonus, you will need to install a new non-Access version and any saved data will be lost
+
+Updated to latest Cruicible DB and Images
+* Version Cruicible_1.1_334471
+
+Binary Install
+* You can now run IPH from the same folder allowing for a binary install
+
+Settings Files
+* Users can now save settings for all the main screen tabs
+* Select 'Restore Default Tab Settings' from the Settings menu to restore program tab default selections
+
+Research POS Settings
+* Users can select a POS and associated Laboratories to calculate the cost per hour for ME, PE, Invention, and Copies
+* Research POS Settings can use Fuel blocks or materials to build fuel blocks from blueprints
+* T2 blueprints can now use POS values for calculating copy costs and including them into the total costs
+
+Sales Volume Ratio (SVR)
+* In the manufacturing tab, sales data is now downloaded to calculate the approximate number of items sold per day and then divided by the amount of items you can produce in a day. If the resulting number is large, you will have a better time selling it. 
+* Added sorting options for SVR and SVR * IPH in the manufacturing tab
+
+Research Agents
+* With the correct API access, you can now view current research agents and associated data as in game to compare to Datacore screen.
+
+Mining Tab
+* Added mining tab to calculate isk per hour for Ore and Ice
+* Settings will save for Ore and Ice separately
+* Jump fuel costs - You can determine how much jumping your ore or minerals back to empire will cut into your IPH
+* Hauler - No alt' No problem: Just approximate how long it takes you to run back and forth to station to drop off your ore and the m3 of each trip to calculate IPH
+
+Shopping List
+* Users can now delete items from the shopping list
+* The shopping list is no longer a dialog form and will update data when new items are added if open
+* Exporting data from the shopping list will now export in the order sorted on screen
+* Prices will now update in the shopping list if data is there when you update prices
+
+Other updates/Bug fixes
+* You can now select all Raw mats or all Manufactured items with one check on the Update Prices screen
+* You can now import prices for raw mats by max buy price, and items by min sell by checking the "Select Max Buy for Raw Mats, Min Sell for Items"
+* Fuel block blueprints are now included with 'Structures' for Pricing, Manufacturing, etc
+* You can now limit agents by region or sovereignity 
+* You can now include Reverse Engineering times to T3 production
+* Double clicking on an item in the Manufacturing Tab will now take you to the Blueprints Tab and load the selected blueprint
+* Checking on ignore boxes will now reset the calculation button
+* Calculations will now ignore blueprints that are not Owned
+* Subsystem profitability will now be calculated for T3 items in the Blueprint Screen
+* Moving the copy slider in the Invention Copies tab will now update time and price when selected
+* Data put on Clipboard will now remain after program is closed
+* Production time will now calculate correctly with the number of blueprints, lines and runs entered
+* CSV exports will no longer contain commas in data with prices
+* The minimum broker fee is 100 isk
+* When selecting Owned blueprints in the Manufacturing Tab it will show all T2 that can be made with Owned BP's and T3 bps.
+
+
+Version 1.3
+
+Build 1.3.4306.29337
+* Corrected error when an item with no meta item was selected in the meta drop down menu.
+* Removed meta items from manufacturing list if no meta item exists for the item calculated and meta number selected.
+* Updated Settings screen to allow easier setting adjustments.
+* Default ME/PE settings will now extend to any unowned T1 blueprint in the production chain. i.e. A Jaguar will now use Default ME/PE for the Rifter BP if it is not defined. Before it would set this to 0 if it was not owned.
+
+Build 1.3.4304.27276
+* The popup notifying users of a program update will now show in front of the splash screen.
+* Meta items for invention are now correct. Previously meta items would show the wrong or duplicate meta items for invention.
+* The Meta drop down menu on the Blueprints Tab will only show meta items that exist. (i.e. 10MN Afterburner only has 1 meta item)
+* Races have been assigned for most blueprints based on its invention requirements or type and will show more results in blueprint management and manufacturing tabs when selected.
+* Users can now click on the Invention and Reverse Engineering labels and the Component Material and Raw Material labels that show "can make/cannot make" the items to show required skills. If your current level of skills are lower than required, it will show your skill in parentheses and highlight the skill in red.
+
+Build 1.3.4297.36325
+* Fixed error in Manufacturing screen that showed incorrect ME/PE values for users with owned T2 BPO's 
+* The default setting for copy runs for invention will now be Maximum for Non-Ships and Minimum for ships
+* Fixed a bug that did not scan corporation blueprints that were stored in a container within the corporation's hanger
+* Added options to see whether scanned blueprints are copies or originals
+* You can now mark an owned blueprint as a copy but this will have no effect on how it is used in calculations
+* Fixed a bug in the datacore tab that did not load datacores for characters that had no standing with the Agent's corporation
+
+Build 1.3.4279.31555
+* Upgraded to Incarna 1.1 Blueprint Images
+* Fixed several issues with updater to make updates run more smoothly.
+
+Build 1.3.4276.32165
+* Fixed issue with importing Corporation blueprints even though a corporation key was entered.
+* Upgraded data to Incarna 1.1.45834 Datadump
+* Fixed issue with Customizable API keys that were characters not allowing the setting of Default Characters. Users can now use Character, Corp, or Account keys.
+
+Build 1.3.4274.30988
+* Customizable API's with no expiration date will now load correctly.
+* Updated blueprint processing that should correct errors of scanned blueprints duplicating with previously owned blueprints.
+* Updated the blueprint management screen to only include blueprints by account they were loaded with
+* Fixed error on management screen that did not allow components to be correctly loaded and would miss items such as Laser Focusing Crystals. These will now show up correctly.
+
+Build 1.3.4272.38942
+* Updated API processing to utilize new customizable API's. EVE IPH utilizes the following 3 access mask data:
+- Public Information: Standings
+- Private Information: Character Sheet (for skills)
+- Private Information: Asset List
+
+* Added corporation API functionality to EVE IPH with the new API system. Importing a corporation API will allow you to import BP data from one corporation at a time. Selecting a default corporation will be in a future release. Right now it is the last corporation key you enter.
+
+  All blueprints currently stored will be updated to the new API assuming the API has an account in which they were entered. All blueprints are stored per account, not character.
+  
+  Please make sure you have these selected in your EVE IPH API for proper functionality
+
+* Owned Blueprints will now be shown in blue text in the Blueprint Management screen.
+* Simple Reactions were displaying incorrect output values (100 vs. 200). This has been fixed.
+* Added a new form to manage account API's in the File menu.
+
+Version 1.2
+
+Build 1.2.4250.33243
+* Users can now re-sort the manufacturing results by Profit, IPH, or Profit % without recalculating.
+* Added option to the Update Prices screen to show items that do not have prices stored.
+* Fixed an error in the database that incorrectly displayed volumes for items.
+* Added META items to invention calculations. Users can now update Meta item prices and these will be reflected in invention costs. 
+* Added META item used to a tool tip text for the meta combo box when selecting a different meta level for invention in the Blueprints tab.
+
+Build 1.2.4243.29723
+* Fixed bug with manual price entry that did not allow periods or commas. This has been corrected.
+* Added a "Reset All Data" option to the Edit screen. Users can clear all data (API, Blueprint, Prices, etc.) in the program by selecting this option. Settings will not be affected.
+* Added a "Reset All" option to the Manage Blueprints Screen. Users can reset all blueprint data by selecting this option.
+* Fixed an error that would incorrectly display multiple blueprint copies when scanning user or corp blueprints.
+
+Build 1.2.4235.12322
+* Removed duplicate Build/Buy records from Manufacturing list
+* Adjusted Tabs on Manufacturing list to be more in a logical order
+* Updated Shopping list output text when copying
+* Fixed error that crashed program when character names with apostrophe's were used
+* Adjusted IPH calc for blueprints that have manufacture times less than 1 hour to give isk per full hour. It was only calculating the time given and not a full hour.
+
+Build 1.2.4229.32979
+* Added the ability to set copy runs to T2 blueprints
+* Added options to include invention and copy times in the total production time 
+* Added ability to override all character skills to level 5
+* Added cancel button to selecting default characters. (No functionality yet for managing accounts so this won't really be helpful until that is complete)
+* Added a Default ME and PE setting for all blueprints without ME/PE already set in Manage BP's
+* Fixed several bugs in character skills for users that do not load an API
+* Added several new settings for copies and invention in the Blueprints and Manufacturing Tabs
+* Canceling the Settings screen will no longer reload the tabs
+* Taxes and usage will now show up in the total cost labels and adjust when toggled
+* Deleting the number of BP's in the blueprints tab will no longer crash the program
+* Users are now limited to a maximum of 999,999 runs of any item in the Blueprints Tab
+* Fixed an error in the Reactions tab that would crash the program when Build Basic Compounds was selected
+* Removed the requirement to refresh the Manufacturing List before calculating. You can now preview the list of data or calculate it without any other steps.
+
+Build 1.1.4210.37906
+* Added the ability to refine "Unrefined" moon materials for IPH calcs in the Reactions tab
+* Fixed error in a font loading incorrectly on splash screen that would crash the program.
+
+Build 1.1.4209.30394
+* Updated build/buy calculations to show the correct IPH and Profit
+* Updated skills and production time for build/buy calculations
+* Updated the Update Prices Tab to include buttons for Selecting All Regions, None, "Empire" regions, and "Null" regions.
+* Updated the Update Prices Tab "Select All" button to "Select All Items" to make it more clear what that button does.
+
+Build 1.1.4208.29468
+* Updated the Image Files and Database with Incarna_1.0_43729 Data Dump
+* Added the ability to select blueprint Build/Buy option from the Blueprint Tab and the Manufacturing Tab. This comparison will compare the profit of building the item to the cost of buying it and choose the cheaper of the two and use for calculations. In the Blueprint Tab the grids will show the Build/Buy in the left table and the items to Buy for building everything for the item in the right.
+* Added setting for default "Calculate Optimal" on the front screen for Build/Buy to be showed or not.
+* Added setting for default POS fuel cost setting for use in the Reaction's tab.
+* Fixed bug that caused overridden skills not to be used in calculations causing incorrect "Cannot Build/Invent" messages.
+* Updated Shopping List to list Build Items with Final items, and shopping list. 
+* Updated Shopping List to work with new Build/Buy functionality
+* Updated Copy feature in Shopping list to output more information for building/buying
+
+Build 1.0.4207.10606
+* The usage fees will now be correctly displayed for items in the Blueprints Tab
+* Fixed error that would crash the program if manually updating prices where the item name had quotes in the name.
+* Fixed issue on Blueprints Tab that caused the top item in the BP list to not calculate data when clicked.
+
+Build 1.0.4206.32775
+* Added logic to make program open in English US settings.
+* Added ability to scan for corp blueprints and update in Blueprint Management screen
+* Removed Reprocessing options in Manufacturing Tab
+* Added option to sort by profit percent in the Manufacturing Tab
+* Added scrollbars to main screen when the size of the form exceeds the size of the screen so users can scroll to view the form
+* Fixed an error that crashed the program when calculating T3 items on the Manufacturing Tab
+* Fixed error that crashed the program when clicking on a reaction in the Reactions Tab
+
+Build 1.0.4204.37886
+* Updated the database calls to work in Windows 64bit versions with or without Access installed
+* Modified API data call to correct issues with importing API data and users getting "Invalid Character Info" returned
+* Fixed bug with loading API's for multiple accounts.
+* Fixed error on BP screen that when you pressed enter in the Runs box, the ME and PE would not correctly update with a decryptor selected.
+* Fixed error that would occur when entering invalid info into the BP combo box
+* Fixed critical error in Manufacturing Tab that caused the program to crash whenever calculating T3 items
+* Fixed error in Manufacturing Tab that did not take into account T2 input values
+* Fixed critical error in Update Prices that would crash the program if choosing a Tech item and not a Tech
+* Updated the updater functionality to ensure better file update support
+* Updated the updater program to ensure better file update support
+* Added the ability to search for just Low Sec agents in the Datacores screen.
+* Added ability to sort the materials in the Blueprint tables, Datacores, Reactions and the Shopping list by clicking on the column headers. Manufacturing, Blueprint Management, and Prices will not be updated due to the large amount of time to build sorting lists.
+* Minor updates to form and object labels
+* Fixed error in Datacore screen that allowed users to choose 0 for skill levels - you can now only choose levels 1 through 5
+* Fixed critical error in Datacore screen that allowed users to update standings to blank and would cause the program to crash when attempting to calculate Datacore table
+
+
+
