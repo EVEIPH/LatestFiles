@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EVEIPH Version="3.3">
+  <LastUpdated>7/20/2016 9:49:58 PM</LastUpdated>
+  <result>
+    <rowset name="filelist" key="version" columns="Name,Version,MD5,URL">
+      <row Name="EVE Isk per Hour.exe" Version="3.3" MD5="72a9ac7e2f6b014df3f77a84e4293f7c" URL="http://www.mediafire.com/download/2ckpd2th8xlpysv/EVE_Isk_per_Hour.exe" />
+      <row Name="EVEIPH Updater.exe" Version="2.0" MD5="510a45ee845229f0fc3611bb3647880b" URL="http://www.mediafire.com/download/r9innfrf287mnd7/EVEIPH_Updater.exe" />
+      <row Name="EVEIPH DB.s3db" Version="YC_118.6_1.1" MD5="3f4efc8ef337613ede2123e85a05adae" URL="http://www.mediafire.com/download/cfylxmlq6v8i26c/EVEIPH_DB.s3db" />
+      <row Name="EVEIPH Images.zip" Version="YC_118.6_1.1" MD5="7c27fb3438d3f9e488c967f930aa0540" URL="http://www.mediafire.com/download/duq6nw4d0p59rci/EVEIPH_Images.zip" />
+      <row Name="Newtonsoft.Json.dll" Version="6.03" MD5="e6ec270f6dcdcf4784ca23d8b173a109" URL="http://www.mediafire.com/download/7a6ml9gwu14616d/Newtonsoft.Json.dll" />
+      <row Name="System.Data.SQLite.dll" Version="1.07.9.0" MD5="ce6481b5bb8c8e9b20df8e49e10f7941" URL="http://www.mediafire.com/download/b0px46xwaa8jgx4/System.Data.SQLite.dll" />
+      <row Name="EVEIPH Updater.exe.manifest" Version="1.0" MD5="82312969f8bd80ed78f48b1f155bc184" URL="http://www.mediafire.com/download/c149x7vcf1gab2p/EVEIPH_Updater.exe.manifest" />
+      <row Name="EVE Isk per Hour.exe.manifest" Version="1.0" MD5="2c46dd672a0f794ae364160bde1d7cc0" URL="http://www.mediafire.com/download/sdlrk28t18gv8z0/EVE_Isk_per_Hour.exe.manifest" />
+      <row Name="Ionic.Zip.dll" Version="1.0" MD5="cf42c438859008994a636a5d01e4c6c5" URL="http://www.mediafire.com/download/6ucs9it1bxjiccv/Ionic.Zip.dll" />
+      <row Name="MoreLinq.Portable.dll" Version="1.4" MD5="be28a33f7f2f7371f69c15d158e882ea" URL="http://www.mediafire.com/download/mckqc8cxljc5p86/MoreLinq.Portable.dll" />
+    </rowset>
+  </result>
+</EVEIPH>
