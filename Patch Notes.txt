@@ -17,11 +17,12 @@ Known Issues:
 
 ============================================
 
-Build 3.3.6147.22169
+Build 3.3.6147.24931
 * Updated database and images to YC_118.9.1.1
 * Mining Tab updated to recent changes to barges (stats and turrets)
 * Fixed bug on Blueprint Management that caused the program to crash if you selected the drop down for type when selecting a different item type besides ‘All’
 * Thukker Mix Stations will now show up in facilities for selection.
+* Added a new option on the BP Tab named 'Simple Copy', which when selected formats the 'Copy to Clipboard' output for use in multi-buy and applications like EVEpraisal.
 
 Build 3.3.6043.38735
 * Updated IPH and Updater to use .Net 4.6.1 - please update your .Net installation to ensure IPH runs correctly here: https://www.microsoft.com/en-us/download/details.aspx?id=49981
