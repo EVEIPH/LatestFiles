@@ -17,6 +17,13 @@ Known Issues:
 
 ============================================
 
+Build 3.3.6159.24346
+* Regions and Systems will now correctly load when choosing the Copy activity from the facilities interface.
+* Relics for T3 ship invention should now be loaded into invention calculations and material lists correctly.
+* The Mining Tab will now correctly load the Endurance and Venture for Ice mining.
+* The Endurance mining bonus is now correct.
+* The number of miners available for mining frigates will now match the number of turret hardpoints and not high slots.
+
 Build 3.3.6147.24931
 * Updated database and images to YC_118.9.1.1
 * Mining Tab updated to recent changes to barges (stats and turrets)
