@@ -17,6 +17,14 @@ Known Issues:
 
 ============================================
 
+Build 3.3.6188.16819
+* Updated to Ascension 1.0 database and images
+* Mining tab is now updated with new mining booster values and the Porpoise has been added to boosting ships.
+* Size filters for Ships will now correctly select correct sizes (i.e Frigates are Small, Cruisers are Medium, etc.)
+* Added an option to view assets to the View menu. Settings saved here will only apply to this view and not the shopping list or manufacturing tab.
+* Assets will now show items saved in Citadels. Citadel names are provided by a third party and may not show in all cases. When the name is not found, it will list them as 'Unknown Location'.
+* Entering an apostrophe search term in the Blueprint List Viewer will no longer crash the program.
+
 Build 3.3.6159.24346
 * Regions and Systems will now correctly load when choosing the Copy activity from the facilities interface.
 * Relics for T3 ship invention should now be loaded into invention calculations and material lists correctly.
