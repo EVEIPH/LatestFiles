@@ -17,6 +17,10 @@ Known Issues:
 
 ============================================
 
+Build 3.3.6189.25725
+* Saving settings on the BP tab should now work and load properly.
+* Required runs and items for buildable components (e.g., R.A.M.s and Ammo) will now correctly display on the bp tab for building or buying.
+
 Build 3.3.6188.16819
 * Updated to Ascension 1.0 database and images
 * Mining tab is now updated with new mining booster values and the Porpoise has been added to boosting ships.
