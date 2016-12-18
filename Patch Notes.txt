@@ -17,7 +17,7 @@ Known Issues:
 
 ============================================
 
-Build 3.3.6195.41210
+Build 3.3.6196.19863
 * Updated to Ascension 1.1 database update (Dec 13, 2016)
 * Made several updates to processing for facilities. Double-clicking from facilities on the manufacturing tab should now work correctly. Additionally, the correct facility should now load for building items in the manufacturing tab.
 * Fixed a program crashing issue when opening assets and the Citadel name was unavailable. Now if the name is unknown, the citadel will show 'Unknown Location #' with # being a sequential number for more than one unknown citadel.
