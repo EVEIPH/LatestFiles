@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <EVEIPH Version="3.3">
-  <LastUpdated>12/18/2016 11:02:17 AM</LastUpdated>
+  <LastUpdated>1/18/2017 11:13:52 PM</LastUpdated>
   <result>
     <rowset name="filelist" key="version" columns="Name,Version,MD5,URL">
-      <row Name="EVE Isk per Hour.exe" Version="3.3" MD5="ec64ba8cc09fad58f5c14a13a53f3625" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/EVE%20Isk%20per%20Hour.exe" />
+      <row Name="EVE Isk per Hour.exe" Version="3.3" MD5="56e95fbe07c82aff0758b9f16821f4a9" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/EVE%20Isk%20per%20Hour.exe" />
       <row Name="EVEIPH Updater.exe" Version="2.0" MD5="43f983cb62447ca3411bab866dd64dae" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/EVEIPH%20Updater.exe" />
-      <row Name="EVEIPH DB.s3db" Version="Ascension_1.1" MD5="42515c7795047130160227f16f7e839d" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/EVEIPH%20DB.s3db" />
-      <row Name="EVEIPH Images.zip" Version="Ascension_1.0" MD5="fafa04ab35e065b9ea64d7da8b318ccf" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/EVEIPH%20Images.zip" />
+      <row Name="EVEIPH DB.s3db" Version="YC_119.1" MD5="c8dc7fd6c4da499432ba51c20701173e" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/EVEIPH%20DB.s3db" />
+      <row Name="EVEIPH Images.zip" Version="YC_119.1" MD5="1644197072dd443ebb36efc3d785bf4c" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/EVEIPH%20Images.zip" />
       <row Name="Newtonsoft.Json.dll" Version="6.03" MD5="e6ec270f6dcdcf4784ca23d8b173a109" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/Newtonsoft.Json.dll" />
       <row Name="System.Data.SQLite.dll" Version="1.07.9.0" MD5="ce6481b5bb8c8e9b20df8e49e10f7941" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/System.Data.SQLite.dll" />
       <row Name="EVEIPH Updater.exe.manifest" Version="1.0" MD5="82312969f8bd80ed78f48b1f155bc184" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/EVEIPH%20Updater.exe.manifest" />
