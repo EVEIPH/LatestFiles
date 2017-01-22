@@ -22,9 +22,9 @@ Build 3.3.6227.41504
 * Additional costs will now be included in the Manufacturing Tab calculations when a saved blueprint has additional costs on the BP Tab.
 * Fixed an issue with Citadel name look-ups that caused the program to crash when data not returned.
 * Ships will now correctly display the packaged volume in the shopping list.
-* Missing conqueralbe stations (not player outposts) have been added to the facilities where they may have been missing before.
+* Missing conquerable stations (not player outposts) have been added to the facilities where they may have been missing before.
 * Added logic to implement a work around for 500 errors when updating industry facilities.
-* Multiple bp runs should no longer use the build cost for components when set to use the buy costs.
+* Multiple blueprint runs should no longer use the build cost for components when set to use the buy costs.
 
 Build 3.3.6196.19863
 * Updated to Ascension 1.1 database update (Dec 13, 2016)
