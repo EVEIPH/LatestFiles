@@ -16,6 +16,22 @@ Known Issues:
 * If the Update fails; run Eve Isk per Hour as administrator.
 
 ============================================
+Build 3.3.6274.41238
+
+Bug fixes and other updates
+* Updated to YC 119.2 Database and Images
+* Changed 'Structure Module' Category for Citadel Rigs to 'Structure Rigs' and updated all blueprint type selection to match new naming.
+* Assets will now correctly show corp hangers
+* The Mining Foreman Link II's required skills have been updated to require Mining Director 1 instead of 5
+* Citadel name look up should no longer crash the program in random cases. 
+
+Shopping List Bug Fixes
+* Fixed issue where updating quantity in the Items to Build list was not correctly updating the quantities in the Build and Buy lists
+* Fixed an issue where deleting the items from the Items to Build List would delete all materials for like components (e.g., all plasma thrusters for multiple propulsion units)
+* R.A.Ms should now update correctly when either building or buying in the shopping list
+* Fixed an issue where invention and copy materials were not properly updating after an update or deletion to the Items to Build.
+* Materials in the buy list should now correctly update when adjusting or deleting items in the Items to Build or Components to Build lists.
+* Adjusting materials with odd numbers of runs will no longer round up material amounts in the Components to Build or Items to Buy lists. 
 
 Build 3.3.6227.41504
 * Updated to YC_119.1 Database and Images
