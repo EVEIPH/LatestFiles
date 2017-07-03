@@ -16,6 +16,9 @@ Known Issues:
 * If the Update fails; run Eve Isk per Hour as administrator.
 
 ============================================
+July 2, 2017 Update
+* Updated to YC 119.6 Database and Images
+
 Build 3.3.6301.19490
 
 Bug fixes and updates
