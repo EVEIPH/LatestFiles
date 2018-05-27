@@ -1,11 +1,12 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<assembly manifestVersion="1.0" xmlns="urn:schemas-microsoft-com:asm.v1">
-  <assemblyIdentity version="1.0.0.0" name="EVE Isk per Hour.exe"/>
-  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v2">
-    <security>
-      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
-        <requestedExecutionLevel level="requireAdministrator" uiAccess="false" />
-      </requestedPrivileges>
-    </security>
-  </trustInfo>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+  <assemblyIdentity version="1.0.0.0" processorArchitecture="X86" name="EVE Isk per Hour.exe" type="win32"/>
+    <description>elevate execution level</description>
+      <trustInfo xmlns="urn:schemas-microsoft-com:asm.v2">
+	 <security>
+	    <requestedPrivileges>
+	       <requestedExecutionLevel level="requireAdministrator" uiAccess="false"/>
+	    </requestedPrivileges>
+ 	 </security>
+      </trustInfo>
 </assembly>
