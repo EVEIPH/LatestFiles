@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <EVEIPH Version="4.0">
-  <LastUpdated>5/28/2018 11:04:31 AM</LastUpdated>
+  <LastUpdated>5/28/2018 11:08:42 AM</LastUpdated>
   <result>
     <rowset name="filelist" key="version" columns="Name,Version,MD5,URL">
       <row Name="EVE Isk per Hour.exe" Version="4.0" MD5="cdb82e058e242e5bfefeaa26305853a2" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/EVE%20Isk%20per%20Hour.exe" />
@@ -9,8 +9,8 @@
       <row Name="EVEIPH Images.zip" Version="March2018Release_1.0" MD5="8d7fff5d4ee26afa832f3a9b31701269" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/EVEIPH%20Images.zip" />
       <row Name="Newtonsoft.Json.dll" Version="6.03" MD5="e6ec270f6dcdcf4784ca23d8b173a109" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/Newtonsoft.Json.dll" />
       <row Name="System.Data.SQLite.dll" Version="1.07.9.0" MD5="ce6481b5bb8c8e9b20df8e49e10f7941" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/System.Data.SQLite.dll" />
-      <row Name="EVEIPH Updater.exe.manifest" Version="1.0" MD5="3585b5be683e863a6c7d96fbf6eeab4f" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/EVEIPH%20Updater.exe.manifest" />
-      <row Name="EVE Isk per Hour.exe.manifest" Version="1.0" MD5="22d657dd5f9d31115f91a62fe6f0b8cc" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/EVE%20Isk%20per%20Hour.exe.manifest" />
+      <row Name="EVEIPH Updater.exe.manifest" Version="1.0" MD5="8c87e91665f3edecd96af7cea24bff4a" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/EVEIPH%20Updater.exe.manifest" />
+      <row Name="EVE Isk per Hour.exe.manifest" Version="1.0" MD5="13d337b19e00570b85a9c6c9141d2dc4" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/EVE%20Isk%20per%20Hour.exe.manifest" />
       <row Name="MoreLinq.Portable.dll" Version="1.4" MD5="be28a33f7f2f7371f69c15d158e882ea" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/MoreLinq.Portable.dll" />
     </rowset>
   </result>
