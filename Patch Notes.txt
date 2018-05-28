@@ -2,7 +2,7 @@
 
 Hi and thanks for checking out EVE IPH! I will update this file with patch notes and the version number or any other pertinent information you might want to know about the program files and versions.
 
-Since this program is made for EVE Online, please contact me (Zifrian) in game, post comments on EVE IPH's GitHub page here: https://github.com/EVEIPH/EVE-IPH, or post on the EVE forums in the release thread for this program here: https://forums.eveonline.com/default.aspx'g=posts&m=727314
+Since this program is made for EVE Online, please contact me (Zifrian) in game, post comments on EVE IPH's GitHub page here: https://github.com/EVEIPH, or post on the EVE forums in the release thread for this program here: https://forums.eveonline.com/default.aspx'g=posts&m=727314
 
 ISK donations accepted to Zifrian or cash through paypal at ZifrianEVE@gmail.com
 
