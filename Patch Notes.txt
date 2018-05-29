@@ -2,7 +2,7 @@
 
 Hi and thanks for checking out EVE IPH! I will update this file with patch notes and the version number or any other pertinent information you might want to know about the program files and versions.
 
-Since this program is made for EVE Online, please contact me (Zifrian) in game, post comments on EVE IPH's GitHub page here: https://github.com/EVEIPH, or post on the EVE forums in the release thread for this program here: https://forums.eveonline.com/default.aspx'g=posts&m=727314
+Since this program is made for EVE Online, please contact me (Zifrian) in game, post comments on EVE IPH's GitHub page here: https://github.com/EVEIPH, or post on the EVE forums in the release thread for this program here: https://forums.eveonline.com/t/eve-isk-per-hour-industry-program-version-4-0/79167
 
 ISK donations accepted to Zifrian or cash through paypal at ZifrianEVE@gmail.com
 
@@ -17,7 +17,7 @@ Known Issues:
 
 ============================================
 
-Build 4.0.6722.39825 - Previous builds and versions are no longer compatable and the updater will not update them.
+Build 4.0.6722.39825 - Previous builds and versions are no longer compatible and the updater will not update them. Please download the new installers to get these changes.
 
 * Updated to the March2018Release_1.0 images and database
 * EVE Swagger Interface (ESI)
@@ -31,7 +31,7 @@ Build 4.0.6722.39825 - Previous builds and versions are no longer compatable and
 - Completely rebuilt the processing for facilities to enable future updates for structures. Now all facilities have a 'Structure' option that allows users to select an Upwell structure of their choice and displays base bonuses. 
 - When selecting structures, users will also see a 'Fitting' button to allow them to open the structure fitting window to fit rigs and modules just as in game. 
 - The ME/TE/Cost bonuses of any rigs or items added will update for the BPs they provide bonuses to for saved Facilities. Note, invention time and cost bonuses will be implemented in a future release. 
-- A new 'Reaction' facility has been added to the facilty interface
+- A new 'Reaction' facility has been added to the facility interface
 - Users must save the facility on the facility interface and the fitting window separately to get full bonuses and save the facility fitting.
 - POS arrays no longer provide bonuses as a result of the November 2017 game update.
 - Outposts will be updated to the new faction citadels in a future release.
