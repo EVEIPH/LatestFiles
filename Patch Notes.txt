@@ -17,9 +17,35 @@ Known Issues:
 
 ============================================
 
-Version 4.0
+Build 4.0.6722.39825 - Previous builds and versions are no longer compatable and the updater will not update them.
 
-
+* Updated to the March2018Release_1.0 images and database
+* EVE Swagger Interface (ESI)
+- EVE IPH now uses ESI to make all API calls
+- Setting up IPH to use ESI requires program registration. Instructions are located here: http://eveiph.github.io/ESIAuthorizationInstructions.html
+- Users must add characters into IPH one at a time due to limitations with ESI. Use the Manage Accounts or Add Character options from the file menu to assist.
+- All registration information, client id, secret keys, etc. are stored locally on the user's machine for security purposes. IPH will not save or store any of the information users use to register the program except in a text file named "AppRegistrationInformation.xml" in the installation or working folder.
+- There may be problems with registering the program with an account that has only been paid for by plex. The work around is to register with an account that has paid for at least one month without plex.
+- ESI is slow in some places and will be looked at for possible improvements in a future release.
+* New Facility interface
+- Completely rebuilt the processing for facilities to enable future updates for structures. Now all facilities have a 'Structure' option that allows users to select an Upwell structure of their choice and displays base bonuses. 
+- When selecting structures, users will also see a 'Fitting' button to allow them to open the structure fitting window to fit rigs and modules just as in game. 
+- The ME/TE/Cost bonuses of any rigs or items added will update for the BPs they provide bonuses to for saved Facilities. Note, invention time and cost bonuses will be implemented in a future release. 
+- A new 'Reaction' facility has been added to the facilty interface
+- Users must save the facility on the facility interface and the fitting window separately to get full bonuses and save the facility fitting.
+- POS arrays no longer provide bonuses as a result of the November 2017 game update.
+- Outposts will be updated to the new faction citadels in a future release.
+- The NoPOS was removed from the manufacturing tab.
+- Faction Warfare system levels will now show up on each facility selected in Faction Warfare space.
+* Reactions
+- All reactions can be selected from the blueprint and manufacturing tabs.
+- The Reaction tab has been temporarily disabled and will be updated in a future release.
+- Profit for unrefined reactions will be added to the new Reaction tab update.
+* All Outpost construction data has been removed from blueprints
+* Users can download prices from EVE Marketer in place of the loss of EVE Central
+* The invention success monitor has been removed.
+* Fixed a bug that allowed broker fees and taxes to be calculated incorrectly when unchecked on the BP tab.
+* For installations from the msi installer, IPH should no longer require administrator rights to run.
 
 Build 3.3.6301.19490
 
