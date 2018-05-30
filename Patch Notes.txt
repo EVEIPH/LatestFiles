@@ -17,6 +17,13 @@ Known Issues:
 
 ============================================
 
+Build 4.0.6724.571
+* Fixed error with loading new char with apostrophes in text fields that would crash the program.
+* Fixed error loading corporation with null values in 'Date' and other issues with NPC corps that would crash the program.
+* Fixed error when loading standings, industry jobs, assets, and blueprints if you didn't have any values for any of them, it will no longer crash the program.
+* Fixed an issue where T2 items would load base moon materials in raw material calculations.
+* Note, users may experience 500 errors from ESI calls. I'll work on a fix to address this better at a later date.
+
 Build 4.0.6722.39825 - Previous builds and versions are no longer compatible and the updater will not update them. Please download the new installers to get these changes.
 
 * Updated to the March2018Release_1.0 images and database
