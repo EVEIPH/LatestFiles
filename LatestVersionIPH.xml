@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <EVEIPH Version="4.0">
-  <LastUpdated>6/1/2018 12:18:41 AM</LastUpdated>
+  <LastUpdated>6/1/2018 12:25:45 AM</LastUpdated>
   <result>
     <rowset name="filelist" key="version" columns="Name,Version,MD5,URL">
       <row Name="EVE Isk per Hour.exe" Version="4.0" MD5="e5ea44c91ca21c156dda3a7ff56489e8" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/EVE%20Isk%20per%20Hour.exe" />

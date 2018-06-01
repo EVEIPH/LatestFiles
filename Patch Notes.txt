@@ -27,6 +27,7 @@ Build 4.0.6725.42163
 * Added Faction Citadels to the structures list. These will only show up in systems where there is open sov (no faction) and null sec.
 * The Manufacturing tab should no longer show IPH of infinity for building components (e.g. Antimatter Reactor Unit).
 * Structures fit with Thukker rigs will now display and calculate the correct ME bonus in addition to TE bonus for affected blueprints.
+* The database data should be copied over to the new database during updates for versions installed with the msi installer.
 
 Build 4.0.6724.43004
 * Updated to Into the Abyss 1.0 database and images
