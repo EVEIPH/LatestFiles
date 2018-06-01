@@ -16,6 +16,10 @@ Known Issues:
 * If the Update fails; run Eve Isk per Hour as administrator.
 
 ============================================
+Build 4.0.6726.17366
+* Abyssal materials used in blueprints can now be updated on the Update Prices tab.
+* Fixed an issue where the program will crash when using Price Profiles.
+* All Faction Citadels should load correctly from the fitting window.
 
 Build 4.0.6725.42163
 * Fixed issue with updating prices from selected regions that would crash the program.
