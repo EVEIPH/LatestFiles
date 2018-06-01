@@ -17,6 +17,23 @@ Known Issues:
 
 ============================================
 
+Build 4.0.6725.42163
+* Fixed issue with updating prices from selected regions that would crash the program.
+* Fixed an issue in the updater that would error when trying to clean up files.
+* Fixed issue where scanning bps from corp or personal would not save correctly in DB as where from they were scanned.
+* Blueprints saved under dummy accounts should now load correctly from backed up BP files.
+* Users can now scan and load corp blueprints for the corporation of the character loaded given they have access to corp assets.
+* Users can now download prices for Structure Rigs.
+* Added Faction Citadels to the structures list. These will only show up in systems where there is open sov (no faction) and null sec.
+* The Manufacturing tab should no longer show IPH of infinity for building components (e.g. Antimatter Reactor Unit).
+* Structures fit with Thukker rigs will now display and calculate the correct ME bonus in addition to TE bonus for affected blueprints.
+
+Build 4.0.6724.43004
+* Updated to Into the Abyss 1.0 database and images
+* Fixed error with updating station names that would crash the program
+* Fixed error with manual text box updates in facilities that would crash the program
+* Fixed error with dummy characters throwing a 401 error on connection
+
 Build 4.0.6724.571
 * Fixed error with loading new char with apostrophes in text fields that would crash the program.
 * Fixed error loading corporation with null values in 'Date' and other issues with NPC corps that would crash the program.
