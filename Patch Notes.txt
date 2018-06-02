@@ -16,6 +16,10 @@ Known Issues:
 * If the Update fails; run Eve Isk per Hour as administrator.
 
 ============================================
+Build 4.0.6727.20751
+* Fixed an issue where deleting an item from the shopping list would crash the program.
+* Fixed an issue where opening the Fitting window with Helium Fuel blocks selected would crash the program.
+
 Build 4.0.6726.17366
 * Abyssal materials used in blueprints can now be updated on the Update Prices tab.
 * Fixed an issue where the program will crash when using Price Profiles.
