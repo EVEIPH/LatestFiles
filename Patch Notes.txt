@@ -16,6 +16,16 @@ Known Issues:
 * If the Update fails; run Eve Isk per Hour as administrator.
 
 ============================================
+Build 4.0.6745.36296
+* All new installations of IPH will auto-load the dummy character. Users must register and then select characters from the options in the File menu.
+* Port has been removed as an option on registration. All users must set the Callback URL to: http://127.0.0.1:12500 exactly. If you get an error stating 'The callback URI doesn't match the value stored for this client' then check your callback URL to make sure it is exactly the address above. If it is not stored this way in the EVE registration form, then you will not be able to add characters through ESI SSO.
+* When adding characters through EVE SSO, users can now cancel the request.
+* A new scope has been added to allow checks for character access to corporation roles to use corporation assets, blueprints, and jobs. ALL USERS must update your registration to include the 'esi-corporations.read_corporation_membership' role and re-log into the SSO with each character you want this access to receive it. For example, if you have director and factory manager roles in your corporation, you will not be able to see corp blueprints, assets, or jobs until you re-add this character. 
+* Users can sort the bonuses in the structure fitting bonus grid and pop out bonus form.
+* Fixed issue where ME/TE bonuses were being applied incorrectly when rigs selected in structures.
+* The cost bonus from rigs in structures or inherent structure bonus will now affect total usage correctly.
+* Blueprints will now refresh more often when changing values on the selected facility
+
 Build 4.0.6727.20751
 * Fixed an issue where deleting an item from the shopping list would crash the program.
 * Fixed an issue where opening the Fitting window with Helium Fuel blocks selected would crash the program.
