@@ -16,7 +16,7 @@ Known Issues:
 * If the Update fails; run Eve Isk per Hour as administrator.
 
 ============================================
-Build 4.0.6745.39419
+Build 4.0.6746.19468
 * All new installations of IPH will auto-load the dummy character. Users must register and then select characters from the options in the File menu.
 * Port has been removed as an option on registration. All users must set the Callback URL to: http://127.0.0.1:12500 exactly. If you get an error stating 'The callback URI doesn't match the value stored for this client' then check your callback URL to make sure it is exactly the address above. If it is not stored this way in the EVE registration form, then you will not be able to add characters through ESI SSO.
 * When adding characters through EVE SSO, users can now cancel the request.
@@ -25,6 +25,7 @@ Build 4.0.6745.39419
 * Fixed issue where ME/TE bonuses were being applied incorrectly when rigs selected in structures.
 * The cost bonus from rigs in structures or inherent structure bonus will now affect total usage correctly.
 * Blueprints will now refresh more often when changing values on the selected facility
+* Percentile and Median prices updates should no longer crash the program.
 
 Build 4.0.6727.20751
 * Fixed an issue where deleting an item from the shopping list would crash the program.
