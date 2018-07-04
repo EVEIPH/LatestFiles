@@ -16,6 +16,14 @@ Known Issues:
 * If the Update fails; run Eve Isk per Hour as administrator.
 
 ============================================
+Build 4.0.6758.39841
+* Added settings for using a proxy to main client and updater. Users need to enter proxy data in the IPH program Application Settings first, then the updater will use the same proxy settings. If there is an update upon installation, do not run the update but instead open the program and set the proxy settings first, then update. Note: I have limited options to test this so if it doesn't work, message me directly to see if I can figure it out with your options.
+* Added a fix for "The requested scopes either don’t exist, or are not valid for this client". Let me know if anyone still has issues with this. (Thanks to 'Ben' on github submission for finding the bug and fixing).
+* Fixed a bug that would apply the wrong value to cost bonuses for structures.
+* Added a fix for updates to the ESI_CORPORATION_DATA that would sometimes throw an error stating the table has 19 columns but 20 values were supplied.
+* Users can add items to the shopping list by right clicking the item and selecting add to shopping list again.
+* Changing the item quantity in the shopping list will no longer crash the program.
+
 Build 4.0.6746.19468
 * All new installations of IPH will auto-load the dummy character. Users must register and then select characters from the options in the File menu.
 * Port has been removed as an option on registration. All users must set the Callback URL to: http://127.0.0.1:12500 exactly. If you get an error stating 'The callback URI doesn't match the value stored for this client' then check your callback URL to make sure it is exactly the address above. If it is not stored this way in the EVE registration form, then you will not be able to add characters through ESI SSO.
