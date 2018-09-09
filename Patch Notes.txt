@@ -16,7 +16,7 @@ Known Issues:
 * If the Update fails; run Eve Isk per Hour as administrator.
 
 ============================================
-Build 4.0.6825.38684
+Build 4.0.6825.39891
 * ESI
  - Characters without roles in the corporation should no longer see an error on startup stating they cannot grant roles.
  - Added a manual option to the ‘Choose Default Character’ screen where users can add characters through ESI if they have issues with clicking the main button and getting IPH to recognize authorizations.
