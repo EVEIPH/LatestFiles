@@ -67,6 +67,7 @@ Build 4.0.6825.38684
 * Other changes
  - The Assets viewer will now show location names for upwell structures holding character assets.
  - Updating prices should no longer hang at the final few records when updating a large number of items.
+ - Updated to August 2018 release database and images.
 
 Build 4.0.6766.16381
 * Added settings for using a proxy to main client and updater. Users need to enter proxy data in the IPH program Application Settings first, then the updater will use the same proxy settings. If there is an update upon installation, do not run the update but instead open the program and set the proxy settings first, then update. Note: I have limited options to test this so if it doesn't work, message me directly to see if I can figure it out with your options.
