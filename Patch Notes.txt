@@ -16,6 +16,58 @@ Known Issues:
 * If the Update fails; run Eve Isk per Hour as administrator.
 
 ============================================
+Build 4.0.6825.38684
+* ESI
+ - Characters without roles in the corporation should no longer see an error on startup stating they cannot grant roles.
+ - Added a manual option to the ‘Choose Default Character’ screen where users can add characters through ESI if they have issues with clicking the main button and getting IPH to recognize authorizations.
+ - The program should no longer crash when no character standings are returned through ESI.
+* Industry jobs 
+ - The screen will now update all characters that a user has added to the program, whether or not they are checked in the character list on the jobs screen
+ - Historical jobs will now show when selecting history (based on what data CCP has for the character)
+ - Sorting a column will now persist on the jobs window and open when saved with that column sorting option
+ - Added a check box to ‘Automatically Update Jobs on Startup’, which when checked will update the API data for each character in the character list (depending on cache updates) each time you open the program (some cache dates are short). When unchecked, the screen will show only data saved in the program and to update, users will have to select the ‘Uate Jobs’ button.
+ - Industry jobs in Upwell structures will now show the station name, system, and region. Note, IPH will only update this location data once per day.
+ - The Dummy Character will no longer load in the industry jobs viewer.
+* Mining Tab
+ - Rorqual industrial core bonuses will now correctly calculate cycle time and laser ranges.
+ - Added all Moon ore processing skills to the skills section
+ - Added ‘Moon Mining’ check box to show profitability of moon ores. This will contain all available types of moon ores (limited by security of space) as well as new asteroid ores from moons (e.g. Cubic Bistot) regardless of the security check on type of ore.
+ - Added ‘High yield ore’ types for moon ores
+ - Each moon ore will be limited by the High/Low/Null sec checks as with other ores.
+ - Refining and Refinery Efficiency have been renamed Reprocessing and Reprocessing Efficiency to match the skills in game.
+ - Users can now enter tax rates and efficiency rates manually instead of choosing from a dropdown. A future release will implement a facility selection like on the Blueprints Tab.
+ - Reprocessing Station taxes will now only affect the total value of the reprocessed ores and not the total materials returned. 
+* Facilities
+ - Removed outposts as options for facilities
+ - Improved speed of facility data updates from ESI
+ - The fitting window will no longer crash the program if the items image is unavailable and will show a red X instead.
+ - Component manufacturing will no longer load as an activity option when selecting components.
+ - For users who split out T2 and T3 manufacturing materials, the BP tab will now display a reactions activity in the BP tab facility (new option). 
+ - Bonuses from Thukker rigs will now be calculated correctly.
+ - All systems will be available to choose from when selecting a capital component or component facility activity on the BP Tab while a bp using those components is selected.
+ - Selecting a BP that is not made in the selected facility (i.e. pos or structure) will now load the default facility where that item is set to be made.
+ - POS facilities will now display correctly when set for fuel blocks, large ships, and modules.
+ - Reaction facilities will now properly be limited to lowsec and null sec systems in the drop down.
+ - The ME/TE/Cost/Tax boxes will now show when selecting the same facility after changing the system or region.
+ - Double-clicking the Default Facility button on the manufacturing tab should now correctly load the default facility.
+ - Boosters can now use stations in addition to POS and Structures for manufacturing.
+ - All Default facilities have been reset to match updates for Structures. All default POS faciulities have been changed to structures. This will not affect previously saved faciltiies.
+ - Users can now save reaction facilities on the manufacturing tab without issue.
+* Application Settings
+ - Added a new setting, which will allow users to build T2 and T3 items by using reactions for advanced, processed, or raw moon materials/harvestable clouds to see the full list of raw materials used to build a T2/T3 item. The default is advanced, which will display current material lists as before.
+ - Added a new setting ‘Save Facilities by Character’ that allows users to save one set of facility settings for all characters or save sets by individual character. The default is by individual character.
+ - Added a new setting ‘Load Blueprints by Character’ that allows users to save personal blueprints by character or save blueprints for use by all characters. The default is by individual character. Note: Corporation blueprints will always be separate from personal blueprints regardless of this setting.
+ - IPH should no longer load assets and blueprints every time users save new settings.
+* Blueprints Tab
+ - The BPs text box is no longer disabled when ignoring invention to allow users to get accurate counts of materials for multiple BPs that may not be invented.
+ - Compressed ores on the BP tab should now use the price set in Item Prices
+* Shopping List
+ - Changed the Calculate Buy Order / Buy Market to a tri-check to compare prices: Unchecked - buy order, Checked - compare order to market, Tri-check - buy market only.
+ - Right click add to shopping for items built as ‘Raw Materials’ will now add the list of components to the build list.
+* Other changes
+ - The Assets viewer will now show location names for upwell structures holding character assets.
+ - Updating prices should no longer hang at the final few records when updating a large number of items.
+
 Build 4.0.6766.16381
 * Added settings for using a proxy to main client and updater. Users need to enter proxy data in the IPH program Application Settings first, then the updater will use the same proxy settings. If there is an update upon installation, do not run the update but instead open the program and set the proxy settings first, then update. Note: I have limited options to test this so if it doesn't work, message me directly to see if I can figure it out with your options.
 * Added a fix for "The requested scopes either don’t exist, or are not valid for this client". Let me know if anyone still has issues with this. (Thanks to 'Ben' on github submission for finding the bug and fixing).
