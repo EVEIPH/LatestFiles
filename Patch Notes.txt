@@ -26,7 +26,8 @@ Build 4.0.6825.39891
  - Historical jobs will now show when selecting history (based on what data CCP has for the character)
  - Sorting a column will now persist on the jobs window and open when saved with that column sorting option
  - Added a check box to 'Automatically Update Jobs on Startup', which when checked will update the API data for each character in the character list (depending on cache updates) each time you open the program (some cache dates are short). When unchecked, the screen will show only data saved in the program and to update, users will have to select the 'Update Jobs' button.
- - Industry jobs in Upwell structures will now show the station name, system, and region. Note, IPH will only update this location data once per day.
+ - Industry jobs in Upwell structures will now show the station name, system, and region. Note, IPH will only update this location data once per day and users will need to re-register with the esi-universe.read_structures.v1 scope to take advantage of this feature.
+The Dummy Character will no longer load in the industry jobs viewer.
  - The Dummy Character will no longer load in the industry jobs viewer.
 * Mining Tab
  - Rorqual industrial core bonuses will now correctly calculate cycle time and laser ranges.
@@ -68,6 +69,8 @@ Build 4.0.6825.39891
  - The Assets viewer will now show location names for upwell structures holding character assets.
  - Updating prices should no longer hang at the final few records when updating a large number of items.
  - Updated to August 2018 release database and images.
+ - Updates to installations not on the same drive as windows should now work without crashing.
+ - Triglavian items should no longer cause the program to crash when updating assets for users who have such items.
 
 Build 4.0.6766.16381
 * Added settings for using a proxy to main client and updater. Users need to enter proxy data in the IPH program Application Settings first, then the updater will use the same proxy settings. If there is an update upon installation, do not run the update but instead open the program and set the proxy settings first, then update. Note: I have limited options to test this so if it doesn't work, message me directly to see if I can figure it out with your options.
