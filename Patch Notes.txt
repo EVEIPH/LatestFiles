@@ -16,6 +16,13 @@ Known Issues:
 * If the Update fails; run Eve Isk per Hour as administrator.
 
 ============================================
+Build 4.0.6840.38133
+* Fixed issue where manual saves of ME/TE/Cost and Taxes would not persist when changing facilities.
+* Bonuses for component rigs on structures should now be correctly loaded in the facility when component facility is selected.
+* Bonuses should properly display for component rigs when fitted to a structure in the structure fitting window.
+* Added simple tracking of IPH use to Google Analytics
+* Updated to September 2018 Release DB and Images
+
 Build 4.0.6826.40799
 * ESI
  - Characters without roles in the corporation should no longer see an error on startup stating they cannot grant roles.
