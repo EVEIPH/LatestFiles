@@ -16,7 +16,7 @@ Known Issues:
 * If the Update fails; run Eve Isk per Hour as administrator.
 
 ============================================
-Build 4.0.6840.39637
+Build 4.0.6841.15352
 * Fixed issue where manual saves of ME/TE/Cost and Taxes would not persist when changing facilities.
 
 * Bonuses for component rigs on structures should now be correctly loaded in the facility when component facility is selected.
