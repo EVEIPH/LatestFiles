@@ -16,6 +16,11 @@ Known Issues:
 * If the Update fails; run Eve Isk per Hour as administrator.
 
 ============================================
+Build 4.0.6846.36781
+* Removed Buy & Sell options from update prices as they are not returned by the current download APIs.
+* Fixed user input issues with facilities that should improve functionality.
+* Fixed a bug that would crash the program when switching characters from the Settings Menu.
+
 Build 4.0.6841.15352
 * Fixed issue where manual saves of ME/TE/Cost and Taxes would not persist when changing facilities.
 
