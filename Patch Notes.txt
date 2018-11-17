@@ -16,7 +16,7 @@ Known Issues:
 * If the Update fails; run Eve Isk per Hour as administrator.
 
 ============================================
-Build 4.0.6895.1172
+Build 4.0.6895.17505
 * Updated database and images to Onslaught_1.0
 * Made changes to facilities for reactions that should now proplerly manufacture in a reaction facility and use the manufacturing facility for fuel blocks
 * Saving facilities by account (not for each character) should now properly save manual values for saved facilities correctly
