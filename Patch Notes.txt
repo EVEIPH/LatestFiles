@@ -16,11 +16,11 @@ Known Issues:
 * If the Update fails; run Eve Isk per Hour as administrator.
 
 ============================================
-Build 4.0.6895.17505
+Build 4.0.6895.33941
 * Updated database and images to Onslaught_1.0
-* Made changes to facilities for reactions that should now proplerly manufacture in a reaction facility and use the manufacturing facility for fuel blocks
+* Made changes to facilities for reactions that should now properly manufacture in a reaction facility and use the manufacturing facility for fuel blocks
 * Saving facilities by account (not for each character) should now properly save manual values for saved facilities correctly
-* Reactions will now show correctly in industry jobs
+* Reactions will now show correctly in industry jobs and character skills for reactions are now displayed in the character list
 * Tax rates for stations will now always be set to 10% 
 * Wormhole systems will no longer show faction citadels for structure options
 * Updating a facility's ME/TE/Cost bonus or Tax level should now update calculations automatically when those boxes lose focus
