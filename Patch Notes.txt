@@ -4,6 +4,8 @@ Hi and thanks for checking out EVE IPH! I will update this file with patch notes
 
 Since this program is made for EVE Online, please contact me (Zifrian) in game, post comments on EVE IPH's GitHub page here: https://github.com/EVEIPH, or post on the EVE forums in the release thread for this program here: https://forums.eveonline.com/t/eve-isk-per-hour-industry-program-version-4-0/79167
 
+Additionally, the IPH Discord channel is here: https://discord.gg/rGMMqft
+
 ISK donations accepted to Zifrian or cash through paypal at ZifrianEVE@gmail.com
 
 Version 4.0
@@ -16,6 +18,60 @@ Known Issues:
 * If the Update fails; run Eve Isk per Hour as administrator.
 
 ============================================
+Build 4.0.6963.23544
+
+Note: Created a new Discord Channel for IPH. Please log-in here if you have questions or issues you want to discuss: https://discord.gg/rGMMqft
+
+Price updates from Structures
+* IPH will now download prices from public structures for the options selected on the Update Prices tab for Single (Region) Select and Price Profiles if the user has the following scopes added: esi-universe.read_structures.v1, esi-markets.structure_markets.v1 
+
+Note, CCP only lists public structures that have no blocks on anyone docking. While you may see prices from a structure, not everyone may have access and the prices will not update for that structure through the price update without manually adding by structure ID (see new structure ID pricing feature). Additionally, anyone can set up a buy order anywhere and ESI will return data on those orders even if you don't have access to information about that structure. These buy order prices will not be reflected in update prices due the unavailability of region and solar system identification without access to that information.
+
+* Users can now import prices on the Update Prices tab directly from a structure if it has a market and they can use it by importing with the Structure ID. The structure ID option is enabled on the Update Prices tab when the user has scopes esi-universe.read_structures.v1, esi-markets.structure_markets.v1 enabled. Then if a user wants to import prices from a structure, they follow the following steps through the Add Structure ID form on the Update Prices page:
+
+1. Make a link of the market hub in the EVE Chat window. You can drag the station name from assets or type the name and select auto-link and then search for 'Station' and hit enter to put it in chat. Note, if you do not have access search will not work.
+2. Right click the link and select Copy after entering the chat link.
+3. Paste the text into the structure ID textbox - it will format the number for you.
+4. Click check for Market. If there is no market available or you do not have access, the Structure ID will not be added.
+
+These structure IDs will be kept in IPH until a user removes them from the View Saved Structures window and users can keep querying data from these markets until they no longer have access or the market/structure shuts down.
+
+Account Management Improvements
+* Users can now select their character and copy ESI token and scopes data for use in troubleshooting ESI issues.
+* Users can now change the name of the 'Dummy Character' by going to Data menu, and selecting 'Change Dummy Character Name'.
+* Updated dummy character skills to include basic industry, science, and mining skills. 
+* Dummy character skills should now load correctly in the skills viewer.
+
+Alpha Account Support
+* Added a setting to allow max alpha skills to be added to the dummy character for use with Alpha accounts. Note, this option is only available when using the dummy character.
+* Added a setting for indicating that the user is using an Alpha account. This will result in a 2% increase in the facility usage for blueprint costs when checked. Additionally, when checked, IPH will use the selected character's active skills to calculate costs.
+* Added a setting to use Active skills over Trained skills. Useful if looking at a character that may have lapsed Omega.
+
+ESI Improvements
+* Implemented ESI error limiting, which should eliminate 420 errors users have seen in the past.
+* Updated ESI error messaging and processing to provide more information and fewer, duplicate error messages on ESI errors and issues with character authentication and tokens.
+* Added an ESI Status monitor for users to check the current status of used scopes within IPH. This form can be viewed by selecting the Data menu, and View ESI Status. Additionally, on startup ESI will now tell users if there may be an issue with the status of ESI queries, which may result in error messages and data unavailable. Users can choose to suppress these error messages in the settings.
+
+Misc New 
+* Updated Database and Images to January_Release_1.0_2019
+* Implemented anonymous usage tracking using Google Analytics to track usage of IPH. Users can disable anonymous tracking in the program settings.
+* Added a checkbox to the BP, BP Viewer, and Manufacturing tabs called 'NPC BPOs', which when checked, will allow users to see only blueprints that are sold by NPC corporations.
+
+Bug Fixes
+* Invention calculations will now correctly include all skills required for the invention when determining invention chance.
+* The blueprint copy used to invent a T2 item will now be included in Invention Materials.
+* T2 Abyssal ammo and several T2 standup rigs will now properly load as T2 items instead of T1.
+* The Asset Viewer will now break out assets installed on ships into location (slot, cargo) and Corp assets will now be grouped into Corp hangers. Future updates will include additional categories like asset safety locations.
+* The shopping list will no longer crash when double-clicking items to load on the BP tab in the items list or build list.
+* Rigs added to Copy and Invention structures will now be applied in blueprint calculations correctly.
+* The manufacturing tab will now correctly show the invention cost.
+* Updated and optimized processing for Market History in an attempt to correct prices cached after long periods of program use resulting in no data returned on the Manufacturing tab.
+* Double-clicking on an item in the manufacturing tab will now load the correct decryptor (when used) and properly check the invention time/cost and copy time/cost on the BP tab. Additionally, IPH, profit, and other prices should match correctly between the forms.
+* Fixed an issue that wouldn't allow proper sorting of columns on the manufacturing tab or allow adding all columns to the list. Users may have to reset the columns to default to get the change.
+* Fixed an issue where deleting all the characters from Manage Accounts would not load the dummy character.
+* Improved the functionality of selecting blueprints on the Blueprint tab from the text search option.
+* Settings will now save correctly on the BP viewer.
+
 Build 4.0.6895.34656
 * Updated database and images to Onslaught_1.0
 * Made changes to facilities for reactions that should now properly manufacture in a reaction facility and use the manufacturing facility for fuel blocks
