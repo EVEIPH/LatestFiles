@@ -18,7 +18,7 @@ Known Issues:
 * If the Update fails; run Eve Isk per Hour as administrator.
 
 ============================================
-Build 4.0.6963.23544
+Build 4.0.6964.22565
 
 Note: Created a new Discord Channel for IPH. Please log-in here if you have questions or issues you want to discuss: https://discord.gg/rGMMqft
 
