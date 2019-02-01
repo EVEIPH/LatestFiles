@@ -18,12 +18,14 @@ Known Issues:
 * If the Update fails; run Eve Isk per Hour as administrator.
 
 ============================================
-Build 4.0.6969.39610
+Build 4.0.6970.40574
 * The View Structure IDs button should now be enabled if the application is registered with the correct scopes for access to structure processing.
 * Added update token option in manage accounts, which will ignore the cache date when updating token data.
 * Structure IDs should save when added after new scopes are added to the application on the developer site or registration.
 * View ESI status has been moved to the View menu and will only show status of scopes you have registered for the application.
 * The Add Structure ID and View Structure ID buttons should enable when proper scopes are added or a new character with proper scopes is added.
+* Re-named 'Simple' for export type to 'Multi-buy', which will only copy the buy list for use with the in-game market.
+* Removed build items from Multi-buy item copy on shopping list.
 
 Build 4.0.6964.22565
 
