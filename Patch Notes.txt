@@ -11,7 +11,7 @@ ISK donations accepted to Zifrian or cash through paypal at ZifrianEVE@gmail.com
 Version 4.0
 
 ============================================
-Build 4.0.7210.39951
+Build 4.0.7210.42162 
 
 Reactions
 * Reaction rigs for 'Composite' reactions in Reaction structures will now apply to all moon material reaction types (it only applied to final T2 composites before). 
