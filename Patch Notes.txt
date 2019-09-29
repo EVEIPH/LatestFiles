@@ -1,6 +1,6 @@
 ﻿EVE ISk per Hour Program/Patch Notes
 
-Hi and thanks for checking out EVE IPH! I will update this file with patch notes and the version number or any other pertinent information you might want to know about the program files and versions.
+Thanks for checking out EVE IPH! I will update this file with patch notes and the version number or any other pertinent information you might want to know about the program files and versions.
 
 Since this program is made for EVE Online, please contact me (Zifrian) in game, post comments on EVE IPH's GitHub page here: https://github.com/EVEIPH, or post on the EVE forums in the release thread for this program here: https://forums.eveonline.com/t/eve-isk-per-hour-industry-program-version-4-0/79167
 
@@ -11,13 +11,61 @@ ISK donations accepted to Zifrian or cash through paypal at ZifrianEVE@gmail.com
 Version 4.0
 
 ============================================
-Known Issues:
+Build 4.0.7210.39951
 
-* The window size is by design and does not allow Maximization at this time. This is by design.
-* On the Blueprint Tab, when suggesting Buy items, sometimes there aren't enough items on the market to buy for the item being made even though the price is less than the build price. EVE Central does not allow for volume data per price, so this is only an estimate. Please use your discretion when comparing build/buy prices to the in game market.
-* If the Update fails; run Eve Isk per Hour as administrator.
+Reactions
+* Reaction rigs for 'Composite' reactions in Reaction structures will now apply to all moon material reaction types (it only applied to final T2 composites before). 
+* Usage values should now be correct when using reactions as part of building the item. The Usage check box should also now update the correct values for total costs based on the usage shown.
+* Double clicking the Default Facility label will now correctly load the manufacturing facility when a reaction blueprint is loaded and the activity is set to Manufacturing on the BP Tab.
+* Reactions will use the manufacturing facility for fuel blocks instead of component facility.
+* Reactions will now show the total usage for all component reactions depending on the type of reactions to build as components.
+* Usage values should now be correct when using reactions as part of building the item. The Usage check box should also now update the correct values for total costs based on the usage shown.
+* Fixed issue where building reactions with more than 1 bp would display incorrect values for build items.
+* Runs for components are now properly reflected in the build list.
 
-============================================
+Shopping List
+* Adding items to the shopping list with multiple levels of built components (e.g. Anshar uses an Obelisk, which uses capital parts) will now show all items set to build for those levels of components. This includes polarized weapons and 'Augmented' drones.
+* Fixed issue where changing the item count of items with a larger portion size than 1, would not correctly update materials (e.g. bombs).
+* Fixed issue where exporting from the shopping list in 'Simple' (now Multi-buy) format would list all build items in addition to buy items.
+* Known issue: updating quantity in shopping list items when using raw or intermediate mats may not update quantities correctly.
+
+Bug Fixes
+* Fixed an issue when a character loses roles in a corporation that IPH uses, it will no longer try to load them and allow access even when they will not be able to view corporation data that uses those roles.
+* Updated market prices to refresh all prices daily to correct eventual SVR data missing.
+* Covert Ops and Stealth bombers in the BP viewer will no longer ships of the other category.
+* Clicking on a bp in the bp viewer will now correctly load the blueprint.
+* The check for Moon mining on the mining tab will now correctly save with save settings.
+* XL missiles and ammo should properly show when checking XL sizes on the manufacturing tab.
+* Structure Component prices can now be downloaded on the Update Prices tab. Also, added a check box for selecting just Structure Components on the Update Prices tab and Assets viewer.
+* SQLite.Interop.dll will now be included with the .msi installer install.
+* Made a fix to limit error messages when canceling price downloads on the update prices tab.
+* The Ship Types combo box on the Update Prices tab will now show various ship types.
+* Size checks on the BP Tab will now save when saving settings.
+* Fixed an error where checking a structure ID of 'Invalid Name' would crash the program.
+* Users using the Dummy Character can now save skill changes without crashing the program.
+* Double clicking the Default Facility label will now correctly load the manufacturing facility when a reaction blueprint is loaded and the activity is set to Manufacturing on the BP Tab.
+
+Other Updates
+* Updated database and images to the September 2019 release.
+* Updated tax and broker fee formulas to use values referenced here: https://www.eveonline.com/article/pvewgz/updates-to-sales-taxes-and-brokers-fees
+* The components section of the Blueprint Tab and Shopping List will now show the runs next to the name of the component blueprint and the quantity shown will be the number needed to build the blueprint. The prices for buildable items will still reflect the build price.
+* Added a check box called 'Sell Excess Items' to the BP and Manufacturing tabs that calculates the total cost of excess items for building an item. For instance, if the item requires 1 R.A.M. but one run produces 100 items, so the Sell Excess will add the cost of 99 items to the total profit. To see the list of excess items on the BP tab, click 'List Mats.' Note: When building from raw or processed reactions, the numbers may show negative profits, which will be corrected at a later date. This is checked by default.
+* Added an option to select the level of moon and gas materials used to make T2 and T3 reaction items to the BP tab. This will match the option selected in Application Settings.
+* Added a new setting that when users save a facility on the bp tab the same type of facility on the manufacturing tab will update to that facility and vice versa. This setting is set to true by default. 
+* Made a fix to limit error messages when canceling price downloads on the update prices tab
+* The Ship Types combo box on the Update Prices tab will now show various ship types.
+* Size checks on the BP Tab will now save when saving settings
+* SQLite.Interop.dll will now be included with the .msi installer install.
+* EVE Marketeer price updates should now work properly without timing out.
+* Canceling update prices using EVE Marketeer should now stop the update properly.
+* Mining tab will now take moon mining skills into account for calculating reprocessing yields.
+* Caldari space will now show all moon ores available for low and null sec.
+* Users can now mouse wheel up or down to set the number of total runs on the BP tab.
+* Owned T2 BPCs (marked as BPC and not Invented BPC in Blueprint Management) will now automatically check Ignore Invention upon selecting the blueprint on the blueprint tab and automatically ignoring invention on the manufacturing tab.
+* Added reaction facility to selectable columns in manufacturing tab
+* Component list will no longer grey out lines for reactions without ME
+* Removed 'Use Compressed Ore' option for building because the refining data was out of date. A future option to use ore for calculations will be added as a feature later.
+
 Build 4.0.6970.40574
 * The View Structure IDs button should now be enabled if the application is registered with the correct scopes for access to structure processing.
 * Added update token option in manage accounts, which will ignore the cache date when updating token data.
