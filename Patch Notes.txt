@@ -11,6 +11,12 @@ ISK donations accepted to Zifrian or cash through paypal at ZifrianEVE@gmail.com
 Version 4.0
 
 ============================================
+Build 4.0.7213.38829
+* Fixed issue where changing the ME number of a blueprint with "(Runs:" in the name would crash the program.
+* Copying data to clipboard for items with "(Runs" in the name will now only show the full name.
+* Changing the item quantity on the shopping list for T2 items added from Components only (not build/buy or raw materials) will no longer crash the program.
+* Structure IDs added to update prices will now persist after program updates.
+
 Build 4.0.7210.42162 
 
 Reactions
