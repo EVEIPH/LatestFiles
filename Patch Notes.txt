@@ -4,13 +4,22 @@ Thanks for checking out EVE IPH! I will update this file with patch notes and th
 
 Since this program is made for EVE Online, please contact me (Zifrian) in game, post comments on EVE IPH's GitHub page here: https://github.com/EVEIPH, or post on the EVE forums in the release thread for this program here: https://forums.eveonline.com/t/eve-isk-per-hour-industry-program-version-4-0/79167
 
-Additionally, the IPH Discord channel is here: https://discord.gg/rGMMqft
+The best way to get support is to use the IPH Discord channel here: https://discord.gg/rGMMqft
 
 ISK donations accepted to Zifrian or cash through paypal at ZifrianEVE@gmail.com
 
 Version 4.0
 
 ============================================
+Build 4.0.7217.24166
+* Adding items to shopping list from manufacturing list will no longer crash the program.
+* Double-clicking on a buildable item in the BP component list will now take the portion size into account when setting total runs of the new BP loaded.
+* Reactions will no longer load ME/TE values if default values are set in settings.
+* Fixed an issue with R.A.Ms being double counted on build/buy prices when using 1 bp and more than 1 run.
+* Fixed an issue where components were being added to the raw materials list when over 1 bp.
+* Saving asset locations in the asset window should no longer throw an error and fail to save settings.
+* Fixed the issue where Numbers for blueprint calcs with Raw material types selected for T2/T3 Material type did not display correct results of build materials when using more than one bp.
+
 Build 4.0.7213.38829
 * Fixed issue where changing the ME number of a blueprint with "(Runs:" in the name would crash the program.
 * Copying data to clipboard for items with "(Runs" in the name will now only show the full name.
@@ -18,7 +27,6 @@ Build 4.0.7213.38829
 * Structure IDs added to update prices will now persist after program updates.
 
 Build 4.0.7210.42162 
-
 Reactions
 * Reaction rigs for 'Composite' reactions in Reaction structures will now apply to all moon material reaction types (it only applied to final T2 composites before). 
 * Usage values should now be correct when using reactions as part of building the item. The Usage check box should also now update the correct values for total costs based on the usage shown.
