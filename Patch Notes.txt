@@ -11,7 +11,7 @@ ISK donations accepted to Zifrian or cash through paypal at ZifrianEVE@gmail.com
 Version 4.0
 
 ============================================
-Build 4.0.7218.41587
+Build 4.0.7220.39364
 * Adding items to shopping list from manufacturing list will no longer crash the program.
 * Double-clicking on a buildable item in the BP component list will now take the portion size into account when setting total runs of the new BP loaded.
 * Reactions will no longer load ME/TE values if default values are set in settings.
