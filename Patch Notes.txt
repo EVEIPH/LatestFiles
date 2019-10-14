@@ -11,7 +11,7 @@ ISK donations accepted to Zifrian or cash through paypal at ZifrianEVE@gmail.com
 Version 4.0
 
 ============================================
-Build 4.0.7220.39364
+Build 4.0.722.25325
 * Adding items to shopping list from manufacturing list will no longer crash the program.
 * Double-clicking on a buildable item in the BP component list will now take the portion size into account when setting total runs of the new BP loaded.
 * Reactions will no longer load ME/TE values if default values are set in settings.
@@ -22,6 +22,8 @@ Build 4.0.7220.39364
 * Fixed an issue where if the user double-clicked an item on the manufacturing tab, it would not load the correct runs that the bp on the manufacturing tab was created. Now they should be the same.
 * Fixed an issue with the shopping list where updating with assets would not correctly adjust the built items list when built items existed in assets.
 * Fixed an issue where fuel blocks were only counted once in calculations when more than one run was needed.
+* Fixed several issues with updates on the shopping list.
+* Checking access to markets on structures should now be much faster.
 
 Build 4.0.7213.38829
 * Fixed issue where changing the ME number of a blueprint with "(Runs:" in the name would crash the program.
