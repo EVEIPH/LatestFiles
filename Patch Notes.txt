@@ -11,6 +11,45 @@ ISK donations accepted to Zifrian or cash through paypal at ZifrianEVE@gmail.com
 Version 4.0
 
 ============================================
+Build 4.0.7479.42820
+
+General changes
+* Updated Database and Images to June 23, 2020 versions.
+* Converted broker free check box to tri-check to allow for setting a fixed broker fee rate (if buying/selling from a structure) to the bp tab, manufacturing tab, shopping list, and industry belt flip tool.
+
+Blueprint Tab
+* Users can now toggle build buy for specific items in the components list when build/buy is selected.
+* Changing Faction Warfare levels on the selected facility (when shown) will now update the prices to show updated FW data.
+* Added a button to the bottom of the components grid to toggle components and built components views for a complete list of built components.
+* The ignore invention check no longer shows the decryptor.
+
+Manufacturing Tab
+* IPH will no longer ask you if you want to run the list for large numbers of items.
+* Users can right-click and set favorites in the manufacturing list. If it is owned, it will be marked as a favorite as well as owned.
+* Double-clicking on a T2 item should now properly load the invention ignored check and correct ME/TE on the Blueprint Tab.
+* Items in total production column should now update on the manufacturing list. 
+* NPC BPO check will now only return blueprints that are sold on the market.
+* The text search field should no longer crash the program if used when the NPC BPO box is checked.
+* CTRL+C on the manufacturing results grid will no longer crash the program and now copies all bp names if calculated or item names if not.
+* CTRL+A will select all items in the manufacturing grid.
+
+Mining Tab
+* Added a tri-check for setting the broker fee to a manual setting.
+* Taxes and fees will now correctly adjust prices in the output list.
+* Added Talassonite, Rakovene, and Bezdnacine to Mining Tab.
+* Users can no longer check the ice rig box for non-medium size ships.
+* Removed the Warfare Link combo box from the Mining Tab as it is no longer used.
+
+Shopping List
+* Updating a shopping list with items from Assets via cut and paste will now work correctly.
+* Double-clicking the built items in the shopping list will no longer crash the program.
+* Deleting items from the shopping list should no longer delete the item from the item list.
+
+Misc. bug fixes
+* Changing the name of the dummy character will no longer change the name of all characters stored.
+* Updating prices will no longer crash the program when using Price Profiles and downloading Structure Components.
+* Added new security protocol setting for ESI calls that should limit errors for users who have updated to the latest version of Windows 10.
+
 Build 4.0.7226.25325
 * Adding items to shopping list from manufacturing list will no longer crash the program.
 * Double-clicking on a buildable item in the BP component list will now take the portion size into account when setting total runs of the new BP loaded.
