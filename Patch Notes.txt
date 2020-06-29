@@ -11,6 +11,12 @@ ISK donations accepted to Zifrian or cash through paypal at ZifrianEVE@gmail.com
 Version 4.0
 
 ============================================
+Build 4.0.7484.40109
+* Fixed issue that did not show the correct invention probability when decryptors are selected.
+* Fixed issue that did not show correct structure rig bonuses when fitted to structures.
+* Users should be able to update the prices in Manual price edits without crashing the program.
+* Users should no longer crash the program if deleting the market price on the BP Tab.
+
 Build 4.0.7479.42820
 
 General changes
