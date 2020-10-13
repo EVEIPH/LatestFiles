@@ -11,6 +11,18 @@ ISK donations accepted to Zifrian or cash through paypal at ZifrianEVE@gmail.com
 Version 4.0
 
 ============================================
+Build 4.0.7591.19793
+* Updated EVE SSO Log-in - EVE IPH has switched to using a single application registration, which no longer requires users create individual applications through the EVE Developers site here: https://developers.eveonline.com/applications. However, because of this change, users will need to re-enter characters through the new registration system by going to the File Menu, and selecting Add Characters. If users previously registered EVE IPH as through the developers site, they may delete any applications they may have created for EVE IPH as they are no longer needed.
+* Updated Database and Images to Version 18.10.
+* Updated Mining tab to reflect new Ore distributions in Version 18.10.
+* Removed standard ores from results for the moon mining option on the Mining tab.
+* Research agents and data will now show in the Datacores tab and when viewing research agents for a character.
+* Added eve-Skills scope to the ESI Status window.
+* Checking and unchecking an item in the Components list on the BP tab will now work when using more than one BP.
+* Users can now double-click on an item in the component material list and load the bp (would just check the item before)
+* Images will now be installed to the correct folder in the installer.
+* Reactions now update in the blueprint manager when selected.
+
 Build 4.0.7489.33693
 * Fixed issue that did not show the correct invention probability when decryptors are selected.
 * Fixed issue that did not show correct structure rig bonuses when fitted to structures.
