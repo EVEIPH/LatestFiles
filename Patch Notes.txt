@@ -19,7 +19,7 @@ Build 4.0.7591.19793
 * Research agents and data will now show in the Datacores tab and when viewing research agents for a character.
 * Added eve-Skills scope to the ESI Status window.
 * Checking and unchecking an item in the Components list on the BP tab will now work when using more than one BP.
-* Users can now double-click on an item in the component material list and load the bp (would just check the item before)
+* Users can now double-click on an item in the component material list and load the bp (would just check the item before).
 * Images will now be installed to the correct folder in the installer.
 * Reactions now update in the blueprint manager when selected.
 
