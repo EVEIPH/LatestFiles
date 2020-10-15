@@ -11,7 +11,7 @@ ISK donations accepted to Zifrian or cash through paypal at ZifrianEVE@gmail.com
 Version 4.0
 
 ============================================
-Build 4.0.7591.19793
+Build 4.0.7592.42170
 * Updated EVE SSO Log-in - EVE IPH has switched to using a single application registration, which no longer requires users create individual applications through the EVE Developers site here: https://developers.eveonline.com/applications. However, because of this change, users will need to re-enter characters through the new registration system by going to the File Menu, and selecting Add Characters. If users previously registered EVE IPH as through the developers site, they may delete any applications they may have created for EVE IPH as they are no longer needed.
 * Updated Database and Images to Version 18.10.
 * Updated Mining tab to reflect new Ore distributions in Version 18.10.
@@ -22,6 +22,8 @@ Build 4.0.7591.19793
 * Users can now double-click on an item in the component material list and load the bp (would just check the item before).
 * Images will now be installed to the correct folder in the installer.
 * Reactions now update in the blueprint manager when selected.
+* Updating the system index will no longer disable rigs from loading in fitting settings.
+* Updating the system index will no longer load the manufacturing facility when using different blueprints (e.g. Reactions).
 
 Build 4.0.7489.33693
 * Fixed issue that did not show the correct invention probability when decryptors are selected.
