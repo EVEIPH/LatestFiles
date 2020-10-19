@@ -11,6 +11,16 @@ ISK donations accepted to Zifrian or cash through paypal at ZifrianEVE@gmail.com
 Version 4.0
 
 ============================================
+Build 4.0.7597.298
+* Fixed an issue that would show incorrect build components on the Blueprint's Tab build list and the shopping list for items built with reactions.
+* Selecting/deselecting Load Blueprints by Character in the Application Settings will now work properly as advertised.
+* All moon ores for R8, R16, R32, and R64 moons will now show when selecting Low and Null security options for filtering ore on the mining tab.
+* Added an option to select 'Triglavian Space' to filter ores from Triglavian sites to the Mining Tab.
+* Updated the filters for selecting ores to allow for Moon Mining to be split separately from Racial regions.
+* When double-clicking on a non-invented T2/T3 BPC in the manufacturing tab, the BP tab will now correctly ignore invention in calculations to match the numbers in the manufacturing tab.
+* The broker fee check box on the manufacturing tab will now correctly calculate broker fees.
+* Users can now save Special broker fee rates on the manufacturing tab.
+
 Build 4.0.7592.42170
 * Updated EVE SSO Log-in - EVE IPH has switched to using a single application registration, which no longer requires users create individual applications through the EVE Developers site here: https://developers.eveonline.com/applications. However, because of this change, users will need to re-enter characters through the new registration system by going to the File Menu, and selecting Add Characters. If users previously registered EVE IPH as through the developers site, they may delete any applications they may have created for EVE IPH as they are no longer needed.
 * Updated Database and Images to Version 18.10.
