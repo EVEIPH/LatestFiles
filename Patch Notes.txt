@@ -11,6 +11,10 @@ ISK donations accepted to Zifrian or cash through paypal at ZifrianEVE@gmail.com
 Version 4.0
 
 ============================================
+Build 4.0.7611.38661
+* Fixed error that when ignore invention was checked on the BP tab would crash T2 bp selections if not owned or when trying to add to shopping lists.
+* Users can now save settings on the mining tab.
+
 Build 4.0.7597.298
 * Fixed an issue that would show incorrect build components on the Blueprint's Tab build list and the shopping list for items built with reactions.
 * Selecting/deselecting Load Blueprints by Character in the Application Settings will now work properly as advertised.
