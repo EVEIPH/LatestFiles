@@ -11,6 +11,22 @@ ISK donations accepted to Zifrian or cash through paypal at ZifrianEVE@gmail.com
 Version 4.0
 
 ============================================
+Build 4.0.7669.37173
+* Updated database and images to December 29 versions.
+* Added Split price download option for update prices that will take the average of the min sell order and max buy order.
+* Users can now save the T2 and T3 calculation types (Advanced, Process, or Raw materials) independently on the Manufacturing and BP tabs.
+* The settings for saving T2 and T3 calculation types were removed from the application settings.
+* Updated all calculations for using reactions in building components to reflect the proper amount of cost in comparison to sold excess items.
+* Unchecking build buy will now show correct calculations when building with reactions (processed or raw).
+* Checking the build/buy toggle check in the Components List will now correctly update the Excess Build Materials list correctly
+* Saving Suppress ESI Status Messages and Share Saved Facilities in application settings will now work correctly.
+* Saving Suppress ESI Status Messages will now suppress 404 errors on public data calls.
+* If users enter two dashes for negative prices, the program will no longer crash when updating prices.
+* Added tool tips to API scopes for describing what each provides access to.
+* Updating default settings on price profiles will now change all prices selected to default for the selected character.
+* Updated packaged ship volumes for Logistics Frigates, Command Destroyers, Force Auxiliary, and Flag Cruisers, which showed unpackaged volumes.
+* Added option in Settings menu to reset the manual checks in the Build/Buy Component Material List to use the program determined options.
+
 Build 4.0.7611.38661
 * Fixed error that when ignore invention was checked on the BP tab would crash T2 bp selections if not owned or when trying to add to shopping lists.
 * Users can now save settings on the mining tab.
