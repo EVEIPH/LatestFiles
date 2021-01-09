@@ -11,6 +11,13 @@ ISK donations accepted to Zifrian or cash through paypal at ZifrianEVE@gmail.com
 Version 4.0
 
 ============================================
+Build 4.0.7679.19895
+* The Advanced and Raw T2/T3 Mat Type options on the Manufacturing Tab will now correctly calculate Advanced and Raw selections.
+* Total production time will now correctly reflect time to build reactions when processed or raw T2/T3 material types are selected.
+* IPH will use built materials even if sell excess build items is unchecked and will also show all excess built materials (but not use in calculations) when selecting List Mats.
+* SVR calcs should be the same when using build/buy on Blueprint Tab.
+* The save and fitting buttons on the facility window will no longer be shown unless a full facility is loaded.
+
 Build 4.0.7669.37173
 * Updated database and images to December 29 versions.
 * Added Split price download option for update prices that will take the average of the min sell order and max buy order.
