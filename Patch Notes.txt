@@ -11,6 +11,11 @@ ISK donations accepted to Zifrian or cash through paypal at ZifrianEVE@gmail.com
 Version 4.0
 
 ============================================
+Build 4.0.7692.40051
+* Updated to Jan 19 Database and Images
+* Double clicking from the Manufacturing tab will now set the T2/T3 mat type selected to the BP tab.
+* Fixed error that would incorrectly remove materials and display incorrect quantities for built components when using Processed or Raw T2/T3 Materials and multiple blueprints.
+
 Build 4.0.7679.19895
 * The Advanced and Raw T2/T3 Mat Type options on the Manufacturing Tab will now correctly calculate Advanced and Raw selections.
 * Total production time will now correctly reflect time to build reactions when processed or raw T2/T3 material types are selected.
