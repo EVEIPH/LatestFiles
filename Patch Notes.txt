@@ -11,6 +11,22 @@ ISK donations accepted to Zifrian or cash through paypal at ZifrianEVE@gmail.com
 Version 4.0
 
 ============================================
+Build 4.0.7702.40872
+* Updated to January 26 Database and Images
+* Restored some missing icons and images
+* Users can make manual updates in the Update Prices grid again.
+Blueprint Tab
+* Required build skills for blueprints with multiple bps will now correctly show when the relevant label is double clicked on the bp tab.
+* Removed runs from component material list when Build/Buy unchecked to reduce confusion since this is a buy list, not build.
+* Component costs for multiple blueprints should now show the buy cost when build/buy is unchecked instead of build cost.
+* Pirate mining drones will now correctly show up in the blueprint combo when selecting pirate drones.
+* Copy to Clipboard function on the BP tab will now copy the Built Components list when clicked if the list is visible.
+* Items in the Built Components list should now show correct run and quantity values that match with the materials in the raw material list.
+Structure Fitting Window
+* Fuel block calculations in the structure fitting window will now apply the structure bonus to services the bonus applies.
+* Added fuel bonus and fuel blocks per day to structure fitting window.
+* Added a list grid for all structure modules as an option as well as icons for the structure fitting window.
+
 Build 4.0.7692.40051
 * Updated to Jan 19 Database and Images
 * Double clicking from the Manufacturing tab will now set the T2/T3 mat type selected to the BP tab.
