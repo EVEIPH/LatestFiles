@@ -11,6 +11,9 @@ ISK donations accepted to Zifrian or cash through paypal at ZifrianEVE@gmail.com
 Version 4.0
 
 ============================================
+Build 4.0.7787.29372
+* Updated to April 27, 2021 Database and Images
+
 Build 4.0.7773.25003
 * Updated to April 13, 2021 Database and Images
 
