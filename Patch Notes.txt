@@ -11,6 +11,10 @@ ISK donations accepted to Zifrian or cash through paypal at ZifrianEVE@gmail.com
 Version 4.0
 
 ============================================
+Build 4.0.7790.42119
+* Characters without roles to a corporation will no longer get a 403 error when loading the program.
+* Users can now download prices for Molecular-Forged Materials on the Update Prices tab.
+
 Build 4.0.7787.29372
 * Updated to April 27, 2021 Database and Images
 
