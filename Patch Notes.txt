@@ -11,6 +11,12 @@ ISK donations accepted to Zifrian or cash through paypal at ZifrianEVE@gmail.com
 Version 4.0
 
 ============================================
+Build 4.0.7856.41382
+* Updated Database and Images to June 2021 versions.
+* When users check build/buy checks on the Blueprint Tab, IPH will use that selection for all blueprints instead of limiting that selection to just the blueprint selected. This will allow cascading this decision down to other blueprints like fuel blocks for reactions.
+* FW bonus should now show up when selecting a facility in a FW system.
+* Fixed an issue with CSV exports to clipboard on the shopping list.
+
 Build 4.0.7790.42119
 * Characters without roles to a corporation will no longer get a 403 error when loading the program.
 * Users can now download prices for Molecular-Forged Materials on the Update Prices tab.
