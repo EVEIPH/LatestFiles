@@ -11,6 +11,10 @@ ISK donations accepted to Zifrian or cash through paypal at ZifrianEVE@gmail.com
 Version 4.0
 
 ============================================
+Build 4.0.7879.39091
+* Updated Database and Images to July 27, 2021 Versions
+* Set the base tax and broker fee rate to 2.5% to reflect in game changes for 'The Grand Heist' patch on July 27, 2021.
+
 Build 4.0.7856.41382
 * Updated Database and Images to June 2021 versions.
 * When users check build/buy checks on the Blueprint Tab, IPH will use that selection for all blueprints instead of limiting that selection to just the blueprint selected. This will allow cascading this decision down to other blueprints like fuel blocks for reactions.
