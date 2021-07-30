@@ -11,7 +11,7 @@ ISK donations accepted to Zifrian or cash through paypal at ZifrianEVE@gmail.com
 Version 4.0
 
 ============================================
-Build 4.0.7880.36597
+Build 4.0.7879.39091
 * Updated Database and Images to July 27, 2021 Versions
 * Set the base tax and broker fee rate to 2.5% to reflect in game changes for 'The Grand Heist' patch on July 27, 2021.
 
