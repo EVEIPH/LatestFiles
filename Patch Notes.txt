@@ -8,11 +8,95 @@ The best way to get support is to use the IPH Discord channel here: https://disc
 
 ISK donations accepted to Zifrian or cash through paypal at ZifrianEVE@gmail.com
 
-Version 4.0
+Patreon Support here: https://www.patreon.com/user?u=51064427&fan_landing=true
+
+Version 5.0
 
 ============================================
+EVE Isk per Hour – Version 5.0 – Mining Update!
+
+IPH Version 5.0 has several new things for mining, reprocessing, and conversion of raw materials from ice and ore into their minable versions. In addition, this version contains updated changes to the mining and update prices tab along with several bug fixes. As always, please join the discord to report bugs or ask questions about any of the new features.
+Thank you for using IPH!
+
+Build: 5.0.7903.40748
+
+Conversion from Minerals and Ice Products to Ores
+* On the Blueprint tab, in the Reprocessing Facility, added the option to 'Convert to Ore', which will convert any items in the Raw Material list to the types of Ores or Ices selected in the form when selecting 'Settings' in the Facility. The default setting is unchecked.
+* When pressing the 'Settings' button in the Blueprint tab Reprocessing Facility, the Conversion to Ore Settings form will allow users to choose Ores and Ices by location, security, and variant to filter out ores or ices to convert. Additionally, users can choose to use compressed Ore and Ice and the option to minimize by refined price, the ore/ice price, or the ore/ice volume. Users can select / deselect ores or ices in the list to include / not include in the final calculations. Finally, if a user wants to ignore a certain output mineral or ice product, they can select it in the Ignore List and IPH will not consider that for conversion.
+* When changing options in the Conversion to Ore Settings form, the settings will immediately take effect allowing users to try different options for conversion without re-loading the Blueprint.
+
+Mining Tab Updates
+Added support for drones throughout the mining tab for Mining and Ice Mining drones:
+* Replaced the Jump Fuel Costs section with a mining drone selection option for the selected ships. Users can select the type, number, and appropriate skills for booster ship and mining drone ship. The total yield for each will be added to the Drone Yield column in the main output list.
+* Added drop-down options for selecting 1-3 rigs for the mining ship (depending on ship type), to include mining rigs. Note, selected rigs in IPH may not work with in-game fitting.
+* Added tri-checks for selecting None, T1, or T2 mining rigs for the booster ship. Note, selected rigs in IPH may not work with in-game fitting.
+* Added a Reprocessing facility to allow for more accurate reprocessing amounts based on selected skills and facility fitting (if an upwell structure). When selecting the facility, the base reprocessing efficiency will be shown on the facility and depending on the rigs installed, the base refining yields will update for moon ore, regular ore, and ice depending on tab selections and setup.
+* Note: The mining tab still uses the 'Beancounter' implant selected in application settings.
+* Reorganized the Ore and Ice Processing skills section into specific tabs and added Triglavian Ore Processing skills to the section.
+* Added 5% and 10% yield variants to Triglavian ores.
+* Moon Ores will now show the type of Moon (e.g., R4) on the name of the Ore in the output grid.
+* Replaced the Drake with the Gnosis as a booster ship.
+
+Reprocessing Plant
+* Users can now open the IPH Reprocessing Plant application from the Tools menu.
+* The Reprocessing Plant allows users to select a facility for reprocessing and either paste assets or select from the asset viewer to reprocess. After assets are uploaded to the plant, users can uncheck or check items in the list for refining. 
+* All relevant skills are included in the Skills tab. 
+* The 'Beancounter' implant will use the implant selected in the Application Settings, however users can change the skill value locally in the Reprocessing Plant to see different outputs. 
+* Added view for users to see all base facility refine yields before processing skills are accounted for.
+* Added an option to 'Drill Down' reprocess items until there are no more items available for reprocessing. For example, a user could refine a freighter and then the capital parts returned would be then reprocessed again.
+* The calculated Item List fields are:
+ - Rate: The reprocessing rate for reprocessing the selected item
+ - Refined Value: The total value, minus any reprocessing tax, of the reprocessed output.
+ - % Return: The total reprocessed output divided by the total cost of the item reprocessed.
+* The Reprocessing Output list shows the total reprocessing output, cost per item, and total cost and volume for that item. Note: this value does not include reprocessing usage charged.
+* Users can see the total item list value of all checked items, the total reprocessing output of all checked items, the Return Rate (Total Output Value / Total List Value), and the total volume of Reprocessing Output at the bottom of the screen.
+
+Mining Belt Flip Calculators
+* Updated the Ore Sovereignty Belts tool with the new Reprocessing Plant facility and new ore amounts based on the April mining update.
+* Added a new Ice Belt flip tool to load ice belts for various locations and calculate the total time, value, volume, and IPH of 'flipping' the Ice Belt.  
+Update Prices 
+* Redesigned the Updated Prices tab to match more closely to in-game categories and streamline selecting price locations. Many price checks have changed so check your settings before downloading prices.
+* Removed all region checks and added a Region combobox and System combobox for selecting a Region for prices or a System not listed in the Trade Hubs.
+* Added Perimeter as a Trade Hub.
+* Users can now select Jita and Perimeter in Trade Hubs to download the best price between the two systems.
+* Blueprint Copies now load all blueprint copies for use in invention calculations. Note, these are manual prices as they are not available for download. 
+* When downloading prices from a system, IPH will no longer download prices from structures not in that system (e.g., Jita).
+* Updated Price Profile options to match new price categories.
+
+Other updates
+* Updated database and images to July 13, 2021 versions.
+* Player Owned Stations (POS) have been removed from IPH.
+* Added options to Always Buy Fuel Blocks and Always Buy R.A.M.s to the Application Settings, which when checked will override Build/Buy calculations and always build the item.
+* Added the Character Number and a copy button to the Account Management form to copy the selected character number for use in ESI testing.
+* Added the ability to copy the Access Token for the selected character on the Account Management form for use in ESI Testing.
+* Added new columns to the manufacturing list for Material Cost, Sell Excess Amount, Reprocessing Plant data (to be added later), and Return on Investment (ROI), which is the total profit divided by the total cost as a percentage.
+* Reprocessing Plants are affected by the Share Facilities option in Application Settings – when selected all Reprocessing Plants will use the same settings in the application.
+* Saving a fitting for a structure will now save the facility as well.
+* Built components in the components list calculations will now include usage in the total cost to build the item and not just the market cost. This cost will now no longer equal the raw cost in Build/Buy calculations but is more accurate.
+* IPH will now automatically load and set to default when adding a character if no other characters besides the Dummy are loaded.
+* Added the ability to reset all saved facilities to default in the Data, Reset menu.
+* Users can now update any price in the Blueprint Tab tables, which will update the market price for that item.
+
+Bug Fixes
+* Blueprints for the Marshal, Hydra, Pacifier, Monitor, Enforcer, Tiamat, Victor will now show proper build costs and not 'NaN'.
+* Fixed an issue where pasting item lists into the copy/paste assets box on the shopping list with spaces would not update the list properly.
+* Setting a base ME/TE on the Manufacturing Tab will no longer apply to reactions.
+* When resetting all settings will no longer show an empty Select Default Character box.
+* Users can now select T2/T3 advanced material options for boosters to drill down production chains for booster production.
+* Advanced moon materials will now show just materials to build when advanced T2/T3 material type selected.
+* Fixed an issue where the invention time or cost bonus on structures would be much higher than in practice.
+* Fixed an issue where updating the manual text fields in the structure bonuses would not save if clicking the save button.
+* When selecting a region in Update Prices, the select system drop down will now only show systems that are in the selected region.
+* When selecting a T2/T3 material type on the BP tab, the Facility activities will now correctly show a selection for Reactions to select that facility when Processed and Raw T2/T3 material types are selected.
+* Blueprints on the Blueprint Tab will no longer refresh when just changing a facility.
+* Fixed error when transaction within transaction when downloading prices on the Update Prices tab.
+* Fixed an issue in Blueprint Management that would crash the program when selecting 'Not Ignored' with owned blueprints.
+* All Region combo boxes have been updated to not include Jove Regions.
+
+===
+
 Build 4.0.7880.36597
-* Updated Database and Images to July 27, 2021 Versions
+* Updated Database and Images to July 17, 2021 Versions
 * Set the base tax and broker fee rate to 2.5% to reflect in game changes for 'The Grand Heist' patch on July 27, 2021.
 
 Build 4.0.7856.41382
