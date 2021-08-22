@@ -18,7 +18,7 @@ EVE Isk per Hour – Version 5.0 – Mining Update!
 IPH Version 5.0 has several new things for mining, reprocessing, and conversion of raw materials from ice and ore into their minable versions. In addition, this version contains updated changes to the mining and update prices tab along with several bug fixes. As always, please join the discord to report bugs or ask questions about any of the new features.
 Thank you for using IPH!
 
-Build: 5.0.7904.1209
+Build: 5.0.7904.31043
 
 Conversion from Minerals and Ice Products to Ores
 * On the Blueprint tab, in the Reprocessing Facility, added the option to 'Convert to Ore', which will convert any items in the Raw Material list to the types of Ores or Ices selected in the form when selecting 'Settings' in the Facility. The default setting is unchecked.
@@ -54,6 +54,7 @@ Reprocessing Plant
 Mining Belt Flip Calculators
 * Updated the Ore Sovereignty Belts tool with the new Reprocessing Plant facility and new ore amounts based on the April mining update.
 * Added a new Ice Belt flip tool to load ice belts for various locations and calculate the total time, value, volume, and IPH of 'flipping' the Ice Belt.  
+
 Update Prices 
 * Redesigned the Updated Prices tab to match more closely to in-game categories and streamline selecting price locations. Many price checks have changed so check your settings before downloading prices.
 * Removed all region checks and added a Region combobox and System combobox for selecting a Region for prices or a System not listed in the Trade Hubs.
@@ -62,6 +63,7 @@ Update Prices
 * Blueprint Copies now load all blueprint copies for use in invention calculations. Note, these are manual prices as they are not available for download. 
 * When downloading prices from a system, IPH will no longer download prices from structures not in that system (e.g., Jita).
 * Updated Price Profile options to match new price categories.
+* Added an Open Market Browser button to the Update Prices tab that will open your default web browser to Eve Marketer.
 
 Other updates
 * Updated database and images to July 13, 2021 versions.
