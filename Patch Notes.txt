@@ -18,7 +18,7 @@ EVE Isk per Hour – Version 5.0 – Mining Update!
 IPH Version 5.0 has several new things for mining, reprocessing, and conversion of raw materials from ice and ore into their minable versions. In addition, this version contains updated changes to the mining and update prices tab along with several bug fixes. As always, please join the discord to report bugs or ask questions about any of the new features.
 Thank you for using IPH!
 
-Build: 5.0.7904.841
+Build: 5.0.7904.1209
 
 Conversion from Minerals and Ice Products to Ores
 * On the Blueprint tab, in the Reprocessing Facility, added the option to 'Convert to Ore', which will convert any items in the Raw Material list to the types of Ores or Ices selected in the form when selecting 'Settings' in the Facility. The default setting is unchecked.
