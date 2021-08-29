@@ -13,6 +13,18 @@ Patreon Support here: https://www.patreon.com/user?u=51064427&fan_landing=true
 Version 5.0
 
 ============================================
+Build 5.0.7910.42452
+* Fixed an issue where component facility bonuses were not being applied to components for blueprints with components (e.g., T2).
+* Fixed an issue that prevented facilities from saving correctly on both Manufacturing and Blueprint tabs when Shared Facilities was selected in Settings.
+* Fixed an issue that prevented the ME bonus for a saved structure.
+* Protective Components (e.g., Life-support System) will now correctly have the ME/TE/Cost bonuses applied when a structure has the Advanced Component rig.
+* The Update Prices tab should no longer lock and provide inconsistent errors when an incorrect system is entered.
+* Fixed an issue on the mining tab that calculated incorrect refining rates.
+* When the Industrial Core is selected for a Rorqual Fleet Booster on the mining tab, the mindlink bonus will correctly provide bonuses to affected stats. 
+* Booster drones will now correctly be affected by the Industrial Core bonus when selected on the mining tab.
+* Ideal range of drones will now use the Drone Navigation skill of the selected character when calculating the range.
+
+
 EVE Isk per Hour – Version 5.0 – Mining Update!
 
 IPH Version 5.0 has several new things for mining, reprocessing, and conversion of raw materials from ice and ore into their minable versions. In addition, this version contains updated changes to the mining and update prices tab along with several bug fixes. As always, please join the discord to report bugs or ask questions about any of the new features.
