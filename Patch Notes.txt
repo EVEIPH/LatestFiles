@@ -13,7 +13,7 @@ Patreon Support here: https://www.patreon.com/user?u=51064427&fan_landing=true
 Version 5.0
 
 ============================================
-Build 5.0.7927.41169
+Build 5.0.7928.19957
 * Fixed an issue where the reaction activity was not loaded in the activity dropdown for facilities on the blueprint tab when switching to different reaction facilities with T3 production.
 * The loading time for blueprints on the blueprint tab should be smoother when switching between Advanced, Processed, and Raw T2/T3 Material Types
 * Users can now save manual ME and TE values, however if a rig is saved on the facility it will clear any manual values saved.
