@@ -13,6 +13,15 @@ Patreon Support here: https://www.patreon.com/user?u=51064427&fan_landing=true
 Version 5.0
 
 ============================================
+Build 5.0.7927.41169
+* Fixed an issue where the reaction activity was not loaded in the activity dropdown for facilities on the blueprint tab when switching to different reaction facilities with T3 production.
+* The loading time for blueprints on the blueprint tab should be smoother when switching between Advanced, Processed, and Raw T2/T3 Material Types
+* Users can now save manual ME and TE values, however if a rig is saved on the facility it will clear any manual values saved.
+* Fixed an issue with copy/paste text windows that would crash the program when there was no quantity given for the items pasted in some cases.
+* The shopping list will no longer retain the last items put into copy/paste assets window after used.
+* Rig bonuses will now show correctly on facilities when the 'Share Facilities for each Character' is unchecked (e.g. users want to use the same facility for all characters loaded).
+* Invention bonuses will now load correctly for facilities with rigs that have invention bonuses.
+
 Build 5.0.7910.42452
 * Fixed an issue where component facility bonuses were not being applied to components for blueprints with components (e.g., T2).
 * Fixed an issue that prevented facilities from saving correctly on both Manufacturing and Blueprint tabs when Shared Facilities was selected in Settings.
