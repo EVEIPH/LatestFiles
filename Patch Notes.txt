@@ -15,7 +15,7 @@ Version 5.0
 ============================================
 Build 5.0.7935.33256
 * When selecting reactions on the BP Tab, the T2/T3 Material Type options should no longer be disabled for selection.
-* The Reprocessing and Reprocesssing Efficiency combo boxes on the Reprocessing Plant should now correctly update when changed.
+* The Reprocessing and Reprocessing Efficiency combo boxes on the Reprocessing Plant should now correctly update when changed.
 * Changing the beancounter implant on the Reprocessing Plant will now correctly update the output rate when used in reprocessing.
 * Updating reprocessing skills will now properly update the ore reprocessing skill tabs to enable/disable different skill types based on selections.
 
