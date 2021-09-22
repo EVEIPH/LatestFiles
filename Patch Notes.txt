@@ -13,6 +13,12 @@ Patreon Support here: https://www.patreon.com/user?u=51064427&fan_landing=true
 Version 5.0
 
 ============================================
+Build 5.0.7935.33256
+* When selecting reactions on the BP Tab, the T2/T3 Material Type options should no longer be disabled for selection.
+* The Reprocessing and Reprocesssing Efficiency combo boxes on the Reprocessing Plant should now correctly update when changed.
+* Changing the beancounter implant on the Reprocessing Plant will now correctly update the output rate when used in reprocessing.
+* Updating reprocessing skills will now properly update the ore reprocessing skill tabs to enable/disable different skill types based on selections.
+
 Build 5.0.7931.29622
 * Fixed an issue where the reaction activity was not loaded in the activity dropdown for facilities on the blueprint tab when switching to different reaction facilities with T3 production.
 * The loading time for blueprints on the blueprint tab should be smoother when switching between Advanced, Processed, and Raw T2/T3 Material Types
