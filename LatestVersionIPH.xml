@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <EVEIPH Version="5.0">
-  <LastUpdated>9/22/2021 6:30:33 PM</LastUpdated>
+  <LastUpdated>10/18/2021 10:15:45 AM</LastUpdated>
   <result>
     <rowset name="filelist" key="version" columns="Name,Version,MD5,URL">
-      <row Name="EVE Isk per Hour.exe" Version="5.0.7935.33256" MD5="f6e84ed7c4733625e593b9becacb9ea0" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/EVE%20Isk%20per%20Hour.exe" />
-      <row Name="EVEIPH Updater.exe" Version="3.0.0.0" MD5="19556fad2c0e5dc21bcab5c045804c3c" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/EVEIPH%20Updater.exe" />
-      <row Name="EVEIPH DB.sqlite" Version="July_13_2021_Release" MD5="d95db974d931a11b21b7fd23aaedddd3" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/EVEIPH%20DB.sqlite" />
-      <row Name="EVEIPH Images.zip" Version="1.0" MD5="c3093bf51da8f5fdb55ab6b38508bb4e" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/EVEIPH%20Images.zip" />
+      <row Name="EVE Isk per Hour.exe" Version="5.0.7960.39034" MD5="4bf3b56dd555f6d085020cd8e60d0f2a" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/EVE%20Isk%20per%20Hour.exe" />
+      <row Name="EVEIPH Updater.exe" Version="3.0.0.0" MD5="f6ae296ab1f63def348e021b1bd7fd93" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/EVEIPH%20Updater.exe" />
+      <row Name="EVEIPH DB.sqlite" Version="October_13_2021_Release" MD5="92444bb33b4c4c3de9b6037d515c7010" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/EVEIPH%20DB.sqlite" />
+      <row Name="EVEIPH Images.zip" Version="1.0" MD5="e458fe885ea06a6cbae4d469ff88a9d2" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/EVEIPH%20Images.zip" />
       <row Name="Newtonsoft.Json.dll" Version="12.0.1.22727" MD5="d827dd8a8c4b2a2cfa23c7f90f3cce95" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/Newtonsoft.Json.dll" />
       <row Name="System.Data.SQLite.dll" Version="1.0.109.0" MD5="1cb1fffea4b449fff2e56a52d7e1f4e4" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/System.Data.SQLite.dll" />
       <row Name="SQLite.Interop.dll" Version="1.0.109.0" MD5="5f001a1b09175d75165039b433ce17ba" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/SQLite.Interop.dll" />
@@ -15,6 +15,7 @@
       <row Name="LpSolveDotNet.dll" Version="4.0.0.0" MD5="dcc6c65b3af824316b73eeffa4cafbd1" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/LpSolveDotNet.dll" />
       <row Name="lpsolve55.dll" Version="5, 5, 2, 5" MD5="de8da5d23a66dd62a0a4d3a291d2426b" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/lpsolve55.dll" />
       <row Name="GoogleAnalyticsClientDotNet.Net45.dll" Version="1.0.0.23" MD5="de838ea2720e2506d09bcd31dd6b23e9" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/GoogleAnalyticsClientDotNet.Net45.dll" />
+      <row Name="JWT.dll" Version="8.0.0.0" MD5="682c74799452a39191cec949597e6bfa" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/JWT.dll" />
     </rowset>
   </result>
 </EVEIPH>
