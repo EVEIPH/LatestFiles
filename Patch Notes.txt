@@ -13,6 +13,26 @@ Patreon Support here: https://www.patreon.com/user?u=51064427&fan_landing=true
 Version 5.0
 
 ============================================
+Build 5.0.7960.39034
+
+New things
+* Updated Database and Images to the October 13, 2021 version.
+* Added the ability to update prices for Non-buildable items (e.g., Meta 1-4 modules) for use in the Reprocessing Plant. To use this feature, check the 'No Build Items' option on the Update Prices tab. This check box will be unchecked as a default and will not change when the 'Select/Unselect All Items' button is pressed but it will be saved with Save Settings.
+* Updated the way IPH accounts for drone skills on the Mining Tab. Users should see more dynamic updates to drone names to select for mining ships and booster ships.
+* Added the ability to view the EVEIPH.log (Error log) from the File menu.
+* Implemented the new v2 authorization endpoints for the November 1, 2021 depreciation of old OAuth endpoints. Users should not experience any issues with this change when adding or updating character data through ESI but please send a bug report if anything is not working correctly.
+
+Bug Fixes
+* The build price shown in the Components window on Blueprint tab will now correctly display the build cost of the component. Note, if there are excess sell materials this may not be exact if there are other components set to build as other components may use excess materials from other components instead of building them. 
+* The total cost shown on the Components window on the Blueprint tab will now show the market cost and not the build cost when buy is selected.
+* Build/Buy checks on the Components window will now translate across all blueprints and not just the one selected. 
+* The excess material list will now correctly show the taxes and fees for selling this list.
+* The built components list will now show the built component prie when excess sell materials on the component are factored in and the Built cost, which will not include excess sell components. For components, the excess materials are used by other components for the main blueprint and will only reflect the final excess of the main blueprint.
+* Made several changes to make the excess material list and final output of components and raw items more accurate.
+* Items with no volume in assets will no longer crash program from the reprocessing window when selected from assets.
+* Facilities will now be refreshed throughout IPH when updating a system index on the Blueprint Tab. 
+* Saving a tax rate will no longer reset any saved rigs on the selected facility. 
+
 Build 5.0.7935.33256
 * When selecting reactions on the BP Tab, the T2/T3 Material Type options should no longer be disabled for selection.
 * The Reprocessing and Reprocessing Efficiency combo boxes on the Reprocessing Plant should now correctly update when changed.
