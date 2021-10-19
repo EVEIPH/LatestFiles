@@ -13,7 +13,7 @@ Patreon Support here: https://www.patreon.com/user?u=51064427&fan_landing=true
 Version 5.0
 
 ============================================
-Build 5.0.7960.39034
+Build 5.0.7962.22526
 
 New things
 * Updated Database and Images to the October 13, 2021 version.
@@ -21,6 +21,7 @@ New things
 * Updated the way IPH accounts for drone skills on the Mining Tab. Users should see more dynamic updates to drone names to select for mining ships and booster ships.
 * Added the ability to view the EVEIPH.log (Error log) from the File menu.
 * Implemented the new v2 authorization endpoints for the November 1, 2021 depreciation of old OAuth endpoints. Users should not experience any issues with this change when adding or updating character data through ESI but please send a bug report if anything is not working correctly.
+* Updated Tax and Broker Fee Calculations to reflect tax restructuring mentioned here: https://www.eveonline.com/news/view/restructuring-taxes-after-relief
 
 Bug Fixes
 * The build price shown in the Components window on Blueprint tab will now correctly display the build cost of the component. Note, if there are excess sell materials this may not be exact if there are other components set to build as other components may use excess materials from other components instead of building them. 
