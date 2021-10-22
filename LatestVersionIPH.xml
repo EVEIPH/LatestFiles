@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <EVEIPH Version="5.0">
-  <LastUpdated>10/22/2021 2:20:45 PM</LastUpdated>
+  <LastUpdated>10/19/2021 12:33:26 PM</LastUpdated>
   <result>
     <rowset name="filelist" key="version" columns="Name,Version,MD5,URL">
-      <row Name="EVE Isk per Hour.exe" Version="5.0.7965.23074" MD5="5b5b3cf2aed0333720727f6e79fb853f" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/EVE%20Isk%20per%20Hour.exe" />
+      <row Name="EVE Isk per Hour.exe" Version="5.0.7962.22526" MD5="65adfe1979461f3e4224975abffc31ba" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/EVE%20Isk%20per%20Hour.exe" />
       <row Name="EVEIPH Updater.exe" Version="3.0.0.0" MD5="f6ae296ab1f63def348e021b1bd7fd93" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/EVEIPH%20Updater.exe" />
-      <row Name="EVEIPH DB.sqlite" Version="October_13_2021_Release" MD5="0e3c95786a2d1d572fdc98a5bd046f81" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/EVEIPH%20DB.sqlite" />
-      <row Name="EVEIPH Images.zip" Version="1.0" MD5="5d3b2a00e59be2ffbc7c80840bad7b2a" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/EVEIPH%20Images.zip" />
+      <row Name="EVEIPH DB.sqlite" Version="October_13_2021_Release" MD5="92444bb33b4c4c3de9b6037d515c7010" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/EVEIPH%20DB.sqlite" />
+      <row Name="EVEIPH Images.zip" Version="1.0" MD5="e458fe885ea06a6cbae4d469ff88a9d2" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/EVEIPH%20Images.zip" />
       <row Name="Newtonsoft.Json.dll" Version="12.0.1.22727" MD5="d827dd8a8c4b2a2cfa23c7f90f3cce95" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/Newtonsoft.Json.dll" />
       <row Name="System.Data.SQLite.dll" Version="1.0.109.0" MD5="1cb1fffea4b449fff2e56a52d7e1f4e4" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/System.Data.SQLite.dll" />
       <row Name="SQLite.Interop.dll" Version="1.0.109.0" MD5="5f001a1b09175d75165039b433ce17ba" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/SQLite.Interop.dll" />
