@@ -13,10 +13,16 @@ Patreon Support here: https://www.patreon.com/user?u=51064427&fan_landing=true
 Version 5.0
 
 ============================================
+Build 5.0.8017.38719
+NOTE: The mining tab has not been updated with the December 7th patch. No values shown there will be correct until updated in a later release.
+* Updated Database and Images to the December 7, 2021 versions.
+* Fixed an issue where users could update the ME and TE of reaction blueprints. This has been corrected but users may need to refresh blueprints or update them through Blueprint Management to make the changes permanent. 
+* Fixed bug with formatting the cost index on the Blueprint Tab that would crash the program in rare cases.
+
 Build 5.0.7980.38564
 
 New things
-* Updated Database and Images to the October 13, 2021 version.
+* Updated Database and Images to the October 13, 2021 versions.
 * Added the ability to update prices for Non-buildable items (e.g., Meta 1-4 modules) for use in the Reprocessing Plant. To use this feature, check the 'No Build Items' option on the Update Prices tab. This check box will be unchecked as a default and will not change when the 'Select/Unselect All Items' button is pressed but it will be saved with Save Settings.
 * Updated the way IPH accounts for drone skills on the Mining Tab. Users should see more dynamic updates to drone names to select for mining ships and booster ships.
 * Added the ability to view the EVEIPH.log (Error log) from the File menu.
