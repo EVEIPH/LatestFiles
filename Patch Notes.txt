@@ -13,6 +13,26 @@ Patreon Support here: https://www.patreon.com/user?u=51064427&fan_landing=true
 Version 5.0
 
 ============================================
+Build 5.0.8086.34736
+
+Updated Mining tab for Dec 7, 2021 changes:
+* All new processing skills and Crystals have been added.
+* All mining ships, boosters, and modules have been updated with new attributes.
+* Removed the m3/Cycle column and replaced it with RP (Residue Probability) and RV (Residue Volume) to allow users to see stats for different combinations of crystals and equipment. Note, IPH assumes you have enough ore to mine for an hour, even with Residue so the amounts shown will be only what you mine, not what is destroyed by Residue.
+* Because ore mining crystals can modify cycle times, only the base cycle time is shown on first Calculation. Clicking on a row in the Ore list will show the correct cycle time for the ore and crystal in that line.
+* Mining barges can now be selected for Gas Mining.
+
+Other updates and bug fixes:
+* Updated database and images to February 15, 2022 versions
+* The Reprocessing Plant has been updated to use the new Ore Processing skills.
+* The Ore Conversion settings should now correctly calculate ores needed for item minerals by taking into account the new Ore Processing skills.
+* Faction structure module blueprints will now correctly filter as Pirate faction when selected (e.g., Dread Guristas Standup...).
+* Advanced industry skill will no longer apply to reactions, which resulted in incorrect reaction times.
+* Disabled the Sov Ore and Ice belt flip tools due to new mining updates.
+* Molecular-Forged Reaction Formulas should now be correctly considered as Reactions for usage, facilities, and other calculations.
+* Users will get a more helpful message when a refresh token expires. When keys expire or no longer work, Users can now update authorization tokens (web page character select) by pressing the Refresh Tokens from the Manage Accounts under the File menu 11to update the character selected.
+* The Blueprint Viewer now correctly loads reaction formulas when clicked.
+ 
 Build 5.0.8017.41095
 NOTE: The mining tab has not been updated with the December 7th patch. No values shown there will be correct until updated in a later release.
 * Updated Database and Images to the December 7, 2021 versions.
