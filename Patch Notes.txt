@@ -13,6 +13,18 @@ Patreon Support here: https://www.patreon.com/user?u=51064427&fan_landing=true
 Version 5.0
 
 ============================================
+Build 5.0.8134.19895
+* Updated Database and Images to Patch 20.04 (April 5, 2020) versions
+* Added new Compressed Ore to refining and mining calculations. Batch Compressed Ore has been removed from calculations.
+* Compressed Moon Ore and Compressed Gas will now be options for viewing on the Mining Tab and Update Prices.
+* New Tatara base refining bonus updated to 5.5%
+* The T2 Standup XL Energy Neutralizer will now be correctly marked as T2 instead of T1
+* Fixed several errors with mining drone and booster drone calculations (which were incorrect by a factor of 100) on the Mining Tab.
+* Corrected an error on booster drone calculations for units per hour.
+* Users can now select the Industrial Core for the Orca and Porpoise.
+* Gas Mining cycle time will now take into account ship bonuses.
+* Users can now uncheck 'Ignore Invention' when a BPC is marked as Owned but does not have ME/TE values that suggest it was invented (e.g., hacking rewards or T2 BPO copies).
+
 Build 5.0.8086.34736
 
 Updated Mining tab for Dec 7, 2021 changes:
