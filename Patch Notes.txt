@@ -13,6 +13,18 @@ Patreon Support here: https://www.patreon.com/user?u=51064427&fan_landing=true
 Version 5.0
 
 ============================================
+Build 5.0.8153.42278
+
+Mining Tab Updates
+* Fixed a bug where switching the strip miner would not update the mining amounts properly.
+* The Fleet Booster Ship level will now adjust burst effects properly to mining amounts.
+* Fixed an error that would crash the program when Calculating Ice mining without a drone selected.
+
+Update Prices
+* Replaced EVE Marketer price downloads with Fuzzworks market data. Using this data source is limited to hub systems and regions. The refresh limit is set to 10 minutes by default but can be updated in Application Settings. Note: CCP data is still the most accurate price data that is based on live, in-game prices for all systems with markets as well as structures (public and manually added).
+* The Open Market Browser button will now open to EVE Tycoon's market page.
+Note: IPH will use EVE Marketer again if the site returns.
+
 Build 5.0.8135.40816
 * Updated Database and Images to Patch 20.04 (April 5, 2020) versions
 * Added new Compressed Ore to refining and mining calculations. Batch Compressed Ore has been removed from calculations.
