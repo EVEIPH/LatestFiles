@@ -13,9 +13,14 @@ Patreon Support here: https://www.patreon.com/user?u=51064427&fan_landing=true
 Version 5.0
 
 ============================================
+Build 5.0.8165.22498
+* Updated database and images to May 10, 2022 version (Siege Green)
+* Fixed a bug where the csv export of materials cost on the manufacturing tab was formatted with commas.
+* Standup XL Energy Neutralizer II should no longer be marked as a T1 item.
+
 Build 5.0.8153.42278
 
-Mining Tab Updates
+Mining Tab
 * Fixed a bug where switching the strip miner would not update the mining amounts properly.
 * The Fleet Booster Ship level will now adjust burst effects properly to mining amounts.
 * Fixed an error that would crash the program when Calculating Ice mining without a drone selected.
