@@ -13,6 +13,30 @@ Patreon Support here: https://www.patreon.com/user?u=51064427&fan_landing=true
 Version 5.0
 
 ============================================
+Build 5.0.8222.20101
+
+Update Prices Tab
+* Added EVE Marketer back to the list of options for price downloads. NOTE: CCP Data will always be the most accurate price source and the only way to get structure prices from non-public structures.
+* Updated how the price profile and Jita/Perimeter price downloads works to be more accurate.
+* Fuzzworks price download now accepts any system or region for price downloads.
+* Price updates using Fuzzworks data source will be much more accurate when selecting Jita/Perimeter.
+* Made several UI updates to manage different options selected on the Update Prices tab.
+
+Manage Accounts 
+* Updated the Manage accounts screen to show if the selected account has director or factory manager roles, which affect what corporation data you can see in IPH (Blueprints, Assets, Corp Jobs).
+* Added the Corporation ID to the options on the Manage Accounts screen to select and copy for debugging purposes.
+* Adding characters from the Manage Accounts section will now update the dropdown on the status bar of the main page.
+
+Other changes
+* Updated database and images to June 30, 2022 version.
+* Fixed an overflow error when calculating ore amounts for large items or runs (e.g., Vanquisher) on the Blueprints tab.
+* The ME value for a new facility will now update correctly when switching to a station from a structure. 
+* Updated the shopping list to use the price type downloaded (CCP, Marketer, Fuzzworks) and source of price when Calculating Buy Order / Buy Market and will be more accurate to actual values.
+* Added a new column to the industry jobs tab to show local time when the job will complete.
+* Modified the ESI Status screen to show red when an ESI endpoint is unavailable (prior it wouldn’t show the end point at all).
+* If no drones are selected for the Rorqual, Orca, or Porpoise, the first ore will no longer show a blank refining rate.
+* Copy and pasting assets into the shopping list with the quantity before the item name will no longer cause an error.
+
 Build 5.0.8165.22498
 * Updated database and images to May 10, 2022 version (Siege Green)
 * Fixed a bug where the csv export of materials cost on the manufacturing tab was formatted with commas.
