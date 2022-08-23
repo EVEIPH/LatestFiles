@@ -13,13 +13,14 @@ Patreon Support here: https://www.patreon.com/user?u=51064427&fan_landing=true
 Version 5.0
 
 ============================================
-Build 5.0.8252.41945
+Build 5.0.8270.35871
 * Adding certain items to the shopping list will no longer crash the program when viewing the shopping list.
 * Clicking on the Favorites option in the Blueprint Viewer will no longer crash the program
 * Named Components will now show up in the Price Profiles list of Materials & Research Equipment
 * The systems combo on the Set Defaults section of Price Profiles will now update with system names for selection.
 * Facility Refine Yields will now display correctly on the Reprocessing Plant window.
 * Cut and Paste import on the Reprocessing Plant will now import data to the list with an item in one line.
+* Invention costs will now use the price of the BPC (if set on the Update Prices Tab) to calculate the invention costs.
 
 Build 5.0.8222.20101
 
