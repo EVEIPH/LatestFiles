@@ -13,6 +13,12 @@ Patreon Support here: https://www.patreon.com/user?u=51064427&fan_landing=true
 Version 5.0
 
 ============================================
+Build 5.0.8273.35843
+* Fixed an issue where T1 Abyssal Mining Crystals were being treated as T2 items and would crash the program when used.
+* Molecular Forged Materials will now be treated as an Advanced reaction in calculations.
+* Added checkbox to the Mining Tab to apply the 10% mining bonus when mining in an EDENCOM System.
+* Updated all external program libraries to current versions.
+
 Build 5.0.8270.35871
 * Adding certain items to the shopping list will no longer crash the program when viewing the shopping list.
 * Clicking on the Favorites option in the Blueprint Viewer will no longer crash the program
