@@ -13,7 +13,7 @@ Patreon Support here: https://www.patreon.com/user?u=51064427&fan_landing=true
 Version 5.0
 
 ============================================
-Build 5.0.8274.29998
+Build 5.0.8277.34051
 * Fixed an issue where T1 Abyssal Mining Crystals and Improved Boosters were being treated as T2 items and would crash the program when used.
 * Molecular Forged Materials will now be treated as an Advanced reaction in calculations.
 * Added checkbox to the Mining Tab to apply the 10% mining bonus when mining in an EDENCOM System.
