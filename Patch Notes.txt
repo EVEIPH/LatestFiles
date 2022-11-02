@@ -13,6 +13,19 @@ Patreon Support here: https://www.patreon.com/user?u=51064427&fan_landing=true
 Version 5.0
 
 ============================================
+Build 5.0.8340.42082
+* Fixed an issue that would display an error message each time a structure update thread was aborted.
+* Owned T2 and T3 blueprint copies and originals should now automatically load the saved ME/TE values listed in the Blueprint Management page and checking the Ignore Invention box should now properly update for all T2 and T3 blueprints.
+* Fixed several bugs on the BP Management window that would crash the program when filtered by type.
+* Added a new Help section to the About menu that provides links to the IPH YouTube channel and Discord server.
+
+Mining tab updates
+* Enabled the Wormhole Space checks for Ice Mining to account for Shattered Wormholes and the Mining tab will show the types of ice in Shattered Wormholes.
+* Gneiss will now correctly show as an ore when Wormhole Space is selected on the Mining tab.
+* Updated all Gas Locations for mining and reprocessing based on EVE University wiki and now all ores will correctly display based on Ore Locations selected.
+* IPH will now correctly sort when multiple Processing Types selected.
+* Selecting the ‘Crop’ or ‘Plow’ gas harvesters should no longer crash the program.
+
 Build 5.0.8277.34051
 * Fixed an issue where T1 Abyssal Mining Crystals and Improved Boosters were being treated as T2 items and would crash the program when used.
 * Molecular Forged Materials will now be treated as an Advanced reaction in calculations.
