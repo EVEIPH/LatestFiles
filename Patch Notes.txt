@@ -13,7 +13,7 @@ Patreon Support here: https://www.patreon.com/user?u=51064427&fan_landing=true
 Version 5.0
 
 ============================================
-Build 5.0.8340.42082
+Build 5.0.8340.42355
 * Fixed an issue that would display an error message each time a structure update thread was aborted.
 * Owned T2 and T3 blueprint copies and originals should now automatically load the saved ME/TE values listed in the Blueprint Management page and checking the Ignore Invention box should now properly update for all T2 and T3 blueprints.
 * Fixed several bugs on the BP Management window that would crash the program when filtered by type.

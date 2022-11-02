@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <EVEIPH Version="5.0">
-  <LastUpdated>11/1/2022 11:25:04 PM</LastUpdated>
+  <LastUpdated>11/1/2022 11:32:53 PM</LastUpdated>
   <result>
     <rowset name="filelist" key="version" columns="Name,Version,MD5,URL">
-      <row Name="EVE Isk per Hour.exe" Version="5.0.8340.42082" MD5="ab5dbae9bbc2a34643a90006c32e66dc" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/EVE%20Isk%20per%20Hour.exe" />
-      <row Name="EVEIPH Updater.exe" Version="3.0.0.0" MD5="15a1ac115dc23fb99d25a3a0f493f753" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/EVEIPH%20Updater.exe" />
+      <row Name="EVE Isk per Hour.exe" Version="5.0.8340.42355" MD5="1f89ea9a127f426abbedaef7ccb9f579" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/EVE%20Isk%20per%20Hour.exe" />
+      <row Name="EVEIPH Updater.exe" Version="3.0.0.0" MD5="e25c1817ed0b31f476e6270ea6eeff09" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/EVEIPH%20Updater.exe" />
       <row Name="EVEIPH DB.sqlite" Version="October_11_2022" MD5="780de2b4a89c65038acf3626742ecbf0" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/EVEIPH%20DB.sqlite" />
       <row Name="EVEIPH Images.zip" Version="1.0" MD5="dc839c35ec133ac3aa2dc25fd01a76ff" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/EVEIPH%20Images.zip" />
       <row Name="Newtonsoft.Json.dll" Version="13.0.1.25517" MD5="081d9558bbb7adce142da153b2d5577a" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/Newtonsoft.Json.dll" />
