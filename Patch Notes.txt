@@ -13,6 +13,15 @@ Patreon Support here: https://www.patreon.com/user?u=51064427&fan_landing=true
 Version 5.0
 
 ============================================
+Build 5.0.8345.36336
+* Fixed an issue where taxes and fees were subtracted from the Total Build Cost on the Manufacturing Tab resulting in incorrect build cost numbers when loading the blueprint on the Blueprint Tab through double click.
+* IPH will no longer refresh the blueprint on the Blueprint Tab when changing a facility to a faction warfare system.
+* Added additional error processing to address “Database disk image is malformed” error messages.
+* Updated processing to make saving and loading structure rigs more accurate.
+* Saving a structure will no longer reset the saved tax rate if set.
+* The decryptor combobox will now load all decryptors when selecting an owned T2/T3 blueprint on startup.
+* Shared facilities should now correctly update all facilities on the Manufacturing Tab when updating a facility on the Blueprint Tab not just manufacturing.
+
 Build 5.0.8340.42355
 * Fixed an issue that would display an error message each time a structure update thread was aborted.
 * Owned T2 and T3 blueprint copies and originals should now automatically load the saved ME/TE values listed in the Blueprint Management page and checking the Ignore Invention box should now properly update for all T2 and T3 blueprints.
