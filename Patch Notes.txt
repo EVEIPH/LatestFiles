@@ -13,6 +13,11 @@ Patreon Support here: https://www.patreon.com/user?u=51064427&fan_landing=true
 Version 5.0
 
 ============================================
+Build 5.0.8391.35923
+* Temporarily removed the 'Open Market Browser' button from the Update Prices Tab and changed to 'Load Price History' for adding functionality to upload market data for the SVR calculation. This button will allow users to copy/paste data from the in-game Regional Market Table for items.
+* To use this functionality, click 'Load Price History', then open up the Market window for the item you want, select the 'Price History' tab (next to 'Market Data'). Then, if the table is not shown, select 'Show Table' on the bottom of the window. Select the time range you want (recommend just doing a year). Click on any line then press Control + 'A' to select all items. Then, press Control + 'C'. Now, go back to the 'Load Price History' Window in IPH, select the text box, and press Control + 'V' to paste the data into the window (you can also right click and select paste over the text box). Now, select the item you copied the data in the Select Item combo box, which can be further filtered by selecting the Item Group above. Select the region you imported the data and hit the Import button to import. Note, the region you use for the data must match the region you are using for SVR calculations in the application settings or it won't calculate. 
+* Note: every time you upload the data, it will delete the item data and refresh it.
+
 Build 5.0.8345.36336
 * Fixed an issue where taxes and fees were subtracted from the Total Build Cost on the Manufacturing Tab resulting in incorrect build cost numbers when loading the blueprint on the Blueprint Tab through double click.
 * IPH will no longer refresh the blueprint on the Blueprint Tab when changing a facility to a faction warfare system.
