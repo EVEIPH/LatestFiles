@@ -13,6 +13,9 @@ Patreon Support here: https://www.patreon.com/user?u=51064427&fan_landing=true
 Version 5.0
 
 ============================================
+Build 5.0.8418.32345
+* Updated database and images to January 18, 2023 version
+
 Build 5.0.8393.14629
 * Temporarily removed the 'Open Market Browser' button from the Update Prices Tab and changed to 'Load Price History' for adding functionality to upload market data for the SVR calculation. This button will allow users to copy/paste data from the in-game Regional Market Table for items.
 * To use this functionality, click 'Load Price History', then open up the Market window for the item you want, select the 'Price History' tab (next to 'Market Data'). Then, if the table is not shown, select 'Show Table' on the bottom of the window. Select the time range you want (recommend just doing a year). Click on any line then press Control + 'A' to select all items. Then, press Control + 'C'. Now, go back to the 'Load Price History' Window in IPH, select the text box, and press Control + 'V' to paste the data into the window (you can also right click and select paste over the text box). Now, select the item you copied the data in the Select Item combo box, which can be further filtered by selecting the Item Group above. Select the region you imported the data and hit the Import button to import. Note, the region you use for the data must match the region you are using for SVR calculations in the application settings or it won't calculate. 
@@ -779,7 +782,7 @@ Build 3.3.6159.24346
 Build 3.3.6147.24931
 * Updated database and images to YC_118.9.1.1
 * Mining Tab updated to recent changes to barges (stats and turrets)
-* Fixed bug on Blueprint Management that caused the program to crash if you selected the drop down for type when selecting a different item type besides �All�
+* Fixed bug on Blueprint Management that caused the program to crash if you selected the drop down for type when selecting a different item type besides  All 
 * Thukker Mix Stations will now show up in facilities for selection.
 * Added a new option on the BP Tab named 'Simple Copy', which when selected formats the 'Copy to Clipboard' output for use in multi-buy and applications like EVEpraisal.
 
@@ -937,7 +940,7 @@ Build 3.2.5895.32258
 * Current buy/sell orders on the manufacturing tab will no longer limit by date but live data.
 * Added a timeout check if updating from CCP prices locks up / hangs. Data is saved up to that point so just try your price updates again if you see this error.
 
-Build 3.2.5873.19500 � CREST Market Prices Integration - January 30, 2016
+Build 3.2.5873.19500   CREST Market Prices Integration - January 30, 2016
 
 Bug Fixes
 * Blueprints should now be selectable from the drop down and mouse after using the arrow keys to select in the blueprint combo.
@@ -973,23 +976,23 @@ Manufacturing Tab
 * Renamed 'SVR Settings' Frame to 'Market History Settings'
  - Note: Average days is no longer just used for SVR but is used for all market history calculations.
 * The following columns have been added to the Manufacturing List:
- - Price Trend � Linear trend of prices for the days entered in Average Days under Market History Settings. Value is displayed as a positive or negative percent but a red or green arrow has been added to help determine trend direction as well.
- - Total Items Sold � Total items sold over for the days entered in Average Days under Market History Settings.
- - Total Orders Filled � Total orders completed for the days entered in Average Days under Market History Settings.
- - Average Items Per Order � Orders divided by Items Sold for the days entered in Average Days under Market History settings.
- - Current Sell Orders � The current number of Sell Orders on the market for the Region selected in Market History Settings. Note, these orders are filled from CCP data from the Update Prices tab and will show nothing if not updated.
- - Current Buy Orders � The current number of Buy Orders on the market for the Region selected in Market History Settings. Note, these orders are filled from CCP data from the Update Prices tab and will show nothing if not updated.
- - Items in Production � The current number of the items that you are currently producing on all characters.
- - Items in Stock � The current number of items in stock at the asset locations set by the assets window launched by clicking on the 'Safe' Icon on the manufacturing tab.
+ - Price Trend   Linear trend of prices for the days entered in Average Days under Market History Settings. Value is displayed as a positive or negative percent but a red or green arrow has been added to help determine trend direction as well.
+ - Total Items Sold   Total items sold over for the days entered in Average Days under Market History Settings.
+ - Total Orders Filled   Total orders completed for the days entered in Average Days under Market History Settings.
+ - Average Items Per Order   Orders divided by Items Sold for the days entered in Average Days under Market History settings.
+ - Current Sell Orders   The current number of Sell Orders on the market for the Region selected in Market History Settings. Note, these orders are filled from CCP data from the Update Prices tab and will show nothing if not updated.
+ - Current Buy Orders   The current number of Buy Orders on the market for the Region selected in Market History Settings. Note, these orders are filled from CCP data from the Update Prices tab and will show nothing if not updated.
+ - Items in Production   The current number of the items that you are currently producing on all characters.
+ - Items in Stock   The current number of items in stock at the asset locations set by the assets window launched by clicking on the 'Safe' Icon on the manufacturing tab.
 * Users can now select 'Optimal' for a decryptor calc function. It is a tri-check that allows no optimal comparison (unchecked), optimal IPH (checked), optimal profit (tri-check).
 * The Tech Level has had the Tech image added to the row for T2, T3, Storyline, and Faction items. 
 * Added Market filtering options to the Manufacturing tab to include the following:
- - Price Trend � Up/Down/All based on CCP Market History data.
- - Total Volume Threshold � if volume is greater than entry, include record. Note: you must download price data from CCP for this functionality. Also, this is the total volume of items sold and will filter the 'Total Items Sold' column in the manufacturing list, not the total volume produced from the bps.
- - Total IPH Threshold � if IPH is greater than entry, include record. 
- - Total Profit Threshold � if profit is greater than entry, include record. 
- - Min/Max Build times � if the total production time is greater than or less than the min/max time, the record is included.
- - Add time check to manufacturing tab � ie. I only want stuff between 22 and 24 hours
+ - Price Trend   Up/Down/All based on CCP Market History data.
+ - Total Volume Threshold   if volume is greater than entry, include record. Note: you must download price data from CCP for this functionality. Also, this is the total volume of items sold and will filter the 'Total Items Sold' column in the manufacturing list, not the total volume produced from the bps.
+ - Total IPH Threshold   if IPH is greater than entry, include record. 
+ - Total Profit Threshold   if profit is greater than entry, include record. 
+ - Min/Max Build times   if the total production time is greater than or less than the min/max time, the record is included.
+ - Add time check to manufacturing tab   ie. I only want stuff between 22 and 24 hours
 * SVR Settings has been removed and options have been moved to the Market Filters
 * Removed the option to ignore 'Items I can Reverse Engineer'. T3 items will check the 'Items I can Invent Flag' now to determine including in the list. Note, text colors highlighting T3 invention or T2 invention will remain unchanged.
 * Users can now right-click on the manufacturing tab and add multiple blueprints to the shopping list if selected.
@@ -997,7 +1000,7 @@ Manufacturing Tab
 Update Prices Tab
 * Redesigned the update prices tab to allow for downloading prices from CCP (Direct game data) or EVE Central. Additionally, added the option to set up a Price Profile, which splits up the locations you want to download different prices (E.g. you buy minerals in Hek, sell ships in Jita, sell modules in Amarr).
 * CCP Data - Users can now download live price data from the EVE Servers by selecting the radio button 'CCP Data' or continue using 'EVE Central'. Note CCP data will likely be slower than using EVE Central but more accurate as it is live prices from the game. Note, only one region at a time can be used to update prices when 'CCP Data' is selected.
-* Price Profiles � Users can select to use a price profile, which allows downloads from any system/region for the shown categories. Users can select a price type, region, and system (Select 'All Systems' to use the regional price) for each category and assign a price modifier for each category as well. Note: you can only select one region for this functionality.
+* Price Profiles   Users can select to use a price profile, which allows downloads from any system/region for the shown categories. Users can select a price type, region, and system (Select 'All Systems' to use the regional price) for each category and assign a price modifier for each category as well. Note: you can only select one region for this functionality.
 * The Manual Price update button 'Update Prices' has been replaced with a 'Cancel Update' button that will cancel price updates when pressed. Users can still manually update prices from the Edit menu.
 * Users can now add a percentage of the price to the imported price by entering a percentage in the 'Price Modifier' text box for Raw Materials or Manufactured items. For instance, if you sell items at 10% more than Jita price at your null sec outpost, you can add 10% to all the prices you import to show the prices at which to sell items. Price modifiers are also available in the Price Profile.
 * Added tool tips to the price type drop downs for short explainations of the different options.
@@ -1010,7 +1013,7 @@ General
 * Region drop downs will no longer show wormhole regions for market data, with the exeption of G-R00031 (Thera).
 * Text searches on the Manufacturing, Blueprint Management, and Update Prices have added functionality. Now users limit searches by separate multiple items with commas, or adding 'NOT' at the beginning or in the middle of the text. Searches are not case sensitive and searches the item name and group for filtering. For example:
  - 'mining crystal not rig, jaspet' - shows mining crystals but not the mercoxit mining crystal rig or jaspet mining crystals
- - 'Hulk, Mackinaw, Skiff' � will only show these three ships
+ - 'Hulk, Mackinaw, Skiff'   will only show these three ships
  - 'NOT Hulk, Mackinaw, Skiff' - don't want these three but all other items
 * Added the ability to set a Proxy in settings to include the HTTP/HTTPS proxy address and port (set port to 0 for no port number). Please let me know if you use a proxy and cannot get this setting to work or require additional information to input.
 * The teams window has been removed from the manufacturing tab until teams are reintroduced. 
