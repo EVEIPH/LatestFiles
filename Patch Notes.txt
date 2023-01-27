@@ -13,7 +13,7 @@ Patreon Support here: https://www.patreon.com/user?u=51064427&fan_landing=true
 Version 5.0
 
 ============================================
-Build 5.0.8420.41661
+Build 5.0.8423.38869
 * Updated database and images to January 18, 2023 version
 * Added filter to show four new ores in A0 Blue Star systems to the Mining Tab.
 
