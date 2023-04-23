@@ -13,8 +13,22 @@ Patreon Support here: https://www.patreon.com/user?u=51064427&fan_landing=true
 Version 5.0
 
 ============================================
+Build 5.0.8513.18230
+* Updated database and images to March 15, 2023 versions
+* Fixed a bug in the asset viewer that would crash the program when selecting Blueprint Materials and refreshing the list
+* Users should now be able to upload price history data that is formatted with decimal commas (e.g, 1.000,00)
+* Copying items from the Manufacturing Tab grid will no longer end with a new line when pasting out of the program
+* Fixed an error on the Manufacturing Tab that would crash the program when the Max Build Time box was checked, and the number of build days exceeded 32,767 days.
+* Polarized weapons will now show as T2 in the Manufacturing list but still won't be able to be invented in IPH.
+* Removed FW Levels from Structure Settings as there is no longer an industry bonus for FW systems.
+* Loading a new character will now load character roles with the character information.
+* Fixed an issue where when loading a character that had a different corporation than the one set as default, would cause an error.
+* Updated the Industry Jobs viewer to allow viewing all industry job types and load corporation jobs even if the Default character did not have roles to see corporation jobs.
+* The proper Alpha Clone Tax (2%) and Alpha Facility Tax (10% of ACT) will now be calculated for manufacturing usage when 'Alpha Account' is selected in Program Settings.
+* IPH will now ignore building R.A.M.s and Fuel Blocks for all calculation types (e.g., non-Build/Buy). 
+
 Build 5.0.8423.38869
-* Updated database and images to January 18, 2023 version
+* Updated database and images to January 18, 2023 versions
 * Added filter to show four new ores in A0 Blue Star systems to the Mining Tab.
 
 Build 5.0.8393.14629
