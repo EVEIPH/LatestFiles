@@ -13,6 +13,9 @@ Patreon Support here: https://www.patreon.com/user?u=51064427&fan_landing=true
 Version 5.0
 
 ============================================
+Build 5.0.8530.36296
+* Market history endpoint restored (with limitations). SVR and market volume calcuations will now correctly show. Note, data from this endpoint is limited to 300 requests per minute. IPH will take the first 300 requests (a unique built item is a request) per minute and return the market history (if data available). Users will need to re-request data for additional records after the minute expires. 
+
 Build 5.0.8519.36257
 * Updated database and images to March 15, 2023 versions
 * Fixed a bug in the asset viewer that would crash the program when selecting Blueprint Materials and refreshing the list
