@@ -13,6 +13,21 @@ Patreon Support here: https://www.patreon.com/user?u=51064427&fan_landing=true
 Version 5.0
 
 ============================================
+Build 5.0.8565.39845 (Viridian)
+Tax Changes
+* Sales tax holiday is in effect and all sales taxes are reduced by 50%
+* Added the fixed 0.5% SCC surcharge to the broker's fee when users select to set the broker's fee, which IPH will assume is in an Upwell Structure.
+
+Industry Installation Fee Changes
+* Updated formula, Removed Alpha Facility Fee, and added new SCC Surcharge
+* Removed FW system upgrade bonus from facilities in FW zones as it is no longer available in game.
+
+Bug fixes
+* Users can now save 'All systems' for a selected region on the Update Prices tab.
+* Ice harvester drone yield will now be displayed on the Mining Tab as Blocks / Hour and show the correct Drone Yield in the grid when more than 0 drones selected.
+* ROI calculations on the Manufacturing tab will now reflect the type of Price Comparison selected. ROI for Components will be ComponentProfit/ComponentCost and Raw and Build/Buy will use RawProfit/RawCost. Note Profit % use the same logic.
+* Trying to save blank values (Runs, SVR Threshold, etc.) on the Manufacturing Tab will no longer crash the program.
+
 Build 5.0.8530.36296
 * Market history endpoint restored (with limitations). SVR and market volume calcuations will now correctly show. Note, data from this endpoint is limited to 300 requests per minute. IPH will take the first 300 requests (a unique built item is a request) per minute and return the market history (if data available). Users will need to re-request data for additional records after the minute expires. 
 
