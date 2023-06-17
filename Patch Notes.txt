@@ -13,7 +13,7 @@ Patreon Support here: https://www.patreon.com/user?u=51064427&fan_landing=true
 Version 5.0
 
 ============================================
-Build 5.0.8565.39845 (Viridian)
+Build 5.0.8568.17405 (Viridian)
 Tax Changes
 * Sales tax holiday is in effect and all sales taxes are reduced by 50%
 * Added the fixed 0.5% SCC surcharge to the broker's fee when users select to set the broker's fee, which IPH will assume is in an Upwell Structure.
