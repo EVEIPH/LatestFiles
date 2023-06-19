@@ -13,6 +13,11 @@ Patreon Support here: https://www.patreon.com/user?u=51064427&fan_landing=true
 Version 5.0
 
 ============================================
+Build 5.0.8570.23676
+* Updated database and images to June 19, 2023 versions (Viridian)
+* Advanced Industrial Ship Construction and Advanced Capital Ship Construction skills will now properly reduce Build Times by 1% per skill level of the respected skill when it is required for the blueprint.
+* Upwell rigs for structure bonuses will now apply to Structure Components (e.g., Structure Factory Blueprint)
+
 Build 5.0.8568.17405 (Viridian)
 Tax Changes
 * Sales tax holiday is in effect and all sales taxes are reduced by 50%
