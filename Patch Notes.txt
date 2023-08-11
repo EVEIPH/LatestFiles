@@ -13,9 +13,10 @@ Patreon Support here: https://www.patreon.com/user?u=51064427&fan_landing=true
 Version 5.0
 
 ============================================
-Build 5.0.8602.37084
+Build 5.0.8623.19490
 * Temporary 50% Sales Tax Discount has been removed.
 * NPC SCC Fee for all industry jobs increased from 0.25% to 0.75%
+* Fixed a bug that would crash the program when loading the Mining tab after saving Ice Mining settings.
 
 Build 5.0.8570.23676
 * Updated database and images to June 19, 2023 versions (Viridian)
