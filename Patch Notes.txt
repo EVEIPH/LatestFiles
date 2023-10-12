@@ -13,6 +13,11 @@ Patreon Support here: https://www.patreon.com/user?u=51064427&fan_landing=true
 Version 5.0
 
 ============================================
+Build 5.0.8684.39528
+* NPC SCC Fee for all industry jobs increased from 0.75% to 1.5%
+* Fixed an error on the Mining tab that would crash the program when hauler was unchecked and no mining amount present.
+* Named Components should now correctly download prices when using price profiles on the Update Prices Tab.
+
 Build 5.0.8623.19490
 * Temporary 50% Sales Tax Discount has been removed.
 * NPC SCC Fee for all industry jobs increased from 0.25% to 0.75%
