@@ -13,6 +13,15 @@ Patreon Support here: https://www.patreon.com/user?u=51064427&fan_landing=true
 Version 5.0
 
 ============================================
+Build 5.0.8735.15330
+* Updated database and images to November 15, 2023 versions (Havoc) 
+* Removed EVE Marketer as a price option and renamed FW to Fuzzworks and CCP to Tranquility, which will reflect the data comes from the server.
+* The structure box will now be visible when using Price Profiles on Update Prices.
+* Added FW system upgrade manufacturing bonuses to Facility calculations.
+* Updating Prices for Median Buy/Sell will now correctly save prices and not cause random crashes in the program.
+* Building Angel Cartel or Gurista sub-capital ships in Fulcrum station will apply the 6% ME and 70% TE bonus in the station.
+* If the loaded character is in an Angel Cartel or Gurista FW corporation, they will now receive the 90% reduction in the SCC Surcharge when building in Fulcrum station.
+
 Build 5.0.8684.40312
 * NPC SCC Fee for all industry jobs increased from 0.75% to 1.5%
 * Fixed an error on the Mining tab that would crash the program when hauler was unchecked and no mining amount present.
