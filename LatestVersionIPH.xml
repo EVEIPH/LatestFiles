@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <EVEIPH Version="6.0">
-  <LastUpdated>1/3/2024 8:36:50 PM</LastUpdated>
+  <LastUpdated>1/4/2024 9:04:54 PM</LastUpdated>
   <result>
     <rowset name="filelist" key="version" columns="Name,Version,MD5,URL">
-      <row Name="EVE Isk per Hour.exe" Version="5.0.8768.37096" MD5="1b766640572542cd37135d2b9b70cde9" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/EVE%20Isk%20per%20Hour.exe" />
+      <row Name="EVE Isk per Hour.exe" Version="5.0.8769.37062" MD5="7b082b45a128a30c0fb7e4ecc05059d6" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/EVE%20Isk%20per%20Hour.exe" />
       <row Name="EVEIPH Updater.exe" Version="3.0.0.0" MD5="7dd7773e814607980cc4ca1a3ad91956" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/EVEIPH%20Updater.exe" />
-      <row Name="EVEIPH DB.sqlite" Version="Dec_14_2023" MD5="1b28b6614b14b45286f76276cff86366" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/EVEIPH%20DB.sqlite" />
-      <row Name="EVEIPH Images.zip" Version="1.0" MD5="8a7968a5077cc99b76862d5fb0e7f14c" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/EVEIPH%20Images.zip" />
-      <row Name="Newtonsoft.Json.dll" Version="13.0.1.25517" MD5="081d9558bbb7adce142da153b2d5577a" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/Newtonsoft.Json.dll" />
+      <row Name="EVEIPH DB.sqlite" Version="Dec_14_2023" MD5="f381131baa910f1f7f0318473378d9e5" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/EVEIPH%20DB.sqlite" />
+      <row Name="EVEIPH Images.zip" Version="1.0" MD5="f2749a0df74074ceb9e6afc83134cece" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/EVEIPH%20Images.zip" />
+      <row Name="Newtonsoft.Json.dll" Version="13.0.3.27908" MD5="195ffb7167db3219b217c4fd439eedd6" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/Newtonsoft.Json.dll" />
+      <row Name="System.Buffers.dll" Version="4.6.28619.01" MD5="ecdfe8ede869d2ccc6bf99981ea96400" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/System.Buffers.dll" />
       <row Name="System.Data.SQLite.dll" Version="1.0.116.0" MD5="147328def2e79a86d7335a661eecc051" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/System.Data.SQLite.dll" />
       <row Name="SQLite.Interop.dll" Version="1.0.116.0" MD5="9b68a8d0393fbce1976c19107422f097" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/SQLite.Interop.dll" />
       <row Name="EVEIPH Updater.exe.manifest" Version="1.0" MD5="8c87e91665f3edecd96af7cea24bff4a" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/EVEIPH%20Updater.exe.manifest" />
       <row Name="EVE Isk per Hour.exe.manifest" Version="1.0" MD5="13d337b19e00570b85a9c6c9141d2dc4" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/EVE%20Isk%20per%20Hour.exe.manifest" />
       <row Name="LpSolveDotNet.dll" Version="4.0.0.0" MD5="dcc6c65b3af824316b73eeffa4cafbd1" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/LpSolveDotNet.dll" />
       <row Name="lpsolve55.dll" Version="5, 5, 2, 5" MD5="de8da5d23a66dd62a0a4d3a291d2426b" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/lpsolve55.dll" />
-      <row Name="GoogleAnalyticsClientDotNet.Net45.dll" Version="1.0.0.23" MD5="de838ea2720e2506d09bcd31dd6b23e9" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/GoogleAnalyticsClientDotNet.Net45.dll" />
       <row Name="JWT.dll" Version="8.0.0.0" MD5="682c74799452a39191cec949597e6bfa" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/JWT.dll" />
-      <row Name="System.IdentityModel.Tokens.Jwt.dll" Version="6.22.1.30825" MD5="814f31b4ad7d2d58cb0ab3ff2e50da87" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/System.IdentityModel.Tokens.Jwt.dll" />
-      <row Name="Microsoft.IdentityModel.JsonWebTokens.dll" Version="6.22.1.30825" MD5="aed95ac5346a9258c2fc97fbc70ba0ad" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/Microsoft.IdentityModel.JsonWebTokens.dll" />
-      <row Name="Microsoft.IdentityModel.Tokens.dll" Version="6.22.1.30825" MD5="8eda92fd168b277765c89e519694fcfd" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/Microsoft.IdentityModel.Tokens.dll" />
-      <row Name="Microsoft.IdentityModel.Logging.dll" Version="6.22.1.30825" MD5="04bf8953708d06db7a3ac8e73b1fdb2e" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/Microsoft.IdentityModel.Logging.dll" />
+      <row Name="System.IdentityModel.Tokens.Jwt.dll" Version="7.0.3.41017" MD5="57e2b1a509106fead4a6cc9d198b4171" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/System.IdentityModel.Tokens.Jwt.dll" />
+      <row Name="Microsoft.IdentityModel.JsonWebTokens.dll" Version="7.0.3.41017" MD5="390747c27531fa9f8eb7ead90bfb0e32" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/Microsoft.IdentityModel.JsonWebTokens.dll" />
+      <row Name="Microsoft.IdentityModel.Tokens.dll" Version="7.0.3.41017" MD5="76035d8772ea75c82cf45a7bc1f4027b" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/Microsoft.IdentityModel.Tokens.dll" />
+      <row Name="Microsoft.IdentityModel.Logging.dll" Version="7.0.3.41017" MD5="b97d5092d125b2921c7a9ff513a3bef3" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/Microsoft.IdentityModel.Logging.dll" />
     </rowset>
   </result>
 </EVEIPH>
