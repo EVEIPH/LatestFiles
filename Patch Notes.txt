@@ -13,6 +13,15 @@ Patreon Support here: https://www.patreon.com/user?u=51064427&fan_landing=true
 Version 5.0
 
 ============================================
+Build 5.0.8800.35722
+* Updated SCC Industry Surcharge rate from 1.5% to 4%
+* Selecting Reset All Data from the Data menu will no longer crash the program.
+* Deleting items from the shopping list should no longer crash the program.
+* When loading a character for the first time that is not the 'Dummy Character', IPH will automatically select the character as a default.
+* Updated drone yeilds for Ice mining when not using a hauler, which should more accurately estimate IPH.
+* Updated data processing on BP tab text boxes to address potential program crashes.
+* Removed 'VR-' Regions from region dropdown boxes.
+
 Build 5.0.8772.35402
 * Updated database and images to December 14, 2023 versions
 
