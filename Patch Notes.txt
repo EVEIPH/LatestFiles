@@ -13,6 +13,10 @@ Patreon Support here: https://www.patreon.com/user?u=51064427&fan_landing=true
 Version 5.0
 
 ============================================
+Build 5.0.8814.34179
+* Reset Price Data will now reset market orders and history
+* Gas harvester bonuses should now correctly compute for selected ships
+
 Build 5.0.8800.35722
 * Updated SCC Industry Surcharge rate from 1.5% to 4%
 * Selecting Reset All Data from the Data menu will no longer crash the program.
