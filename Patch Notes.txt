@@ -13,6 +13,11 @@ Patreon Support here: https://www.patreon.com/user?u=51064427&fan_landing=true
 Version 5.0
 
 ============================================
+Build 5.0.8828.39896
+* Updated database and images to February 27, 2024 versions.
+* Saving price profiles should now persist when updating the program.
+* Made minor adjustments to saving facilities that should correct some issues with facilities not loading correctly.
+
 Build 5.0.8814.34179
 * Reset Price Data will now reset market orders and history
 * Gas harvester bonuses should now correctly compute for selected ships
