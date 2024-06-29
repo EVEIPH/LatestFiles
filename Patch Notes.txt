@@ -14,7 +14,7 @@ Version 5.0
 
 ============================================
 Build 5.0.8937.31617
-* Updated database and images to Equinox, June 20, 2024 versions.
+* Updated database and images to Equinox, June 28, 2024 versions.
 
 Build 5.0.8845.26141
 * Updated database and images to February 27, 2024 versions.
