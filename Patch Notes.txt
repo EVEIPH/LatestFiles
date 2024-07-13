@@ -13,6 +13,9 @@ Patreon Support here: https://www.patreon.com/user?u=51064427&fan_landing=true
 Version 5.0
 
 ============================================
+Build 5.0.8960.19313
+* Updated database and images to Equinox, July 12, 2024 versions.
+
 Build 5.0.8946.38178
 * Updated database and images to Equinox, June 28, 2024 versions.
 * Added new Null Sec ores (Kylixium, Griemeer, Nocxite, Hezorime, and Ueganite) to the Mining tab.
