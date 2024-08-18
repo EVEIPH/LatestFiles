@@ -1,4 +1,4 @@
-﻿EVE ISk per Hour Program/Patch Notes
+﻿EVE ISK per Hour Program/Patch Notes
 
 Thanks for checking out EVE IPH! I will update this file with patch notes and the version number or any other pertinent information you might want to know about the program files and versions.
 
@@ -13,6 +13,13 @@ Patreon Support here: https://www.patreon.com/user?u=51064427&fan_landing=true
 Version 5.0
 
 ============================================
+Build 5.0.8995.7689
+* Updated database and images to July 30, 2024 versions.
+* Fixed issue where checking and unchecking the Invention Costs box on the invention tab for T3 items would not update or calculate the invention cost.
+* Updated Market tax rate to 4.5% from 8% per Patch Notes for 2024-07-25.1
+* Added new setting option in Application Settings for setting default tax rates. By clicking on 'Edit Rates' in the Application settings, users can now view key tax rate settings and adjust when CCP makes a change (i.e., Sales tax holiday). To reset to the defaults stored in IPH, press Reset and Save. 
+
+
 Build 5.0.8960.19313
 * Updated database and images to Equinox, July 12, 2024 versions.
 
