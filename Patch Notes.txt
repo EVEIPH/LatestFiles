@@ -13,6 +13,9 @@ Patreon Support here: https://www.patreon.com/user?u=51064427&fan_landing=true
 Version 5.0
 
 ============================================
+Build 5.0.9028.30889
+* Updated database and images to September 19, 2024 versions.
+
 Build 5.0.8995.7689
 * Updated database and images to July 30, 2024 versions.
 * Fixed issue where checking and unchecking the Invention Costs box on the invention tab for T3 items would not update or calculate the invention cost.
