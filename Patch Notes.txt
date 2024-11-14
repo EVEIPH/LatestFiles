@@ -13,6 +13,9 @@ Patreon Support here: https://www.patreon.com/user?u=51064427&fan_landing=true
 Version 5.0
 
 ============================================
+Build 5.0.9083.38011
+* Updated database and images to November 12, 2024 versions.
+
 Build 5.0.9072.39607
 * Updated database and images to October 30, 2024 versions.
 * Users can now select T2 Structure Rigs from the BP filters on the BP Tab.
