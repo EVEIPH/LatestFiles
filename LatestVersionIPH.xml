@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <EVEIPH Version="5.0">
-  <LastUpdated>11/14/2024 6:30:57 PM</LastUpdated>
+  <LastUpdated>12/18/2024 2:40:45 PM</LastUpdated>
   <result>
     <rowset name="filelist" key="version" columns="Name,Version,MD5,URL">
-      <row Name="EVE Isk per Hour.exe" Version="5.0.9083.38011" MD5="a18eb52c6f619642d39a049d41ba6150" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/EVE%20Isk%20per%20Hour.exe" />
-      <row Name="EVEIPH Updater.exe" Version="3.0.0.0" MD5="41dea59300954bd3a42b0d0f188ae7af" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/EVEIPH%20Updater.exe" />
-      <row Name="EVEIPH DB.sqlite" Version="November_12_2024" MD5="3086de4bf902cdea648395d71cf86774" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/EVEIPH%20DB.sqlite" />
-      <row Name="EVEIPH Images.zip" Version="1.0" MD5="2eb2d5ef12dd61fc54fd05393d48e23f" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/EVEIPH%20Images.zip" />
+      <row Name="EVE Isk per Hour.exe" Version="5.0.9118.24203" MD5="8a14c92611b0147b8dbc378a8b136f3f" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/EVE%20Isk%20per%20Hour.exe" />
+      <row Name="EVEIPH Updater.exe" Version="3.0.0.0" MD5="d04abd751f5457c7801c27c4cb4a5a36" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/EVEIPH%20Updater.exe" />
+      <row Name="EVEIPH DB.sqlite" Version="December_18_2024" MD5="2ae03fc49f0e96c57a9f8f4b9555411a" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/EVEIPH%20DB.sqlite" />
+      <row Name="EVEIPH Images.zip" Version="1.0" MD5="7b74d0da1848105417dea88f9d78edef" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/EVEIPH%20Images.zip" />
       <row Name="Newtonsoft.Json.dll" Version="13.0.3.27908" MD5="195ffb7167db3219b217c4fd439eedd6" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/Newtonsoft.Json.dll" />
       <row Name="System.Data.SQLite.dll" Version="1.0.116.0" MD5="147328def2e79a86d7335a661eecc051" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/System.Data.SQLite.dll" />
       <row Name="SQLite.Interop.dll" Version="1.0.116.0" MD5="9b68a8d0393fbce1976c19107422f097" URL="https://raw.githubusercontent.com/EVEIPH/LatestFiles/master/SQLite.Interop.dll" />
