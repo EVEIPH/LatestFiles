@@ -13,6 +13,9 @@ Patreon Support here: https://www.patreon.com/user?u=51064427&fan_landing=true
 Version 5.0
 
 ============================================
+Build 5.0.9194.36378
+* Updated database and images to March 3, 2024 versions.
+
 Build 5.0.9118.27148
 * Updated database and images to December 18, 2024 versions.
 
