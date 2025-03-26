@@ -13,8 +13,11 @@ Patreon Support here: https://www.patreon.com/user?u=51064427&fan_landing=true
 Version 5.0
 
 ============================================
+Build 5.0.9215.39119
+* Removed calls to universe/factions ESI endpoint that caused the program to error on start until endpoint restored.
+
 Build 5.0.9203.35225
-Updated database and images to March 12, 2025 versions.
+* Updated database and images to March 12, 2025 versions.
 
 Build 5.0.9194.36378
 * Updated database and images to March 3, 2024 versions.
