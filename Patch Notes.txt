@@ -13,6 +13,16 @@ Patreon Support here: https://www.patreon.com/user?u=51064427&fan_landing=true
 Version 5.0
 
 ============================================
+Build 5.0.9244.29172
+* Updated database and images to March 22, 2025 versions.
+* T2 Structure Modules and Rigs will now allow T2 filtering by the Tech check box.
+* The Booster manufacturing facility will now be used for implant and booster production.
+* The EDENCOM System check on the Mining Tab will now apply 10% duration reduction to mining speed instead of 10% mining yield when checked.
+* The mining yield on the Mining Tab will now correctly calculate the Venture's Role Bonus.
+* Selecting Drones on the Blueprint Tab will now allow for filtering by Navy Tech.
+* Made several updates to blueprint data that will allow for more consistent filtering items by Navy and Pirate factions.
+* The size filter will now apply consistently to upwell structures (e.g., Ansiblex = S, Astrahaus = M, Tatara = L Soyito = XL).
+
 Build 5.0.9215.39119
 * Removed calls to universe/factions ESI endpoint that caused the program to error on start until endpoint restored.
 
