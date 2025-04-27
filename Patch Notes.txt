@@ -13,7 +13,8 @@ Patreon Support here: https://www.patreon.com/user?u=51064427&fan_landing=true
 Version 5.0
 
 ============================================
-Build 5.0.9244.29172
+Build 5.0.948.23853
+* Added a new feature to allow updating the entire market history for all blueprints for a selected region. To use this feature, go to the Update Prices tab and press the button labeled "Refresh Market History," which will open the interface form. On this form, select your preferred region and it will show you the last time it was updated and the total items out of all items that can be produced from a blueprint. Press 'Refresh History' to begin the process. Users do not have to wait until this process completes to use other features of IPH. Just move the window to the side and continue using the program. When complete, IPH will notify you and you can update an additional region or close. 
 * Updated database and images to March 22, 2025 versions.
 * T2 Structure Modules and Rigs will now allow T2 filtering by the Tech check box.
 * The Booster manufacturing facility will now be used for implant and booster production.
