@@ -13,7 +13,7 @@ Patreon Support here: https://www.patreon.com/user?u=51064427&fan_landing=true
 Version 5.0
 
 ============================================
-Build 5.0.9244.24337
+Build 5.0.9248.24753
 * Updated database and images to March 22, 2025 versions.
 * T2 Structure Modules and Rigs will now allow T2 filtering by the Tech check box.
 * The Booster manufacturing facility will now be used for implant and booster production.
