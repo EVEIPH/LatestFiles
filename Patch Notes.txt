@@ -6,13 +6,81 @@ Since this program is made for EVE Online, please contact me (Zifrian) in game, 
 
 The best way to get support is to use the IPH Discord channel here: https://discord.gg/rGMMqft
 
-ISK donations accepted to Zifrian or cash through paypal at ZifrianEVE@gmail.com
-
-Patreon Support here: https://www.patreon.com/user?u=51064427&fan_landing=true
+Donations accepted to Zifrian through paypal at ZifrianEVE@gmail.com
 
 Version 5.0
 
 ============================================
+Build 5.1.9587.40515
+* Updated database and images to March 31, 2026 versions.
+
+Blueprint Tab
+* Added a check box to select whether to add the BPC cost to the blueprint calculation or on the manufacturing tab, which will use the blueprint copy price in Update Prices
+* Added a new setting to Application Settings labeled “Build when not enough items on Market.” When set, and build/buy is selected on the Blueprint Tab, if IPH determines that a component for the main blueprint is cheaper to buy than build, however there are not enough of the quantity needed to build the main blueprint, it will force it to build. The resulting display will show the quantity in a blue box to indicate that it is cheaper to build that component, but there is insufficient quantity available on the market to buy the quantity needed.
+* Added an optimize tri-check on the invention tab that will calculate the best decryptor or no decryptor to use for T2/T3 invention by IPH or Profit. Default is unchecked, check 1 is for optimizing IPH, and check 2 is for optimizing the profit calculated. The Optimal decryptor option compares both raw and component costs and uses the best to compare to other best raw and component. For instance, if you want to calculate the best optimal IPH and the raw IPH is 100 isk and the component IPH is 200 isk, it will use the 200 for comparison to other decryptor outputs.
+Additional costs and BPC costs are now saved for all users and non-owned blueprints.
+* Users can now refine moon ores for use in minerals and moon materials on the Blueprint Tab.
+* Added the 2% time reduction for items using the Mutagenic Stabilization skill.
+* Added the 1% time reduction bonus for items using the Upwell Starship Engineering and Outpost Construction Skills.
+* Added an icon under the facility selector that when pressed will bring up the market history for the selected blueprint.
+* Added an icon under the facility selector that will appear when the selected blueprint is on the market (NPC) or LP stores.
+* Added an icon under the facility selector that will appear when reactions are used in build.
+* Additional costs are now saved with the blueprint when pressing Save BP.
+* Reaction skills will now show up in the skill lists that pop-up when double clicking the “Can/Cannot make this Item” and “Can / Cannot make All Components for this item” labels when a reaction is used in the production of the list.
+
+Update Prices Tab
+* If the program is started for the first time, IPH will download initial market prices from Jita for baseline price data.
+* Manually updated prices will now show as blue text.
+* Added a setting to program settings to override any updates to manually set prices.
+* Double-clicking on a price will now bring up the history window.
+
+BPC Prices 
+* All blueprints have been added to IPH as blueprint copies for use to estimate build costs.
+* Users can now update all blueprints with an estimated copy price from contracts. To download contract data, select the Blueprint Copies check box with the third option (tri-check - shows a dash) and select Download Prices as normal (with settings, etc.). Notes: For Jita, this will take several minutes as there are over 20k contracts normally. Also note, BPC data can only be downloaded from contracts by Region and IPH must download all contracts in the region before parsing BPC data. Contract data includes Item Exchange only (no auctions) and has only one price (no buy or sell) so Min Sell and Min Buy will return the same minimum price value, for example. Data is cached so if a user wants to update from Min Sell to Median Sell, they can run this update and it won’t download full prices. Users can check (not tri-check) BPC data and update data cached in IPH from the last update.
+* The check option for BPC prices only updates from cache and does not refresh the contract prices.
+
+Mining Tab
+* Added the ability to override boosts for manual cycle and range entries when Use Fleet Booster is checked.
+* Added Cycle time to the mining grid to show cycle times by mining crystal selected.
+* Drone yields are now adjusted for the type of ore volume mined and converted to units per hour in the results table.
+* Added the Venture Consortium Issue, Pioneer, Pioneer Consortium Issue, Outrider, and Odysseus ships to the mining tab.
+* Added Kernite and Omber back to High-sec ore selections.
+ 
+Asset Viewer Updates
+* Dramatically reduced the refresh time for updating or sorting assets in the Asset Viewer.
+* Users can now share assets among all loaded characters by selecting the character assets in the associated asset screens on the Reprocessing Plan, Shopping List, and Manufacturing Tab.
+* Added names to all Asset locations where a name is set. For instance, if you name a Small Standard Container “Loot” then IPH will show “Loot (Small Standard Container)” as a node in the Asset Viewer for both personal and corporate assets.
+* Added the names of all corporation divisions for corporation hangers when set different than the default. Note, this requires users add the scope esi-corporation.read_divisions.v1 to their access permissions in Account Management (re-load the ESI character data).
+* Added any blueprints in industry jobs to assets for the station/structure they are installed. Note, you will need to allow ESI industry jobs scope for this functionality.
+* Added the ability to see what is the current ship, either in space or in a station, of the current character. Note, you will need to allow ESI current ship and location scope for this functionality.
+Widened the Asset tree in Asset Viewer for new names.
+* Removed Check/Expand/Collapse all buttons and added a right-click option to check/uncheck or expand/collapse for each selected node.
+* Selecting the station hangar as the asset location will no longer select ships unless the Ship Hangar is also selected for loading assets. Users can also select specific ships for asset loading, which loads all items on or in the ship unless filtered out.
+* Improved several labels for better access.
+
+Reprocessing Plant
+* Added Total Reprocessing Cost to the window, which will show the reprocessing fee charged when “Include Reprocessing Tax” is selected in the Reprocessing Facility.
+* The %Return will now show Red for less than 100% returns and Green for anything greater than 100%
+* Users can now change the prices of materials in the Reprocessing Output and per-unit prices of items in the Item List by clicking on the Cost Per Item and Total Cost columns respectively and editing the text box. Note, prices updated in the Item List will adjust the per unit price of the item regardless of the quantity listed.
+ 
+Other Changes
+* Added the ability to do inline price updates to the Invention and Copy Mats windows
+* Added the ability to ignore invention for T3 items.
+* Updated usage calculations which will result in more accurate values for invention and copying for T2 and T3 items.
+* Added improved error message processing when errors occur on startup.
+* Users can now text search for regions and systems in the Facility interface.
+* Added a new scopes, redesigned, and added more information to roles on the Add Character window. Note, the only new role in use is Corporation Divisions (esi-corporation.read_divisions.v1) - Requires Director Roles.
+* Removed the ESI Status Monitor
+* Changed the base resolution of IPH to 1280w x 720h to conform to 16:9 aspect ratio.
+ 
+Bug Fixes
+* Checking or unchecking the Invention Costs checkbox for T3 invention will now correctly display and calculate final values on the BP tab for T3 invented items.
+* IPH will now show invention usage for T3 items.
+* Component and Capital Component facilities will now correctly display bonuses when rigs are installed in those facilities. Note, this was only a display change.
+* Changing a structure in the structure viewer will now correctly load stats for any installed rigs.
+* Stripping a structure in the structure viewer will now correctly clear the Facility Bonuses table.
+
+
 Build 5.0.9338.25539
 * Fixed issue that when selecting owned blueprints without decryptors selected for those blueprints would crash the program when calculating on the Manufacturing tab.
 
