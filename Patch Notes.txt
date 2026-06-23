@@ -8,13 +8,22 @@ The best way to get support is to use the IPH Discord channel here: https://disc
 
 Donations accepted to Zifrian through paypal at ZifrianEVE@gmail.com
 
-Version 5.0
+Version 5.1
 
 ============================================
+Build 5.1.9669.37703
+* Updated database and images to June 22, 2026 versions.
+* Added setting to application settings to ignore BPC prices in invention. The default is set to true.
+* Updated the download function for CCP prices, which should fix the 404 errors (too many requests). The drawback is that IPH  must download all prices in the region vs. limiting it to just the items selected. After downloading, users can update the prices as needed.
+* Updated the public contracts download function, which should reduce the amount of memory exceptions some are experiencing. 
+
 Build 5.1.9626.40194
 * Updated database and images to May 6, 2026 versions.
 * Polarized BPs should no longer crash the program when selected.
 * Quantities for invention materials should now be correct (values are unchanged).
+
+Build 5.1.9618.25367
+* Updated database and images to March 31, 2026 versions.
 
 Blueprint Tab
 * Added a check box to select whether to add the BPC cost to the blueprint calculation or on the manufacturing tab, which will use the blueprint copy price in Update Prices
